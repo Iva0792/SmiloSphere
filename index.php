@@ -34,7 +34,7 @@
                             <label class="label-checkbox" for="ckb1">Recuérdame</label>
                         </div>
                         <div>
-                            <a href="restore.html" class="txt1">
+                            <a href="restore.php" class="txt1">
                                 Reestablecer Contraseña
                             </a>
                         </div>
