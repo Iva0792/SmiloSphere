@@ -2,7 +2,7 @@
 
 session_start();
 if (isset($_SESSION['username'])) {
-    header('Location: home.html');
+    header("Location: home.html");
     exit;
 }
 
@@ -34,11 +34,10 @@ if (!$conn) {
         $responseMessage = $row["responseMessage"];
 
         if ($responseMessage === 'User successfully logged in') {
-            echo 'Inicio correcto';
             session_start();
             $_SESSION['username'] = $username;
             // Redirect to home page
-            header('Location: home.html');
+            header("Location: home.html");
             exit;
         } else {
             echo 'Error al iniciar sesión';
