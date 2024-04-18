@@ -46,3 +46,4 @@ if (!$conn) {
     }
     $conn->close();
 }
+?>

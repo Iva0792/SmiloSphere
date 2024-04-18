@@ -12,8 +12,9 @@
             <li class="logo"><a href="/">SmiloSphere</a></li>
         </nav>
         <div class="content"></div>
-        <div class="footer">
-            Powered by SmiloSphere © 2024
-        </div>
+
     </div>
+    <footer>
+        Powered by SmiloSphere © 2024
+    </footer>
 </body>
