@@ -14,12 +14,12 @@
                 <input type="checkbox" id="checkbox_toggle" />
                 <label for="checkbox_toggle" class="dropdown">&#9776;</label>
                 <div class="menu">
-                    <li><a href="expedientes.html">Expedientes</a></li>
-                    <li><a href="agenda.html">Agenda</a></li>
-                    <li><a href="mensajeria.html">Mensajería</a></li>
-                    <li><a href="facturacion.html">Facturación</a></li>
-                    <li><a href="pendientes.html">Pendientes</a></li>
-                    <li><a href="busqueda.html">Búsqueda</a></li>
+                    <li><a href="expedientes.php">Expedientes</a></li>
+                    <li><a href="agenda.php">Agenda</a></li>
+                    <li><a href="mensajeria.php">Mensajería</a></li>
+                    <li><a href="facturacion.php">Facturación</a></li>
+                    <li><a href="pendientes.php">Pendientes</a></li>
+                    <li><a href="busqueda.php">Búsqueda</a></li>
                 </div>
             </ul>
             <li class="logo"><a href="/"><div class="exit"></div></a></li>
@@ -27,7 +27,7 @@
         <div class="content">
             <div class="cards">
                 <div class="card">
-                    <a href="expedientes.html">
+                    <a href="expedientes.php">
                         <div class="cardAct">
                             <div class="cardText">
                                 Expedientes
@@ -46,7 +46,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card"><a href="mensajeria.html">
+                <div class="card"><a href="mensajeria.php">
                         <div class="cardAct">
                             <div class="cardText">
                                 Mensajería
@@ -54,7 +54,7 @@
                             <div class="card3"></div>
                         </div>
                     </a></div>
-                <div class="card"><a href="facturacion.html">
+                <div class="card"><a href="facturacion.php">
                         <div class="cardAct">
                             <div class="cardText">
                                 Facturación
@@ -62,7 +62,7 @@
                             <div class="card4"></div>
                         </div>
                     </a></div>
-                <div class="card"><a href="pendientes.html">
+                <div class="card"><a href="pendientes.php">
                         <div class="cardAct">
                             <div class="cardText">
                                 Pendientes
@@ -70,7 +70,7 @@
                             <div class="card5"></div>
                         </div>
                     </a></div>
-                <div class="card"><a href="busqueda.html">
+                <div class="card"><a href="busqueda.php">
                         <div class="cardAct">
                             <div class="cardText">
                                 Búsqueda
