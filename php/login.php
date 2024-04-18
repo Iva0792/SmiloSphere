@@ -6,10 +6,10 @@ if (isset($_SESSION['username'])) {
     exit;
 }
 
-$sname = "localhost";
-$unmae = "root";
+$sname = "127.0.0.1";
+$unmae = "u884001650_smiloadmin";
 $password = "adminadmin";
-$db_name = "smilosphere";
+$db_name = "u884001650_SmiloSphereDB";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 
