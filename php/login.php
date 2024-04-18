@@ -2,7 +2,7 @@
 
 session_start();
 if (isset($_SESSION['username'])) {
-    header("Location: home.html");
+    echo file_get_contents("home.html");
     exit;
 }
 
@@ -37,7 +37,7 @@ if (!$conn) {
             session_start();
             $_SESSION['username'] = $username;
             // Redirect to home page
-            header("Location: home.html");
+            echo file_get_contents("home.html");
             exit;
         } else {
             echo 'Error al iniciar sesión';
