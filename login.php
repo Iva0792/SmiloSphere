@@ -2,7 +2,7 @@
 
 session_start();
 if (isset($_SESSION['username'])) {
-    echo file_get_contents("home.html");
+    echo file_get_contents("home.php");
     exit;
 }
 
@@ -37,7 +37,7 @@ if (!$conn) {
             session_start();
             $_SESSION['username'] = $username;
             // Redirect to home page
-            echo file_get_contents("home.html");
+            echo file_get_contents("home.php");
             exit;
         } else {
             echo 'Error al iniciar sesión';
