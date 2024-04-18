@@ -1,7 +1,3 @@
-<?php
-include('php/login.php');
-?>
-
 <html>
 
 <head>
