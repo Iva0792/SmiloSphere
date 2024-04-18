@@ -34,6 +34,7 @@ if (!$conn) {
         $responseMessage = $row["responseMessage"];
 
         if ($responseMessage === 'User successfully logged in') {
+            echo 'Inicio correcto';
             session_start();
             $_SESSION['username'] = $username;
             // Redirect to home page
