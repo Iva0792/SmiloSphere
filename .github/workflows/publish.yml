@@ -3,7 +3,7 @@ name: Generate a build and push to another branch
 on:
   push:
     branches:
-      - main # The branch name your are commit the new changes
+      - main # The branch name you are committing the new changes
 
 jobs:
   build:
@@ -13,11 +13,13 @@ jobs:
       - name: git-checkout
         uses: actions/checkout@v3
 
-      - name: Install all dependencies
-        run: npm install
+      # You may add other necessary steps here for your specific project setup
+      # For example, if you're working with PHP, HTML, CSS, etc., you might need
+      # to run different build commands or copy files to a deployment directory.
 
-      - name: Build
-        run: npm run build # The build command of your project
+      # Example step for copying files to a deployment directory:
+      # - name: Copy files
+      #   run: cp -r source_directory deployment_directory
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
