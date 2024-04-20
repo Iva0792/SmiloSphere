@@ -15,7 +15,7 @@
                         <img src="/images/SmiloSphere.png">
                     </div>
                 </div>
-                <form class="login-form" id="login-form" action="login.php">
+                <form class="login-form" id="login-form" action="login.php" method="post">
                     <span class="form-title p-b-43">
                         <h1>Ingreso al Sistema</h1>
                     </span>
@@ -41,7 +41,7 @@
                     </div>
                     </br>
                     <div class="container-btn">
-                        <button class="form-btn" id="login-form-submit" type="submit" method="post">
+                        <button class="form-btn" id="login-form-submit" type="submit">
                             Ingresar
                         </button>
                     </div>
