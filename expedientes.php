@@ -24,8 +24,9 @@
             <li class="logo"><a href="/">SmiloSphere</a></li>
         </nav>
         <div class="content"></div>
-        <div class="footer">
-            Powered by SmiloSphere © 2024
-        </div>
     </div>
 </body>
+<footer>
+    Powered by SmiloSphere © 2024
+</footer>
+</html>

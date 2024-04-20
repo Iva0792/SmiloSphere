@@ -53,9 +53,8 @@
             </div>
         </div>
     </div>
-    <footer>
-        Powered by SmiloSphere © 2024
-    </footer>
 </body>
-
+<footer>
+    Powered by SmiloSphere © 2024
+</footer>
 </html>
