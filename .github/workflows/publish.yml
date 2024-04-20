@@ -21,4 +21,3 @@ jobs:
           FOLDER: /home/runner/work/SmiloSphere/SmiloSphere
           GITHUB_TOKEN: ${{ secrets.PAT }} # Use the personal access token instead of the default GITHUB_TOKEN
           MESSAGE: "Build: ({sha}) {msg}"
-
