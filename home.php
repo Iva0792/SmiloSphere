@@ -37,7 +37,7 @@
                     </a>
                 </div>
                 <div class="card">
-                    <a href="agenda.html">
+                    <a href="agenda.php">
                         <div class="cardAct">
                             <div class="cardText">
                                 Agenda
