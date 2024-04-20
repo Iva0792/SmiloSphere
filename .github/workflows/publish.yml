@@ -1,30 +1,22 @@
-name: Generate a build and push to another branch
+name: Deploy Site
 
 on:
+  workflow_dispatch:
   push:
+    paths-ignore:
+    - '.github/**' # Ignore changes towards the .github directory
     branches:
-      - main # The branch name you are committing the new changes
+    - development # Only trigger on the development branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Push
     steps:
-      - name: git-checkout
-        uses: actions/checkout@v3
-
-      # You may add other necessary steps here for your specific project setup
-      # For example, if you're working with PHP, HTML, CSS, etc., you might need
-      # to run different build commands or copy files to a deployment directory.
-
-      # Example step for copying files to a deployment directory:
-      # - name: Copy files
-      #   run: cp -r source_directory deployment_directory
-
-      - name: Push
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: main # The branch name where you want to push the assets
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub will automatically add this - you don't need to bother getting a token
-          MESSAGE: "Build: ({sha}) {msg}" # The commit message
+    - name: Perform Checkout
+      uses: actions/checkout@v2
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
+        publish_branch: master
