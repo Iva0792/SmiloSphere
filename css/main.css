@@ -256,7 +256,7 @@ input.data-input {
     width: 25vw;
     height: 95vh;
     z-index: 1;
-    margin-top: 7px;
+    margin-top: 5vh;
 }
 
 .menu li:hover {
