@@ -18,7 +18,7 @@
                             <div class="cardText">
                                 Expedientes
                             </div>
-                            <div class="card1"></div>
+                            <div class="card-1"></div>
                         </div>
                     </a>
                 </div>
@@ -28,7 +28,7 @@
                             <div class="cardText">
                                 Agenda
                             </div>
-                            <div class="card2"></div>
+                            <div class="card-2"></div>
                         </div>
                     </a>
                 </div>
@@ -37,7 +37,7 @@
                             <div class="cardText">
                                 Mensajería
                             </div>
-                            <div class="card3"></div>
+                            <div class="card-3"></div>
                         </div>
                     </a></div>
                 <div class="card"><a href="facturacion.php">
@@ -45,7 +45,7 @@
                             <div class="cardText">
                                 Facturación
                             </div>
-                            <div class="card4"></div>
+                            <div class="card-4"></div>
                         </div>
                     </a></div>
                 <div class="card"><a href="pendientes.php">
@@ -53,7 +53,7 @@
                             <div class="cardText">
                                 Pendientes
                             </div>
-                            <div class="card5"></div>
+                            <div class="card-5"></div>
                         </div>
                     </a></div>
                 <div class="card"><a href="busqueda.php">
@@ -61,7 +61,7 @@
                             <div class="cardText">
                                 Búsqueda
                             </div>
-                            <div class="card6"></div>
+                            <div class="card-6"></div>
                         </div>
                     </a></div>
             </div>

@@ -23,37 +23,37 @@
     justify-content: space-between;
   }
 
-  .card1{
+  .card-1{
     background: transparent url("/images/icons/1.png") no-repeat center 0;
     background-size: contain;
     height: 70%;
 }
 
-  .card2{
+  .card-2{
     background: transparent url("/images/icons/2.png") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
 
-  .card3{
+  .card-3{
     background: transparent url("/images/icons/3.png") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
 
-  .card4{
+  .card-4{
     background: transparent url("/images/icons/4.png") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
 
-  .card5{
+  .card-5{
     background: transparent url("/images/icons/5.png") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
 
-  .card6{
+  .card-6{
     background: transparent url("/images/icons/6.png") no-repeat center 0;
     background-size: contain;
     height: 70%;
@@ -94,10 +94,17 @@
     text-decoration: none;
   }
 
-  @media (min-width: 600px) {
+ /* @media (min-width: 600px) {
     .cards { grid-template-columns: repeat(2, 1fr); margin-left: 21%;}
   }
 
   @media (min-width: 900px) {
     .cards { grid-template-columns: repeat(3, 1fr); }
+  }*/
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="card-"] {
+      width: 100%;
+    }
   }
