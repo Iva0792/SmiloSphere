@@ -41,7 +41,7 @@
                     </div>
                     </br>
                     <div class="container-btn">
-                        <button class="form-btn" id="login-form-submit" type="submit">
+                        <button class="form-btn" id="login-form-submit" type="submit" method="post">
                             Ingresar
                         </button>
                     </div>
