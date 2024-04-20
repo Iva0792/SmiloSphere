@@ -9,21 +9,7 @@
 
 <body>
     <div class="container">
-        <nav class="navbar">
-            <ul class="nav-links">
-                <input type="checkbox" id="checkbox_toggle" />
-                <label for="checkbox_toggle" class="dropdown">&#9776;</label>
-                <div class="menu">
-                    <li><a href="expedientes.php">Expedientes</a></li>
-                    <li><a href="agenda.php">Agenda</a></li>
-                    <li><a href="mensajeria.php">Mensajería</a></li>
-                    <li><a href="facturacion.php">Facturación</a></li>
-                    <li><a href="pendientes.php">Pendientes</a></li>
-                    <li><a href="busqueda.php">Búsqueda</a></li>
-                </div>
-            </ul>
-            <li class="logo"><a href="/"><div class="exit"></div></a></li>
-        </nav>
+        <?php echo file_get_contents("html/navbar.html"); ?>
         <div class="content">
             <div class="cards">
                 <div class="card">
