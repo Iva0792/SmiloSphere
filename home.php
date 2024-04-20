@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, inicial-scale=1 shrink-to-fit=no"
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/grid.css">
