@@ -2,7 +2,9 @@
 
 <?php
 
-session_start();
+echo file_get_contents("home.php");
+
+/*session_start();
 if (isset($_SESSION['username'])) {
     echo file_get_contents("home.php");
     exit;
@@ -47,5 +49,5 @@ if (!$conn) {
 
     }
     $conn->close();
-}
+}*/
 ?>
