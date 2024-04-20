@@ -6,10 +6,6 @@
                 function submit()
                 {*/
                     session_start();
-                    if (isset($_SESSION['username'])) {
-                        header('Location: home.php');
-                        exit;
-                    }
 
                     $sname = "localhost";
                     $dname = "u884001650_smiloadmin";
