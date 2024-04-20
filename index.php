@@ -56,11 +56,8 @@
                             $responseMessage = $row["responseMessage"];
 
                             if ($responseMessage === 'User successfully logged in') {
-                                session_start();
                                 $_SESSION['username'] = $username;
-                                // Redirect to home page
-                                echo file_get_contents("home.php");
-                                exit;
+                                session_start();
                             } else {
                                 echo 'Error al iniciar sesión';
                             }
