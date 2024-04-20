@@ -1,8 +1,8 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, inicial-scale=1 shrink-to-fit=no"
-    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" <link rel="stylesheet"
+        href="css/main.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/grid.css">
     <title>SmiloSphere | Inicio</title>
@@ -73,4 +73,5 @@
 <footer>
     Powered by SmiloSphere © 2024
 </footer>
+
 </html>
