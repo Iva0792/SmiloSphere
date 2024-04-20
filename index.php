@@ -24,7 +24,7 @@
                 {
                     session_start();
                     if (isset($_SESSION['username'])) {
-                        echo file_get_contents("home.php");
+                        header('Location: home.php');
                         exit;
                     }
 
@@ -56,8 +56,11 @@
                             $responseMessage = $row["responseMessage"];
 
                             if ($responseMessage === 'User successfully logged in') {
-                                $_SESSION['username'] = $username;
                                 session_start();
+                                $_SESSION['username'] = $username;
+                                // Redirect to home page
+                                header('Location: home.php');
+                                exit;
                             } else {
                                 echo 'Error al iniciar sesión';
                             }
