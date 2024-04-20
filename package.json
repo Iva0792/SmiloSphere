@@ -4,5 +4,5 @@
         "dev": "webpack serve",
         "build": "webpack --config webpack.config.js"
     },
-    "type": "module",
+    "type": "module"
 }
