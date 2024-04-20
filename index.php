@@ -15,6 +15,61 @@
                         <img src="/images/SmiloSphere.png">
                     </div>
                 </div>
+                <?php
+                if (array_key_exists('login-form-submit', $_POST)) {
+                    submit();
+                }
+
+                function submit()
+                {
+                    session_start();
+                    if (isset($_SESSION['username'])) {
+                        echo file_get_contents("home.php");
+                        exit;
+                    }
+
+                    $sname = "127.0.0.1";
+                    $dname = "u884001650_smiloadmin";
+                    $password = "adminadmin";
+                    $db_name = "u884001650_SmiloSphereDB";
+
+                    $conn = mysqli_connect($sname, $dname, $password, $db_name);
+
+                    if (!$conn) {
+
+                        echo "Connection failed!";
+
+                    } else {
+
+                        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                            $username = $_POST["username"];
+                            $password = $_POST["password"];
+
+                            $stmt = $conn->prepare("CALL userLogin(?, ?, @responseMessage)");
+                            $stmt->bind_param("ss", $username, $password);
+
+                            $stmt->execute();
+                            $stmt->close();
+
+                            $result = $conn->query("SELECT @responseMessage AS responseMessage");
+                            $row = $result->fetch_assoc();
+                            $responseMessage = $row["responseMessage"];
+
+                            if ($responseMessage === 'User successfully logged in') {
+                                session_start();
+                                $_SESSION['username'] = $username;
+                                // Redirect to home page
+                                echo file_get_contents("home.php");
+                                exit;
+                            } else {
+                                echo 'Error al iniciar sesión';
+                            }
+
+                        }
+                        $conn->close();
+                    }
+                }
+                ?>
                 <form class="login-form" id="login-form" action="login.php" method="post">
                     <span class="form-title p-b-43">
                         <h1>Ingreso al Sistema</h1>
@@ -23,10 +78,12 @@
                     </br>
 
                     <div class="data-input-cont">
-                        <input class="data-input" type="text" id="username" name="username" placeholder="Correo Electrónico" required>
+                        <input class="data-input" type="text" id="username" name="username"
+                            placeholder="Correo Electrónico" required>
                     </div>
                     <div class="data-input-cont">
-                        <input class="data-input" type="password" id="password" name="password" placeholder="Contraseña" required>
+                        <input class="data-input" type="password" id="password" name="password" placeholder="Contraseña"
+                            required>
                     </div>
                     <div class="flex-sb-m">
                         <div class="form-checkbox">
@@ -41,7 +98,7 @@
                     </div>
                     </br>
                     <div class="container-btn">
-                        <button class="form-btn" id="login-form-submit" type="submit">
+                        <button class="form-btn" name="login-form-submit" type="submit">
                             Ingresar
                         </button>
                     </div>
