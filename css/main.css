@@ -63,14 +63,18 @@ footer {
     display: flex;
     flex-wrap: wrap;
     align-items: stretch;
-}
-
-.image {
-    width: 60vw;
     background-image: url("../images/bg-02.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.image {
+    width: 60vw;
+    /*background-image: url("../images/bg-02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
     position: relative;
     height: 98vh;
     padding-top: 0%;
