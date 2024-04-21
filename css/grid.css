@@ -1,112 +1,121 @@
 .card {
-    background-color: #4E3089;
-    color: white;
-    padding: 1rem;
-    height: 15rem;
-    width: 15rem;
-    text-align: center;
-    border-radius: 3%;
-    align-items: center;
-    position: relative;
+  background-color: #4E3089;
+  color: white;
+  padding: 1rem;
+  height: 15rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 3%;
+  align-items: center;
+  position: relative;
 }
 
+.cards {
+  max-width: 1200px;
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  gap: 25px;
+  align-items: center;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card-1 {
+  background: transparent url("/images/icons/1.png") no-repeat center 0;
+  background-size: contain;
+  height: 70%;
+}
+
+.card-2 {
+  background: transparent url("/images/icons/2.png") no-repeat center 0;
+  background-size: contain;
+  height: 70%;
+}
+
+.card-3 {
+  background: transparent url("/images/icons/3.png") no-repeat center 0;
+  background-size: contain;
+  height: 70%;
+}
+
+.card-4 {
+  background: transparent url("/images/icons/4.png") no-repeat center 0;
+  background-size: contain;
+  height: 70%;
+}
+
+.card-5 {
+  background: transparent url("/images/icons/5.png") no-repeat center 0;
+  background-size: contain;
+  height: 70%;
+}
+
+.card-6 {
+  background: transparent url("/images/icons/6.png") no-repeat center 0;
+  background-size: contain;
+  height: 70%;
+}
+
+.cardAct {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3%;
+  z-index: 0;
+  background-color: #4E3089;
+}
+
+.cardAct:hover {
+  width: 98%;
+  height: 98%;
+}
+
+.cardText {
+  padding-top: 5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  color: #97939F;
+  height: 25%;
+}
+
+.exit {
+  right: 0;
+  top: 0;
+  height: 25px;
+  width: 25px;
+  background: url(/images/icons/9.png) no-repeat;
+  text-indent: -999em;
+  text-decoration: none;
+}
+
+/* @media (min-width: 600px) {
+  } */
+
+@media (max-width: 900px) {
   .cards {
-    max-width: 1200px;
-    margin: 10% 25%;
-    display: grid;
-    gap: 25px;
-    align-items: center;
-    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .card-1{
-    background: transparent url("/images/icons/1.png") no-repeat center 0;
-    background-size: contain;
-    height: 70%;
+  .card {
+    height: 10rem;
+    width: 10rem;
+  }
 }
 
-  .card-2{
-    background: transparent url("/images/icons/2.png") no-repeat center 0;
-    background-size: contain;
-    height: 70%;
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
   }
 
-  .card-3{
-    background: transparent url("/images/icons/3.png") no-repeat center 0;
-    background-size: contain;
-    height: 70%;
+  .card {
+    height: 5rem;
+    width: 25rem;
   }
-
-  .card-4{
-    background: transparent url("/images/icons/4.png") no-repeat center 0;
-    background-size: contain;
-    height: 70%;
-  }
-
-  .card-5{
-    background: transparent url("/images/icons/5.png") no-repeat center 0;
-    background-size: contain;
-    height: 70%;
-  }
-
-  .card-6{
-    background: transparent url("/images/icons/6.png") no-repeat center 0;
-    background-size: contain;
-    height: 70%;
-  }
-
-  .cardAct{
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 3%;
-    z-index: 0;
-    background-color: #4E3089;
 }
-
-  .cardAct:hover{
-    width: 98%;
-    height: 98%;
-  }
-
-  .cardText {
-    padding-top: 5%;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size:25px;
-    color: #97939F;
-    height: 25%;
-  }
-
-  .exit{
-    right: 0;
-    top: 0;
-    height: 25px;
-    width: 25px;
-    background: url(/images/icons/9.png) no-repeat;
-    text-indent: -999em;
-    text-decoration: none;
-  }
-
-  @media (min-width: 600px) {
-    .cards {
-      grid-template-columns: repeat(2, 1fr);
-      margin: 0 auto;
-    }
-  }
-
-  @media (min-width: 900px) {
-    .cards {
-      grid-template-columns: repeat(3, 1fr);
-      margin: 0 auto;
-    }
-  }
-
-  @media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-    [class*="card-"] {
-      width: 100%;
-    }
-  }

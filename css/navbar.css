@@ -1,0 +1,60 @@
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #4E3089;
+    color: #fff;
+    height: 5vh;
+    width: 100vw;
+}
+
+.nav-links a {
+    color: #fff;
+}
+
+.logo a {
+    color: #fff;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #794CD4;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 18px;
+    width: 25vw;
+    height: 93.3vh;
+    z-index: 1;
+    top: 5vh;
+}
+
+.menu li:hover {
+    display: block;
+    background-color: #97939F;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+    margin-top: 12px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox]:checked~.menu {
+    display: block;
+}
+
+.dropdown {
+    display: block;
+    font-size: 24px;
+    user-select: none;
+}

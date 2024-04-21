@@ -5,6 +5,7 @@
         href="css/main.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <title>SmiloSphere | Inicio</title>
 </head>
 
@@ -68,7 +69,6 @@
             </div>
         </div>
     </div>
-
 </body>
 <footer>
     Powered by SmiloSphere © 2024

@@ -47,6 +47,7 @@ footer {
 
 .container {
     margin: 0 auto;
+    height: 98.3vh;
 }
 
 .login {
@@ -75,7 +76,7 @@ footer {
     background-size: cover;
     background-position: center;*/
     position: relative;
-    height: 98vh;
+    height: 98.3vh;
     padding-top: 0%;
     padding-bottom: 0%;
 }
@@ -97,7 +98,7 @@ footer {
     position: relative;
     background-color: #f7f7f7;
     padding: 110px 55px 0px 55px;
-    height: 98vh;
+    height: 98.3vh;
 }
 
 .form-title {
@@ -224,66 +225,8 @@ input.data-input {
     position: absolute;
 }
 
-/* NAVBAR STYLING STARTS */
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #4E3089;
-    color: #fff;
-    height: 5vh;
-    width: 100vw;
-}
-
-.nav-links a {
-    color: #fff;
-}
-
-.logo a {
-    color: #fff;
-}
-
-/* NAVBAR MENU */
-.menu {
-    display: none;
-    position: absolute;
-    background-color: #794CD4;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-    gap: 1em;
-    font-size: 18px;
-    width: 25vw;
-    height: 95vh;
-    z-index: 1;
-    margin-top: 1vh;
-}
-
-.menu li:hover {
-    display: block;
-    background-color: #97939F;
-    transition: 0.3s ease;
-}
-
-.menu li {
-    padding: 5px 14px;
-    margin-top: 12px;
-}
-
-input[type=checkbox] {
-    display: none;
-}
-
-input[type=checkbox]:checked~.menu {
-    display: block;
-}
-
-.dropdown {
-    display: block;
-    font-size: 24px;
-    user-select: none;
+.content {
+    overflow: scroll;
 }
 
 /*Responsive*/

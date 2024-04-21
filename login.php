@@ -7,7 +7,7 @@ function submit()
 {*/
 session_start();
 
-$sname = "localhost";
+$sname = "82.197.83.2";
 $dname = "u884001650_smiloadmin";
 $password = "4&Mk/>OcxOsX";
 $db_name = "u884001650_SmiloSphereDB";
