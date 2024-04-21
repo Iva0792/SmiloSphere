@@ -291,48 +291,30 @@ input[type=checkbox]:checked~.menu {
         padding-right: 30px;
     }
 
+    .image {
+        display: none;
+    }
+
     .logo {
         display: none;
     }
 }
 
 @media (max-width: 768px) {
-    .login-form {
-        width: 100%;
-    }
 
-    .image {
-        display: none;
-    }
 }
 
 @media (max-width: 576px) {
-    .login-form {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .navbar {
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .logo {
-        display: none;
-    }
-
 }
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .login-form {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .logo {
-        display: none;
-    }
 
     .menu {
         width: 100%;
