@@ -95,7 +95,7 @@
   }
 
   @media (min-width: 600px) {
-    .cards { grid-template-columns: repeat(2, 1fr); margin-left: 21%;}
+    .cards { grid-template-columns: repeat(2, 1fr); margin-left: 15%;}
   }
 
   @media (min-width: 900px) {
