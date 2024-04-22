@@ -13,7 +13,7 @@
             <div class="cont-login">
                 <div class="image">
                     <div class="logo">
-                        <img src="/images/SmiloSphere.png">
+                        <img src="/images/SmiloSphere.svg">
                     </div>
                 </div>
 

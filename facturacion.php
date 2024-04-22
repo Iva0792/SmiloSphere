@@ -14,8 +14,4 @@
         <div class="content"></div>
     </div>
 </body>
-<footer>
-    Powered by SmiloSphere © 2024
-</footer>
-
 </html>

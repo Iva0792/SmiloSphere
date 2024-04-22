@@ -22,7 +22,7 @@
 .menu {
     display: none;
     position: absolute;
-    background-color: #794CD4;
+    background-color: #4E3089;
     right: 0;
     left: 0;
     text-align: center;
@@ -41,7 +41,7 @@
 }
 
 .menu li {
-    padding: 5px 14px;
+    padding: 10px 14px;
     margin-top: 12px;
 }
 
@@ -51,6 +51,18 @@ input[type=checkbox] {
 
 input[type=checkbox]:checked~.menu {
     display: block;
+}
+
+input[type=checkbox]:checked~.dropdown::before{
+    content: "\00d7";
+}
+
+#checkbox_toggle {
+    display: none;
+}
+
+.dropdown:before {
+    content: "\2630"; /* Unicode character for three horizontal lines (☰) */
 }
 
 .dropdown {

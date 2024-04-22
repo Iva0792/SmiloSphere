@@ -8,11 +8,11 @@
   border-radius: 3%;
   align-items: center;
   position: relative;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 20px 0 rgba(0, 0, 0, 0.5);
 }
 
 .cards {
   max-width: 1200px;
-  display: block;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -20,42 +20,42 @@
   display: grid;
   gap: 25px;
   align-items: center;
-  justify-content: space-between;
   grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
 }
 
 .card-1 {
-  background: transparent url("/images/icons/1.png") no-repeat center 0;
+  background: transparent url("/images/icons/1.svg") no-repeat center 0;
   background-size: contain;
   height: 70%;
 }
 
 .card-2 {
-  background: transparent url("/images/icons/2.png") no-repeat center 0;
+  background: transparent url("/images/icons/2.svg") no-repeat center 0;
   background-size: contain;
   height: 70%;
 }
 
 .card-3 {
-  background: transparent url("/images/icons/3.png") no-repeat center 0;
+  background: transparent url("/images/icons/3.svg") no-repeat center 0;
   background-size: contain;
   height: 70%;
 }
 
 .card-4 {
-  background: transparent url("/images/icons/4.png") no-repeat center 0;
+  background: transparent url("/images/icons/4.svg") no-repeat center 0;
   background-size: contain;
   height: 70%;
 }
 
 .card-5 {
-  background: transparent url("/images/icons/5.png") no-repeat center 0;
+  background: transparent url("/images/icons/5.svg") no-repeat center 0;
   background-size: contain;
   height: 70%;
 }
 
 .card-6 {
-  background: transparent url("/images/icons/6.png") no-repeat center 0;
+  background: transparent url("/images/icons/6.svg") no-repeat center 0;
   background-size: contain;
   height: 70%;
 }
@@ -81,7 +81,7 @@
   padding-top: 5%;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 25px;
-  color: #97939F;
+  color: #ffffff;
   height: 25%;
 }
 
@@ -90,7 +90,7 @@
   top: 0;
   height: 25px;
   width: 25px;
-  background: url(/images/icons/9.png) no-repeat;
+  background: url(/images/icons/9.svg) no-repeat;
   text-indent: -999em;
   text-decoration: none;
 }

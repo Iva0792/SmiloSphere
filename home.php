@@ -1,11 +1,12 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no" <link rel="stylesheet"
-        href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="icon" type="image/x-icon" href="/images/icons/SmiloSphereIcon.svg">
     <title>SmiloSphere | Inicio</title>
 </head>
 
