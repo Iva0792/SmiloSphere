@@ -1,3 +1,10 @@
+.content {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 .card {
   background-color: #4E3089;
   color: white;

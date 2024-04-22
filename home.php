@@ -12,8 +12,8 @@
 
 <body>
     <div class="container">
-        <?php echo file_get_contents("html/navbar.html"); ?>
         <div class="content">
+        <?php echo file_get_contents("html/navbar.html"); ?>
             <div class="cards">
                 <div class="card">
                     <a href="expedientes.php">
