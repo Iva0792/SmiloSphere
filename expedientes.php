@@ -12,6 +12,7 @@
     <div class="container">
         <?php echo file_get_contents("html/navbar.html"); ?>
         <div class="content"></div>
+        <?php echo file_get_contents("html/periodontrograma.html"); ?>
     </div>
 </body>
 </html>
