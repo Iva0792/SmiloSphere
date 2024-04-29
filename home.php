@@ -68,11 +68,7 @@
                         </div>
                     </a></div>
             </div>
-        </div>
+        </div> 
     </div>
 </body>
-<footer>
-    Powered by SmiloSphere © 2024
-</footer>
-
 </html>

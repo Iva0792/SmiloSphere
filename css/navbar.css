@@ -29,8 +29,8 @@
     text-align: center;
     padding: 16px 0;
     font-size: 18px;
-    width: 25vw;
-    height: 93.3vh;
+    width: 250px;
+    height: calc(100% - 5vh);
     z-index: 1;
     top: 5vh;
 }
@@ -73,17 +73,7 @@ input[type=checkbox]:checked~.dropdown::before{
 }
 
 
-/*Responsive
-@media (max-width: 992px) {
-  
-} */
-
-@media (max-width: 768px) {
-
-    .menu {
-        width: 50%;
-    }
-}
+/*Responsive*/
 
 @media (max-width: 576px) {
 
@@ -95,7 +85,5 @@ input[type=checkbox]:checked~.dropdown::before{
     .menu {
         width: 100%;
     }
-
-    
 
 }

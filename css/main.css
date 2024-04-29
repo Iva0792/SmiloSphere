@@ -8,7 +8,6 @@ body,
 html {
     font-family: Calibri, Helvetica, sans-serif;
     background-color: whitesmoke;
-    height: 100vh;
 }
 
 button {
@@ -47,8 +46,6 @@ footer {
 
 .container {
     margin: 0 auto;
-    height: 98.3vh;
-    overflow: hidden;
 }
 
 .login {

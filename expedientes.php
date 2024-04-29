@@ -1,7 +1,6 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/util.css">
     <link rel="stylesheet" href="css/navbar.css">
@@ -12,7 +11,7 @@
     <div class="container">
         <?php echo file_get_contents("html/navbar.html"); ?>
         <div class="content"></div>
-        <?php echo file_get_contents("html/periodontrograma.html"); ?>
+        <?php echo file_get_contents("html/periodontograma.html"); ?>
     </div>
 </body>
 </html>
