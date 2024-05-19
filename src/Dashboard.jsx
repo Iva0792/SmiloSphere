@@ -1,5 +1,4 @@
 import "./Main.css";
-import { BrowserRouter as Router } from "react-router-dom";
 import Navbar from './Navbar';
 
 function Dashboard() {
