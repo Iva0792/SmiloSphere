@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const Facturacion = () => {
   return (
     <div>
-      <h1>Facturacion</h1>
+      <Navbar />
+      <h1>Facturación</h1>
     </div>
   );
 };

@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const Mensajeria = () => {
   return (
     <div>
-      <h1>Mensajeria</h1>
+      <Navbar />
+      <h1>Mensajería</h1>
     </div>
   );
 };

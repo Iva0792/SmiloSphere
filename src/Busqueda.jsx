@@ -1,9 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const Busqueda = () => {
   return (
     <div>
-      <h1>Busqueda</h1>
+      <Navbar />
+      <h1>Búsqueda</h1>
     </div>
   );
 };

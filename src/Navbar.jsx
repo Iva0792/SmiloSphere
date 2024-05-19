@@ -11,10 +11,10 @@ const Navbar = () => {
                 <div className="menu">
                     <li><a href="/expendientes">Expedientes</a></li>
                     <li><a href="/agenda">Agenda</a></li>
-                    <li><a href="/mensajeria">Mensajeria</a></li>
+                    <li><a href="/mensajeria">Mensajería</a></li>
                     <li><a href="/facturacion">Facturación</a></li>
                     <li><a href="/pendientes">Pendientes</a></li>
-                    <li><a href="/busqueda">Busqueda</a></li>
+                    <li><a href="/busqueda">Búsqueda</a></li>
                 </div>
             </ul>
             </div>
