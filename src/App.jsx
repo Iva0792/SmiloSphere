@@ -14,13 +14,13 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/expedientes" element={<Expedientes />} />
-        <Route path="/agenda" element={<Agenda />} />
-        <Route path="/busqueda" element={<Busqueda />} />
-        <Route path="/facturacion" element={<Facturacion />} />
-        <Route path="/mensajeria" element={<Mensajeria />} />
-        <Route path="/pendientes" element={<Pendientes />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
+        <Route path="/Expedientes" element={<Expedientes />} />
+        <Route path="/Agenda" element={<Agenda />} />
+        <Route path="/Busqueda" element={<Busqueda />} />
+        <Route path="/Facturacion" element={<Facturacion />} />
+        <Route path="/Mensajeria" element={<Mensajeria />} />
+        <Route path="/Pendientes" element={<Pendientes />} />
       </Routes>
     </BrowserRouter>
   );
