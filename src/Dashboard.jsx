@@ -9,7 +9,7 @@ function Dashboard() {
           <div className="content">
             <div className="cards">
                 <div className="card">
-                    <a href="/expedientes">
+                    <a href="/Expedientes">
                         <div className="cardAct">
                             <div className="cardText">
                                 Expedientes
@@ -19,7 +19,7 @@ function Dashboard() {
                     </a>
                 </div>
                 <div className="card">
-                    <a href="/agenda">
+                    <a href="/Agenda">
                         <div className="cardAct">
                             <div className="cardText">
                                 Agenda
@@ -29,7 +29,7 @@ function Dashboard() {
                     </a>
                 </div>
                 <div className="card">
-                  <a href="/mensajeria">
+                  <a href="/Mensajeria">
                         <div className="cardAct">
                             <div className="cardText">
                                 Mensajería
@@ -38,7 +38,7 @@ function Dashboard() {
                         </div>
                     </a></div>
                 <div className="card">
-                  <a href="/facturacion">
+                  <a href="/Facturacion">
                         <div className="cardAct">
                             <div className="cardText">
                                 Facturación
@@ -47,7 +47,7 @@ function Dashboard() {
                         </div>
                     </a></div>
                 <div className="card">
-                  <a href="/pendientes">
+                  <a href="/Pendientes">
                         <div className="cardAct">
                             <div className="cardText">
                                 Pendientes
@@ -56,7 +56,7 @@ function Dashboard() {
                         </div>
                     </a></div>
                 <div className="card">
-                  <a href="/busqueda">
+                  <a href="/Busqueda">
                         <div className="cardAct">
                             <div className="cardText">
                                 Búsqueda

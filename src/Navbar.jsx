@@ -9,17 +9,17 @@ const Navbar = () => {
                 <input type="checkbox" id="checkbox_toggle" />
                 <label htmlFor="checkbox_toggle" className="dropdown"></label>
                 <div className="menu">
-                    <li><a href="/expendientes">Expedientes</a></li>
-                    <li><a href="/agenda">Agenda</a></li>
-                    <li><a href="/mensajeria">Mensajería</a></li>
-                    <li><a href="/facturacion">Facturación</a></li>
-                    <li><a href="/pendientes">Pendientes</a></li>
-                    <li><a href="/busqueda">Búsqueda</a></li>
+                    <li><a href="/Expendientes">Expedientes</a></li>
+                    <li><a href="/Agenda">Agenda</a></li>
+                    <li><a href="/Mensajeria">Mensajería</a></li>
+                    <li><a href="/Facturacion">Facturación</a></li>
+                    <li><a href="/Pendientes">Pendientes</a></li>
+                    <li><a href="/Busqueda">Búsqueda</a></li>
                 </div>
             </ul>
             </div>
             <div>
-                <li className="logo"><a href="/dashboard">SmiloSphere</a></li>
+                <li className="logo"><a href="/Dashboard">SmiloSphere</a></li>
             </div>
         </nav>
     );
