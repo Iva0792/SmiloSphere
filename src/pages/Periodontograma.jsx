@@ -4,7 +4,7 @@ import React from "react";
 const Periodontograma = () => {
   return (
     <div id="contenido">
-      <div style="display:none">
+      <div style={"display:none"}>
         <img src="../src/assets/img/misc/cuadrado.png"/>
         <img src="../src/assets/img/misc/lleno.png"/>
         <img src="../src/assets/img/misc/mediolleno.png"/>
@@ -2693,52 +2693,52 @@ const Periodontograma = () => {
                     <tr>
                       <td className="titulo">Nota</td>
                       <td className="borde">
-                        <input type="text" id="n18" name="n18"
+                        <input type="text" id="n18" name="n18" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n17" name="n17"
+                        <input type="text" id="n17" name="n17" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n16" name="n16"
+                        <input type="text" id="n16" name="n16" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n15" name="n15"
+                        <input type="text" id="n15" name="n15" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n14" name="n14"
+                        <input type="text" id="n14" name="n14" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n13" name="n13"
+                        <input type="text" id="n13" name="n13" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n12" name="n12"
+                        <input type="text" id="n12" name="n12" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n11" name="n11"
+                        <input type="text" id="n11" name="n11" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n21" name="n21"
+                        <input type="text" id="n21" name="n21" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n22" name="n22"
+                        <input type="text" id="n22" name="n22" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n23" name="n23"
+                        <input type="text" id="n23" name="n23" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n24" name="n24"
+                        <input type="text" id="n24" name="n24" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n25" name="n25"
+                        <input type="text" id="n25" name="n25" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n26" name="n26"
+                        <input type="text" id="n26" name="n26" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n27" name="n27"
+                        <input type="text" id="n27" name="n27" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n28" name="n28"
+                        <input type="text" id="n28" name="n28" />
                       </td>
                     </tr>
                   </tbody>
@@ -2764,52 +2764,52 @@ const Periodontograma = () => {
                     <tr>
                       <td className="titulo">Nota</td>
                       <td className="borde">
-                        <input type="text" id="n18" name="n18"
+                        <input type="text" id="n18" name="n18" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n17" name="n17"
+                        <input type="text" id="n17" name="n17" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n16" name="n16"
+                        <input type="text" id="n16" name="n16" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n15" name="n15"
+                        <input type="text" id="n15" name="n15" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n14" name="n14"
+                        <input type="text" id="n14" name="n14" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n13" name="n13"
+                        <input type="text" id="n13" name="n13" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n12" name="n12"
+                        <input type="text" id="n12" name="n12" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n11" name="n11"
+                        <input type="text" id="n11" name="n11" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n21" name="n21"
+                        <input type="text" id="n21" name="n21" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n22" name="n22"
+                        <input type="text" id="n22" name="n22" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n23" name="n23"
+                        <input type="text" id="n23" name="n23" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n24" name="n24"
+                        <input type="text" id="n24" name="n24" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n25" name="n25"
+                        <input type="text" id="n25" name="n25" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n26" name="n26"
+                        <input type="text" id="n26" name="n26" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n27" name="n27"
+                        <input type="text" id="n27" name="n27" />
                       </td>
                       <td className="borde">
-                        <input type="text" id="n28" name="n28"
+                        <input type="text" id="n28" name="n28" />
                       </td>
                     </tr>
                     <tr>
@@ -4338,7 +4338,7 @@ const Periodontograma = () => {
                           id="mg46b-a"
                           name="mg46b-a"
                           value="0"
-                          onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-a');cargar46b();"
+                          //onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-a');cargar46b();"
                          
                         />
                         <input
@@ -4346,7 +4346,7 @@ const Periodontograma = () => {
                           id="mg46b-b"
                           name="mg46b-b"
                           value="0"
-                          onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-b');cargar46b();"
+                          //onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-b');cargar46b();"
                          
                         />
                         <input
@@ -4354,7 +4354,7 @@ const Periodontograma = () => {
                           id="mg46b-c"
                           name="mg46b-c"
                           value="0"
-                          onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-c');cargar46b();"
+                          //onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-c');cargar46b();"
                          
                         />
                       </td>
@@ -4364,7 +4364,7 @@ const Periodontograma = () => {
                           id="mg45b-a"
                           name="mg45b-a"
                           value="0"
-                          onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-a');cargar45b();"
+                          //onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-a');cargar45b();"
                          
                         />
                         <input
@@ -4372,7 +4372,7 @@ const Periodontograma = () => {
                           id="mg45b-b"
                           name="mg45b-b"
                           value="0"
-                          onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-b');cargar45b();"
+                          //onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-b');cargar45b();"
                          
                         />
                         <input
@@ -4380,7 +4380,7 @@ const Periodontograma = () => {
                           id="mg45b-c"
                           name="mg45b-c"
                           value="0"
-                          onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-c');cargar45b();"
+                          //onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-c');cargar45b();"
                          
                         />
                       </td>
@@ -4390,7 +4390,7 @@ const Periodontograma = () => {
                           id="mg44b-a"
                           name="mg44b-a"
                           value="0"
-                          onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-a');cargar44b();"
+                          //onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-a');cargar44b();"
                          
                         />
                         <input
@@ -4398,7 +4398,7 @@ const Periodontograma = () => {
                           id="mg44b-b"
                           name="mg44b-b"
                           value="0"
-                          onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-b');cargar44b();"
+                          //onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-b');cargar44b();"
                          
                         />
                         <input
@@ -4406,7 +4406,7 @@ const Periodontograma = () => {
                           id="mg44b-c"
                           name="mg44b-c"
                           value="0"
-                          onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-c');cargar44b();"
+                          //onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-c');cargar44b();"
                          
                         />
                       </td>
@@ -4416,7 +4416,7 @@ const Periodontograma = () => {
                           id="mg43b-a"
                           name="mg43b-a"
                           value="0"
-                          onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-a');cargar43b();"
+                          //onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-a');cargar43b();"
                          
                         />
                         <input
@@ -4424,7 +4424,7 @@ const Periodontograma = () => {
                           id="mg43b-b"
                           name="mg43b-b"
                           value="0"
-                          onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-b');cargar43b();"
+                          //onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-b');cargar43b();"
                          
                         />
                         <input
@@ -4432,7 +4432,7 @@ const Periodontograma = () => {
                           id="mg43b-c"
                           name="mg43b-c"
                           value="0"
-                          onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-c');cargar43b();"
+                          //onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-c');cargar43b();"
                          
                         />
                       </td>
@@ -4442,7 +4442,7 @@ const Periodontograma = () => {
                           id="mg42b-a"
                           name="mg42b-a"
                           value="0"
-                          onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-a');cargar42b();"
+                          //onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-a');cargar42b();"
                          
                         />
                         <input
@@ -4450,7 +4450,7 @@ const Periodontograma = () => {
                           id="mg42b-b"
                           name="mg42b-b"
                           value="0"
-                          onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-b');cargar42b();"
+                          //onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-b');cargar42b();"
                          
                         />
                         <input
@@ -4458,7 +4458,7 @@ const Periodontograma = () => {
                           id="mg42b-c"
                           name="mg42b-c"
                           value="0"
-                          onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-c');cargar42b();"
+                          //onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-c');cargar42b();"
                          
                         />
                       </td>
@@ -4468,7 +4468,7 @@ const Periodontograma = () => {
                           id="mg41b-a"
                           name="mg41b-a"
                           value="0"
-                          onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-a');cargar41b();"
+                          //onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-a');cargar41b();"
                          
                         />
                         <input
@@ -4476,7 +4476,7 @@ const Periodontograma = () => {
                           id="mg41b-b"
                           name="mg41b-b"
                           value="0"
-                          onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-b');cargar41b();"
+                          //onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-b');cargar41b();"
                          
                         />
                         <input
@@ -4484,7 +4484,7 @@ const Periodontograma = () => {
                           id="mg41b-c"
                           name="mg41b-c"
                           value="0"
-                          onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-c');cargar41b();"
+                          //onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-c');cargar41b();"
                          
                         />
                       </td>
@@ -4494,7 +4494,7 @@ const Periodontograma = () => {
                           id="mg31b-a"
                           name="mg31b-a"
                           value="0"
-                          onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-a');cargar31b();"
+                          //onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-a');cargar31b();"
                          
                         />
                         <input
@@ -4502,7 +4502,7 @@ const Periodontograma = () => {
                           id="mg31b-b"
                           name="mg31b-b"
                           value="0"
-                          onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-b');cargar31b();"
+                          //onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-b');cargar31b();"
                          
                         />
                         <input
@@ -4510,7 +4510,7 @@ const Periodontograma = () => {
                           id="mg31b-c"
                           name="mg31b-c"
                           value="0"
-                          onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-c');cargar31b();"
+                          //onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-c');cargar31b();"
                          
                         />
                       </td>
@@ -5437,13 +5437,13 @@ const Periodontograma = () => {
           <table id="datos-personales" valign="middle">
             <tbody>
               <tr>
-                <td style="font-weight:bold">Evaluador</td>
+                <td style={"font-weight:bold"}>Evaluador</td>
                 <td>
                   <input type="text" id="evaluador" name="evaluador" value="" />
                 </td>
               </tr>
               <tr>
-                <td style="font-weight:bold">Fecha registro</td>
+                <td style={"font-weight:bold"}>Fecha registro</td>
                 <td>
                   <input type="text" id="registro" name="registro" value="" />
                 </td>
@@ -5502,7 +5502,7 @@ const Periodontograma = () => {
                             id="registro"
                             name="periodontitis"
                             value=""
-                            style="width:350px;"
+                            style={"width:350px;"}
                           />
                         </td>
                       </tr>
@@ -5515,7 +5515,7 @@ const Periodontograma = () => {
         </hr>
         <hr>
           <br />
-          <h2 style="font-weight:bold">DIAGNÓSTICO</h2>
+          <h2 style={"font-weight:bold"}>DIAGNÓSTICO</h2>
 
           <table id="datos-personales" valign="middle">
             <tbody>
@@ -5527,7 +5527,7 @@ const Periodontograma = () => {
                     id="registro"
                     name="otros"
                     value=""
-                    style="width:50px"
+                    style={"width:50px"}
                   />
                 </td>
               </tr>
@@ -5676,19 +5676,19 @@ const Periodontograma = () => {
         </hr>
         <hr>
           <br>
-            <h2 style="font-weight:bold">TRATAMIENTO</h2>
+            <h2 style={"font-weight:bold"}>TRATAMIENTO</h2>
             <table id="datos-personales" valign="middle">
               <tbody>
                 <tr>
                   <td></td>
-                  <td style="width:100%;">Instrucciones en higiene oral: </td>
+                  <td style={"width:100%;"}>Instrucciones en higiene oral: </td>
                   <td>
                     <input
                       type="text"
                       id="registro"
                       name="higiene"
                       value=""
-                      style="width:100%;"
+                      style={"width:100%;"}
                     />
                   </td>
                 </tr>
@@ -5710,7 +5710,7 @@ const Periodontograma = () => {
                               id="registro"
                               name="periodontitis"
                               value=""
-                              style="width:25px"
+                              style={"width:25px"}
                             />
                             Sesiones de raspado y alisado radicular
                           </td>
@@ -5744,7 +5744,7 @@ const Periodontograma = () => {
                               id="registro"
                               name="periodontitis"
                               value=""
-                              style="width:734px;"
+                              style={"width:734px;"}
                             />
                           </td>
                         </tr>
@@ -5755,14 +5755,14 @@ const Periodontograma = () => {
 
                 <tr>
                   <td></td>
-                  <td style="width:100%;">Ajuste oclusal: </td>
+                  <td style={"width:100%;"}>Ajuste oclusal: </td>
                   <td>
                     <input
                       type="text"
                       id="registro"
                       name="ajuste"
                       value=""
-                      style="width:100%;"
+                      style={"width:100%;"}
                     />
                   </td>
                 </tr>
@@ -5785,7 +5785,7 @@ const Periodontograma = () => {
                               id="registro"
                               name=""
                               value=""
-                              style="width:100%;height:98px;overflow:hidden;"
+                              style={"width:100%;height:98px;overflow:hidden;"}
                             ></textarea>
                           </td>
                         </tr>
@@ -5803,7 +5803,7 @@ const Periodontograma = () => {
                             id="registro"
                             name=""
                             value=""
-                            style="width:292px"
+                            style={"width:292px"}
                           ></textarea>
                         </td>
                       </tr>
@@ -5822,7 +5822,7 @@ const Periodontograma = () => {
                       id="registro"
                       name=""
                       value=""
-                      style="width:100%;height:98px;overflow:hidden;"
+                      style={"width:100%;height:98px;overflow:hidden;"}
                     ></textarea>
                   </td>
                 </tr>
@@ -5836,7 +5836,7 @@ const Periodontograma = () => {
                       id="registro"
                       name="periodontitis"
                       value=""
-                      style="width:100%;"
+                      style={"width:100%;"}
                     />
                   </td>
                 </tr>
@@ -5849,7 +5849,7 @@ const Periodontograma = () => {
                       id="registro"
                       name="periodontitis"
                       value=""
-                      style="width:100%;"
+                      style={"width:100%;"}
                     />
                   </td>
                 </tr>
@@ -5859,14 +5859,14 @@ const Periodontograma = () => {
         </hr>
         <hr>
           <br />
-          <h2 style="font-weight:bold">OBSERVACIONES</h2>
+          <h2 style={"font-weight:bold"}>OBSERVACIONES</h2>
           <textarea
             type="text"
             id="registro"
             name=""
             value=""
-            style="width:760px;height:100px;"
-          ></textarea>
+            style={"width:760px;height:100px;"}>
+          </textarea>
         </hr>
       </div>
     </div>
