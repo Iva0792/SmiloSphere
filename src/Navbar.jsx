@@ -19,7 +19,9 @@ const Navbar = () => {
             </ul>
             </div>
             <div>
-                <li className="logo"><a href="/Dashboard">SmiloSphere</a></li>
+                <ul>
+                    <li className="logo"><a href="/Dashboard">SmiloSphere</a></li>
+                </ul>
             </div>
         </nav>
     );

@@ -1,6 +1,6 @@
 import "./Main.css";
 import Navbar from './Navbar';
-
+import Expedientes from "./Expedientes";
 
 function Dashboard() {
   return (
@@ -9,7 +9,7 @@ function Dashboard() {
           <div className="content">
             <div className="cards">
                 <div className="card">
-                    <a href="/Expedientes">
+                    <a href={<Expedientes />}>
                         <div className="cardAct">
                             <div className="cardText">
                                 Expedientes
