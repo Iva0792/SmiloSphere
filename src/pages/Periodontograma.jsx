@@ -1,3 +1,4 @@
+import "./Periodonto.css";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -5,146 +6,146 @@ const Periodontograma = () => {
   return (
     <div id="contenido">
       <div style="display:none">
-        <img src="../src/assets/img/misc/cuadrado.png"></img>
-        <img src="../src/assets/img/misc/lleno.png"></img>
-        <img src="../src/assets/img/misc/mediolleno.png"></img>
-        <img src="../src/assets/img/misc/vacio.png"></img>
+        <img src="../src/assets/img/misc/cuadrado.png"/>
+        <img src="../src/assets/img/misc/lleno.png"/>
+        <img src="../src/assets/img/misc/mediolleno.png"/>
+        <img src="../src/assets/img/misc/vacio.png"/>
 
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-18.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-17.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-16.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-15.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-14.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-13.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-12.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-11.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-18.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-17.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-16.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-15.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-14.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-13.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-12.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-11.png"></img>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-18.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-17.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-16.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-15.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-14.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-13.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-12.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-11.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-18.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-17.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-16.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-15.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-14.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-13.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-12.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-11.png"/>
 
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-21.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-22.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-23.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-24.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-25.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-26.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-27.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-28.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-21.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-22.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-23.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-24.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-25.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-26.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-27.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-28.png"></img>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-21.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-22.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-23.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-24.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-25.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-26.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-27.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-28.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-21.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-22.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-23.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-24.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-25.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-26.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-27.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-28.png"/>
 
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-18b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-17b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-16b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-15b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-14b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-13b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-12b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-11b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-18b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-17b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-16b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-15b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-14b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-13b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-12b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-11b.png"></img>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-18b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-17b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-16b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-15b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-14b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-13b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-12b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-11b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-18b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-17b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-16b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-15b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-14b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-13b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-12b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-11b.png"/>
 
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-21b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-22b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-23b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-24b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-25b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-26b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-27b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-28b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-21b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-22b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-23b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-24b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-25b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-26b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-27b.png"></img>
-        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-28b.png"></img>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-21b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-22b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-23b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-24b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-25b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-26b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-27b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tornillo-28b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-21b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-22b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-23b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-24b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-25b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-26b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-27b.png"/>
+        <img src="../src/assets/img/dientes-arriba/dientes-arriba-tachados-28b.png"/>
 
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-48.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-7.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-46.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-45.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-44.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-43.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-42.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-41.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-48.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-47.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-46.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-45.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-44.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-43.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-42.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-41.png"></img>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-48.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-7.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-46.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-45.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-44.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-43.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-42.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-41.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-48.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-47.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-46.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-45.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-44.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-43.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-42.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-41.png"/>
 
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-38.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-37.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-36.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-35.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-34.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-33.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-32.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-31.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-38.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-37.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-36.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-35.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-34.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-33.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-32.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-31.png"></img>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-38.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-37.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-36.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-35.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-34.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-33.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-32.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-31.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-38.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-37.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-36.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-35.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-34.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-33.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-32.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-31.png"/>
 
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-48b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-47b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-46b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-45b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-44b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-43b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-42b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-41b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-48b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-47b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-46b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-45b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-44b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-43b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-42b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-41b.png"></img>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-48b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-47b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-46b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-45b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-44b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-43b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-42b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-41b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-48b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-47b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-46b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-45b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-44b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-43b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-42b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-41b.png"/>
 
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-38b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-37b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-36b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-35b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-34b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-33b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-32b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-31b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-38b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-37b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-36b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-35b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-34b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-33b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-32b.png"></img>
-        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-31b.png"></img>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-38b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-37b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-36b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-35b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-34b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-33b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-32b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tornillo-31b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-38b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-37b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-36b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-35b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-34b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-33b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-32b.png"/>
+        <img src="../src/assets/img/dientes-abajo/dientes-abajo-tachados-31b.png"/>
       </div>
 
       <div id="wrapper">
@@ -164,278 +165,278 @@ const Periodontograma = () => {
                   <tbody>
                     <tr>
                       <td></td>
-                      <td class="borde">
-                        <div class="d" id="d18">
+                      <td className="borde">
+                        <div className="d" id="d18">
                           1.8
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d17">
+                      <td className="borde">
+                        <div className="d" id="d17">
                           1.7
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d16">
+                      <td className="borde">
+                        <div className="d" id="d16">
                           1.6
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d15">
+                      <td className="borde">
+                        <div className="d" id="d15">
                           1.5
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d14">
+                      <td className="borde">
+                        <div className="d" id="d14">
                           1.4
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d13">
+                      <td className="borde">
+                        <div className="d" id="d13">
                           1.3
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d12">
+                      <td className="borde">
+                        <div className="d" id="d12">
                           1.2
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d11">
+                      <td className="borde">
+                        <div className="d" id="d11">
                           1.1
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d21">
+                      <td className="borde">
+                        <div className="d" id="d21">
                           2.1
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d22">
+                      <td className="borde">
+                        <div className="d" id="d22">
                           2.2
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d23">
+                      <td className="borde">
+                        <div className="d" id="d23">
                           2.3
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d24">
+                      <td className="borde">
+                        <div className="d" id="d24">
                           2.4
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d25">
+                      <td className="borde">
+                        <div className="d" id="d25">
                           2.5
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d26">
+                      <td className="borde">
+                        <div className="d" id="d26">
                           2.6
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d27">
+                      <td className="borde">
+                        <div className="d" id="d27">
                           2.7
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d28">
+                      <td className="borde">
+                        <div className="d" id="d28">
                           2.8
                         </div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Implante</td>
-                      <td class="borde">
-                        <div class="i" id="i18"></div>
+                      <td className="titulo">Implante</td>
+                      <td className="borde">
+                        <div className="i" id="i18"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i17"></div>
+                      <td className="borde">
+                        <div className="i" id="i17"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i16"></div>
+                      <td className="borde">
+                        <div className="i" id="i16"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i15"></div>
+                      <td className="borde">
+                        <div className="i" id="i15"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i14"></div>
+                      <td className="borde">
+                        <div className="i" id="i14"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i13"></div>
+                      <td className="borde">
+                        <div className="i" id="i13"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i12"></div>
+                      <td className="borde">
+                        <div className="i" id="i12"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i11"></div>
+                      <td className="borde">
+                        <div className="i" id="i11"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i21"></div>
+                      <td className="borde">
+                        <div className="i" id="i21"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i22"></div>
+                      <td className="borde">
+                        <div className="i" id="i22"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i23"></div>
+                      <td className="borde">
+                        <div className="i" id="i23"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i24"></div>
+                      <td className="borde">
+                        <div className="i" id="i24"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i25"></div>
+                      <td className="borde">
+                        <div className="i" id="i25"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i26"></div>
+                      <td className="borde">
+                        <div className="i" id="i26"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i27"></div>
+                      <td className="borde">
+                        <div className="i" id="i27"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i28"></div>
+                      <td className="borde">
+                        <div className="i" id="i28"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Movilidad</td>
-                      <td class="borde">
+                      <td className="titulo">Movilidad</td>
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m18"
                           name="m18"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m17"
                           name="m17"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m16"
                           name="m16"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m15"
                           name="m15"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m14"
                           name="m14"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m13"
                           name="m13"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m12"
                           name="m12"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m11"
                           name="m11"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m21"
                           name="m21"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m22"
                           name="m22"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m23"
                           name="m23"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m24"
                           name="m24"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m25"
                           name="m25"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m26"
                           name="m26"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m27"
                           name="m27"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m28"
                           name="m28"
@@ -444,257 +445,257 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Pronóstico individual</td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi18" name="pi18" />
+                      <td className="titulo">Pronóstico individual</td>
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi18" name="pi18" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi17" name="pi17" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi17" name="pi17" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi16" name="pi16" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi16" name="pi16" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi15" name="pi15" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi15" name="pi15" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi14" name="pi14" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi14" name="pi14" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi13" name="pi13" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi13" name="pi13" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi12" name="pi12" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi12" name="pi12" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi11" name="pi11" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi11" name="pi11" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi21" name="pi21" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi21" name="pi21" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi22" name="pi22" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi22" name="pi22" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi23" name="pi23" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi23" name="pi23" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi24" name="pi24" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi24" name="pi24" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi25" name="pi25" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi25" name="pi25" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi26" name="pi26" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi26" name="pi26" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi27" name="pi27" />
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi27" name="pi27" />
                       </td>
-                      <td class="borde">
-                        <input class="pi" type="text" id="pi28" name="pi28" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="titulo">Furca</td>
-                      <td class="borde">
-                        <div class="f" id="f18"></div>
-                      </td>
-                      <td class="borde">
-                        <div class="f" id="f17"></div>
-                      </td>
-                      <td class="borde">
-                        <div class="f" id="f16"></div>
-                      </td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde">
-                        <div class="f" id="f26"></div>
-                      </td>
-                      <td class="borde">
-                        <div class="f" id="f27"></div>
-                      </td>
-                      <td class="borde">
-                        <div class="f" id="f28"></div>
+                      <td className="borde">
+                        <input className="pi" type="text" id="pi28" name="pi28" />
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Sangrado / Supuración</td>
-                      <td class="borde">
+                      <td className="titulo">Furca</td>
+                      <td className="borde">
+                        <div className="f" id="f18"></div>
+                      </td>
+                      <td className="borde">
+                        <div className="f" id="f17"></div>
+                      </td>
+                      <td className="borde">
+                        <div className="f" id="f16"></div>
+                      </td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde">
+                        <div className="f" id="f26"></div>
+                      </td>
+                      <td className="borde">
+                        <div className="f" id="f27"></div>
+                      </td>
+                      <td className="borde">
+                        <div className="f" id="f28"></div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="titulo">Sangrado / Supuración</td>
+                      <td className="borde">
                         <div id="s18-a"></div>
                         <div id="s18-b"></div>
                         <div id="s18-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s17-a"></div>
                         <div id="s17-b"></div>
                         <div id="s17-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s16-a"></div>
                         <div id="s16-b"></div>
                         <div id="s16-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s15-a"></div>
                         <div id="s15-b"></div>
                         <div id="s15-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s14-a"></div>
                         <div id="s14-b"></div>
                         <div id="s14-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s13-a"></div>
                         <div id="s13-b"></div>
                         <div id="s13-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s12-a"></div>
                         <div id="s12-b"></div>
                         <div id="s12-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s11-a"></div>
                         <div id="s11-b"></div>
                         <div id="s11-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s21-a"></div>
                         <div id="s21-b"></div>
                         <div id="s21-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s22-a"></div>
                         <div id="s22-b"></div>
                         <div id="s22-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s23-a"></div>
                         <div id="s23-b"></div>
                         <div id="s23-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s24-a"></div>
                         <div id="s24-b"></div>
                         <div id="s24-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s25-a"></div>
                         <div id="s25-b"></div>
                         <div id="s25-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s26-a"></div>
                         <div id="s26-b"></div>
                         <div id="s26-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s27-a"></div>
                         <div id="s27-b"></div>
                         <div id="s27-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s28-a"></div>
                         <div id="s28-b"></div>
                         <div id="s28-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Placa</td>
-                      <td class="borde">
+                      <td className="titulo">Placa</td>
+                      <td className="borde">
                         <div id="p18-a"></div>
                         <div id="p18-b"></div>
                         <div id="p18-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p17-a"></div>
                         <div id="p17-b"></div>
                         <div id="p17-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p16-a"></div>
                         <div id="p16-b"></div>
                         <div id="p16-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p15-a"></div>
                         <div id="p15-b"></div>
                         <div id="p15-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p14-a"></div>
                         <div id="p14-b"></div>
                         <div id="p14-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p13-a"></div>
                         <div id="p13-b"></div>
                         <div id="p13-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p12-a"></div>
                         <div id="p12-b"></div>
                         <div id="p12-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p11-a"></div>
                         <div id="p11-b"></div>
                         <div id="p11-c"></div>
                       </td>
 
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p21-a"></div>
                         <div id="p21-b"></div>
                         <div id="p21-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p22-a"></div>
                         <div id="p22-b"></div>
                         <div id="p22-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p23-a"></div>
                         <div id="p23-b"></div>
                         <div id="p23-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p24-a"></div>
                         <div id="p24-b"></div>
                         <div id="p24-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p25-a"></div>
                         <div id="p25-b"></div>
                         <div id="p25-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p26-a"></div>
                         <div id="p26-b"></div>
                         <div id="p26-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p27-a"></div>
                         <div id="p27-b"></div>
                         <div id="p27-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p28-a"></div>
                         <div id="p28-b"></div>
                         <div id="p28-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Anchura encía</td>
-                      <td class="borde">
+                      <td className="titulo">Anchura encía</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae18"
@@ -703,7 +704,7 @@ const Periodontograma = () => {
                           tabindex="33"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae17"
@@ -712,7 +713,7 @@ const Periodontograma = () => {
                           tabindex="34"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae16"
@@ -721,7 +722,7 @@ const Periodontograma = () => {
                           tabindex="35"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae15"
@@ -730,7 +731,7 @@ const Periodontograma = () => {
                           tabindex="36"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae14"
@@ -739,7 +740,7 @@ const Periodontograma = () => {
                           tabindex="37"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae13"
@@ -748,7 +749,7 @@ const Periodontograma = () => {
                           tabindex="38"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae12"
@@ -757,7 +758,7 @@ const Periodontograma = () => {
                           tabindex="39"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae11"
@@ -766,7 +767,7 @@ const Periodontograma = () => {
                           tabindex="40"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae21"
@@ -775,7 +776,7 @@ const Periodontograma = () => {
                           tabindex="41"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae22"
@@ -784,7 +785,7 @@ const Periodontograma = () => {
                           tabindex="42"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae23"
@@ -793,7 +794,7 @@ const Periodontograma = () => {
                           tabindex="43"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae24"
@@ -802,7 +803,7 @@ const Periodontograma = () => {
                           tabindex="44"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae25"
@@ -811,7 +812,7 @@ const Periodontograma = () => {
                           tabindex="45"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae26"
@@ -820,7 +821,7 @@ const Periodontograma = () => {
                           tabindex="46"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae27"
@@ -829,7 +830,7 @@ const Periodontograma = () => {
                           tabindex="47"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae28"
@@ -840,8 +841,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Margen gingival</td>
-                      <td class="borde">
+                      <td className="titulo">Margen gingival</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg18-a"
@@ -864,7 +865,7 @@ const Periodontograma = () => {
                           tabindex="51"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg17-a"
@@ -887,7 +888,7 @@ const Periodontograma = () => {
                           tabindex="54"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg16-a"
@@ -910,7 +911,7 @@ const Periodontograma = () => {
                           tabindex="57"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg15-a"
@@ -933,7 +934,7 @@ const Periodontograma = () => {
                           tabindex="60"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg14-a"
@@ -956,7 +957,7 @@ const Periodontograma = () => {
                           tabindex="63"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg13-a"
@@ -979,7 +980,7 @@ const Periodontograma = () => {
                           tabindex="66"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg12-a"
@@ -1002,7 +1003,7 @@ const Periodontograma = () => {
                           tabindex="69"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg11-a"
@@ -1025,7 +1026,7 @@ const Periodontograma = () => {
                           tabindex="72"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg21-a"
@@ -1048,7 +1049,7 @@ const Periodontograma = () => {
                           tabindex="75"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg22-a"
@@ -1071,7 +1072,7 @@ const Periodontograma = () => {
                           tabindex="78"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg23-a"
@@ -1094,7 +1095,7 @@ const Periodontograma = () => {
                           tabindex="81"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg24-a"
@@ -1117,7 +1118,7 @@ const Periodontograma = () => {
                           tabindex="84"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg25-a"
@@ -1140,7 +1141,7 @@ const Periodontograma = () => {
                           tabindex="87"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg26-a"
@@ -1163,7 +1164,7 @@ const Periodontograma = () => {
                           tabindex="90"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg27-a"
@@ -1186,7 +1187,7 @@ const Periodontograma = () => {
                           tabindex="93"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg28-a"
@@ -1211,8 +1212,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Profundidad de sondaje</td>
-                      <td class="borde">
+                      <td className="titulo">Profundidad de sondaje</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps18-a"
@@ -1235,7 +1236,7 @@ const Periodontograma = () => {
                           tabindex="99"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps17-a"
@@ -1258,7 +1259,7 @@ const Periodontograma = () => {
                           tabindex="102"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps16-a"
@@ -1281,7 +1282,7 @@ const Periodontograma = () => {
                           tabindex="105"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps15-a"
@@ -1304,7 +1305,7 @@ const Periodontograma = () => {
                           tabindex="108"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps14-a"
@@ -1327,7 +1328,7 @@ const Periodontograma = () => {
                           tabindex="111"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps13-a"
@@ -1350,7 +1351,7 @@ const Periodontograma = () => {
                           tabindex="114"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps12-a"
@@ -1373,7 +1374,7 @@ const Periodontograma = () => {
                           tabindex="117"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps11-a"
@@ -1396,7 +1397,7 @@ const Periodontograma = () => {
                           tabindex="120"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps21-a"
@@ -1419,7 +1420,7 @@ const Periodontograma = () => {
                           tabindex="123"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps22-a"
@@ -1442,7 +1443,7 @@ const Periodontograma = () => {
                           tabindex="126"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps23-a"
@@ -1465,7 +1466,7 @@ const Periodontograma = () => {
                           tabindex="129"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps24-a"
@@ -1488,7 +1489,7 @@ const Periodontograma = () => {
                           tabindex="132"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps25-a"
@@ -1511,7 +1512,7 @@ const Periodontograma = () => {
                           tabindex="135"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps26-a"
@@ -1534,7 +1535,7 @@ const Periodontograma = () => {
                           tabindex="138"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps27-a"
@@ -1557,7 +1558,7 @@ const Periodontograma = () => {
                           tabindex="141"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps28-a"
@@ -1582,80 +1583,80 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Vestibular</td>
-                      <td class="noborde">
+                      <td className="titulo">Vestibular</td>
+                      <td className="noborde">
                         <div id="lineas-gr"></div>
                         <div id="visualization18a"></div>
                         <div id="diente18-a">
                           <div id="furca18"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization17a"></div>
                         <div id="diente17-a">
                           <div id="furca17"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization16a"></div>
                         <div id="diente16-a">
                           <div id="furca16"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization15a"></div>
                         <div id="diente15-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization14a"></div>
                         <div id="diente14-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization13a"></div>
                         <div id="diente13-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization12a"></div>
                         <div id="diente12-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization11a"></div>
                         <div id="diente11-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="lineas-gr"></div>
                         <div id="visualization21a"></div>
                         <div id="diente21-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization22a"></div>
                         <div id="diente22-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization23a"></div>
                         <div id="diente23-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization24a"></div>
                         <div id="diente24-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization25a"></div>
                         <div id="diente25-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization26a"></div>
                         <div id="diente26-a">
                           <div id="furca26"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization27a"></div>
                         <div id="diente27-a">
                           <div id="furca27"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization28a"></div>
                         <div id="diente28-a">
                           <div id="furca28"></div>
@@ -1663,8 +1664,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Palatino</td>
-                      <td class="noborde">
+                      <td className="titulo">Palatino</td>
+                      <td className="noborde">
                         <div id="lineas-gr-inf"></div>
                         <div id="visualization18b"></div>
                         <div id="diente18b-a">
@@ -1672,82 +1673,82 @@ const Periodontograma = () => {
                           <div id="furca18-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization17b"></div>
                         <div id="diente17b-a">
                           <div id="furca17-a"></div>
                           <div id="furca17-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization16b"></div>
                         <div id="diente16b-a">
                           <div id="furca16-a"></div>
                           <div id="furca16-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization15b"></div>
                         <div id="diente15b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization14b"></div>
                         <div id="diente14b-a">
                           <div id="furca14-a"></div>
                           <div id="furca14-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization13b"></div>
                         <div id="diente13b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization12b"></div>
                         <div id="diente12b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization11b"></div>
                         <div id="diente11b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="lineas-gr-inf"></div>
                         <div id="visualization21b"></div>
                         <div id="diente21b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization22b"></div>
                         <div id="diente22b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization23b"></div>
                         <div id="diente23b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization24b"></div>
                         <div id="diente24b-a">
                           <div id="furca24-a"></div>
                           <div id="furca24-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization25b"></div>
                         <div id="diente25b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization26b"></div>
                         <div id="diente26b-a">
                           <div id="furca26-a"></div>
                           <div id="furca26-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization27b"></div>
                         <div id="diente27b-a">
                           <div id="furca27-a"></div>
                           <div id="furca27-b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization28b"></div>
                         <div id="diente28b-a">
                           <div id="furca28-a"></div>
@@ -1756,8 +1757,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Profundidad de sondaje</td>
-                      <td class="borde">
+                      <td className="titulo">Profundidad de sondaje</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps18b-a"
@@ -1780,7 +1781,7 @@ const Periodontograma = () => {
                           tabindex="147"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps17b-a"
@@ -1803,7 +1804,7 @@ const Periodontograma = () => {
                           tabindex="150"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps16b-a"
@@ -1826,7 +1827,7 @@ const Periodontograma = () => {
                           tabindex="153"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps15b-a"
@@ -1849,7 +1850,7 @@ const Periodontograma = () => {
                           tabindex="156"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps14b-a"
@@ -1872,7 +1873,7 @@ const Periodontograma = () => {
                           tabindex="159"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps13b-a"
@@ -1895,7 +1896,7 @@ const Periodontograma = () => {
                           tabindex="162"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps12b-a"
@@ -1918,7 +1919,7 @@ const Periodontograma = () => {
                           tabindex="165"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps11b-a"
@@ -1941,7 +1942,7 @@ const Periodontograma = () => {
                           tabindex="168"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps21b-a"
@@ -1964,7 +1965,7 @@ const Periodontograma = () => {
                           tabindex="171"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps22b-a"
@@ -1987,7 +1988,7 @@ const Periodontograma = () => {
                           tabindex="174"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps23b-a"
@@ -2010,7 +2011,7 @@ const Periodontograma = () => {
                           tabindex="177"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps24b-a"
@@ -2033,7 +2034,7 @@ const Periodontograma = () => {
                           tabindex="180"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps25b-a"
@@ -2056,7 +2057,7 @@ const Periodontograma = () => {
                           tabindex="183"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps26b-a"
@@ -2079,7 +2080,7 @@ const Periodontograma = () => {
                           tabindex="186"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps27b-a"
@@ -2102,7 +2103,7 @@ const Periodontograma = () => {
                           tabindex="189"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps28b-a"
@@ -2127,8 +2128,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Margen gingival</td>
-                      <td class="borde">
+                      <td className="titulo">Margen gingival</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg18b-a"
@@ -2151,7 +2152,7 @@ const Periodontograma = () => {
                           tabindex="195"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg17b-a"
@@ -2174,7 +2175,7 @@ const Periodontograma = () => {
                           tabindex="198"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg16b-a"
@@ -2197,7 +2198,7 @@ const Periodontograma = () => {
                           tabindex="201"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg15b-a"
@@ -2220,7 +2221,7 @@ const Periodontograma = () => {
                           tabindex="204"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg14b-a"
@@ -2243,7 +2244,7 @@ const Periodontograma = () => {
                           tabindex="207"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg13b-a"
@@ -2266,7 +2267,7 @@ const Periodontograma = () => {
                           tabindex="210"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg12b-a"
@@ -2289,7 +2290,7 @@ const Periodontograma = () => {
                           tabindex="213"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg11b-a"
@@ -2312,7 +2313,7 @@ const Periodontograma = () => {
                           tabindex="216"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg21b-a"
@@ -2335,7 +2336,7 @@ const Periodontograma = () => {
                           tabindex="219"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg22b-a"
@@ -2358,7 +2359,7 @@ const Periodontograma = () => {
                           tabindex="222"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg23b-a"
@@ -2381,7 +2382,7 @@ const Periodontograma = () => {
                           tabindex="225"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg24b-a"
@@ -2404,7 +2405,7 @@ const Periodontograma = () => {
                           tabindex="228"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg25b-a"
@@ -2427,7 +2428,7 @@ const Periodontograma = () => {
                           tabindex="231"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg26b-a"
@@ -2450,7 +2451,7 @@ const Periodontograma = () => {
                           tabindex="234"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg27b-a"
@@ -2473,7 +2474,7 @@ const Periodontograma = () => {
                           tabindex="237"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg28b-a"
@@ -2498,262 +2499,262 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Placa</td>
-                      <td class="borde">
+                      <td className="titulo">Placa</td>
+                      <td className="borde">
                         <div id="p18b-a"></div>
                         <div id="p18b-b"></div>
                         <div id="p18b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p17b-a"></div>
                         <div id="p17b-b"></div>
                         <div id="p17b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p16b-a"></div>
                         <div id="p16b-b"></div>
                         <div id="p16b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p15b-a"></div>
                         <div id="p15b-b"></div>
                         <div id="p15b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p14b-a"></div>
                         <div id="p14b-b"></div>
                         <div id="p14b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p13b-a"></div>
                         <div id="p13b-b"></div>
                         <div id="p13b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p12b-a"></div>
                         <div id="p12b-b"></div>
                         <div id="p12b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p11b-a"></div>
                         <div id="p11b-b"></div>
                         <div id="p11b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p21b-a"></div>
                         <div id="p21b-b"></div>
                         <div id="p21b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p22b-a"></div>
                         <div id="p22b-b"></div>
                         <div id="p22b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p23b-a"></div>
                         <div id="p23b-b"></div>
                         <div id="p23b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p24b-a"></div>
                         <div id="p24b-b"></div>
                         <div id="p24b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p25b-a"></div>
                         <div id="p25b-b"></div>
                         <div id="p25b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p26b-a"></div>
                         <div id="p26b-b"></div>
                         <div id="p26b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p27b-a"></div>
                         <div id="p27b-b"></div>
                         <div id="p27b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p28b-a"></div>
                         <div id="p28b-b"></div>
                         <div id="p28b-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Sangrado / Supuración</td>
-                      <td class="borde">
+                      <td className="titulo">Sangrado / Supuración</td>
+                      <td className="borde">
                         <div id="s18b-a"></div>
                         <div id="s18b-b"></div>
                         <div id="s18b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s17b-a"></div>
                         <div id="s17b-b"></div>
                         <div id="s17b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s16b-a"></div>
                         <div id="s16b-b"></div>
                         <div id="s16b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s15b-a"></div>
                         <div id="s15b-b"></div>
                         <div id="s15b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s14b-a"></div>
                         <div id="s14b-b"></div>
                         <div id="s14b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s13b-a"></div>
                         <div id="s13b-b"></div>
                         <div id="s13b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s12b-a"></div>
                         <div id="s12b-b"></div>
                         <div id="s12b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s11b-a"></div>
                         <div id="s11b-b"></div>
                         <div id="s11b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s21b-a"></div>
                         <div id="s21b-b"></div>
                         <div id="s21b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s22b-a"></div>
                         <div id="s22b-b"></div>
                         <div id="s22b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s23b-a"></div>
                         <div id="s23b-b"></div>
                         <div id="s23b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s24b-a"></div>
                         <div id="s24b-b"></div>
                         <div id="s24b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s25b-a"></div>
                         <div id="s25b-b"></div>
                         <div id="s25b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s26b-a"></div>
                         <div id="s26b-b"></div>
                         <div id="s26b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s27b-a"></div>
                         <div id="s27b-b"></div>
                         <div id="s27b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s28b-a"></div>
                         <div id="s28b-b"></div>
                         <div id="s28b-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Furca</td>
-                      <td class="borde">
-                        <div class="f-a" id="f18b-a"></div>
-                        <div class="f-b" id="f18b-b"></div>
+                      <td className="titulo">Furca</td>
+                      <td className="borde">
+                        <div className="f-a" id="f18b-a"></div>
+                        <div className="f-b" id="f18b-b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f-a" id="f17b-a"></div>
-                        <div class="f-b" id="f17b-b"></div>
+                      <td className="borde">
+                        <div className="f-a" id="f17b-a"></div>
+                        <div className="f-b" id="f17b-b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f-a" id="f16b-a"></div>
-                        <div class="f-b" id="f16b-b"></div>
+                      <td className="borde">
+                        <div className="f-a" id="f16b-a"></div>
+                        <div className="f-b" id="f16b-b"></div>
                       </td>
-                      <td class="borde"></td>
-                      <td class="borde">
-                        <div class="f-a" id="f14b-a"></div>
-                        <div class="f-b" id="f14b-b"></div>
+                      <td className="borde"></td>
+                      <td className="borde">
+                        <div className="f-a" id="f14b-a"></div>
+                        <div className="f-b" id="f14b-b"></div>
                       </td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde">
-                        <div class="f-a" id="f24b-a"></div>
-                        <div class="f-b" id="f24b-b"></div>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde">
+                        <div className="f-a" id="f24b-a"></div>
+                        <div className="f-b" id="f24b-b"></div>
                       </td>
-                      <td class="borde"></td>
-                      <td class="borde">
-                        <div class="f-a" id="f26b-a"></div>
-                        <div class="f-b" id="f26b-b"></div>
+                      <td className="borde"></td>
+                      <td className="borde">
+                        <div className="f-a" id="f26b-a"></div>
+                        <div className="f-b" id="f26b-b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f-a" id="f27b-a"></div>
-                        <div class="f-b" id="f27b-b"></div>
+                      <td className="borde">
+                        <div className="f-a" id="f27b-a"></div>
+                        <div className="f-b" id="f27b-b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f-a" id="f28b-a"></div>
-                        <div class="f-b" id="f28b-b"></div>
+                      <td className="borde">
+                        <div className="f-a" id="f28b-a"></div>
+                        <div className="f-b" id="f28b-b"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Nota</td>
-                      <td class="borde">
+                      <td className="titulo">Nota</td>
+                      <td className="borde">
                         <input type="text" id="n18" name="n18" tabindex="241" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n17" name="n17" tabindex="242" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n16" name="n16" tabindex="243" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n15" name="n15" tabindex="244" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n14" name="n14" tabindex="245" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n13" name="n13" tabindex="246" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n12" name="n12" tabindex="247" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n11" name="n11" tabindex="248" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n21" name="n21" tabindex="249" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n22" name="n22" tabindex="250" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n23" name="n23" tabindex="251" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n24" name="n24" tabindex="252" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n25" name="n25" tabindex="253" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n26" name="n26" tabindex="254" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n27" name="n27" tabindex="255" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n28" name="n28" tabindex="256" />
                       </td>
                     </tr>
@@ -2778,256 +2779,256 @@ const Periodontograma = () => {
                 <table id="tabla-3">
                   <tbody>
                     <tr>
-                      <td class="titulo">Nota</td>
-                      <td class="borde">
+                      <td className="titulo">Nota</td>
+                      <td className="borde">
                         <input type="text" id="n18" name="n18" tabindex="257" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n17" name="n17" tabindex="258" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n16" name="n16" tabindex="259" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n15" name="n15" tabindex="260" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n14" name="n14" tabindex="261" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n13" name="n13" tabindex="262" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n12" name="n12" tabindex="263" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n11" name="n11" tabindex="264" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n21" name="n21" tabindex="265" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n22" name="n22" tabindex="266" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n23" name="n23" tabindex="267" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n24" name="n24" tabindex="268" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n25" name="n25" tabindex="269" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n26" name="n26" tabindex="270" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n27" name="n27" tabindex="271" />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input type="text" id="n28" name="n28" tabindex="272" />
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Furca</td>
-                      <td class="borde">
-                        <div class="f" id="f48"></div>
+                      <td className="titulo">Furca</td>
+                      <td className="borde">
+                        <div className="f" id="f48"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f47"></div>
+                      <td className="borde">
+                        <div className="f" id="f47"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f46"></div>
+                      <td className="borde">
+                        <div className="f" id="f46"></div>
                       </td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde">
-                        <div class="f" id="f36"></div>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde">
+                        <div className="f" id="f36"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f37"></div>
+                      <td className="borde">
+                        <div className="f" id="f37"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f38"></div>
+                      <td className="borde">
+                        <div className="f" id="f38"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Sangrado / Supuración</td>
-                      <td class="borde">
+                      <td className="titulo">Sangrado / Supuración</td>
+                      <td className="borde">
                         <div id="s48-a"></div>
                         <div id="s48-b"></div>
                         <div id="s48-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s47-a"></div>
                         <div id="s47-b"></div>
                         <div id="s47-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s46-a"></div>
                         <div id="s46-b"></div>
                         <div id="s46-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s45-a"></div>
                         <div id="s45-b"></div>
                         <div id="s45-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s44-a"></div>
                         <div id="s44-b"></div>
                         <div id="s44-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s43-a"></div>
                         <div id="s43-b"></div>
                         <div id="s43-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s42-a"></div>
                         <div id="s42-b"></div>
                         <div id="s42-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s41-a"></div>
                         <div id="s41-b"></div>
                         <div id="s41-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s31-a"></div>
                         <div id="s31-b"></div>
                         <div id="s31-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s32-a"></div>
                         <div id="s32-b"></div>
                         <div id="s32-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s33-a"></div>
                         <div id="s33-b"></div>
                         <div id="s33-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s34-a"></div>
                         <div id="s34-b"></div>
                         <div id="s34-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s35-a"></div>
                         <div id="s35-b"></div>
                         <div id="s35-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s36-a"></div>
                         <div id="s36-b"></div>
                         <div id="s36-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s37-a"></div>
                         <div id="s37-b"></div>
                         <div id="s37-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s38-a"></div>
                         <div id="s38-b"></div>
                         <div id="s38-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Placa</td>
-                      <td class="borde">
+                      <td className="titulo">Placa</td>
+                      <td className="borde">
                         <div id="p48-a"></div>
                         <div id="p48-b"></div>
                         <div id="p48-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p47-a"></div>
                         <div id="p47-b"></div>
                         <div id="p47-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p46-a"></div>
                         <div id="p46-b"></div>
                         <div id="p46-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p45-a"></div>
                         <div id="p45-b"></div>
                         <div id="p45-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p44-a"></div>
                         <div id="p44-b"></div>
                         <div id="p44-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p43-a"></div>
                         <div id="p43-b"></div>
                         <div id="p43-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p42-a"></div>
                         <div id="p42-b"></div>
                         <div id="p42-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p41-a"></div>
                         <div id="p41-b"></div>
                         <div id="p41-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p31-a"></div>
                         <div id="p31-b"></div>
                         <div id="p31-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p32-a"></div>
                         <div id="p32-b"></div>
                         <div id="p32-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p33-a"></div>
                         <div id="p33-b"></div>
                         <div id="p33-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p34-a"></div>
                         <div id="p34-b"></div>
                         <div id="p34-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p35-a"></div>
                         <div id="p35-b"></div>
                         <div id="p35-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p36-a"></div>
                         <div id="p36-b"></div>
                         <div id="p36-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p37-a"></div>
                         <div id="p37-b"></div>
                         <div id="p37-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p38-a"></div>
                         <div id="p38-b"></div>
                         <div id="p38-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Margen gingival</td>
-                      <td class="borde">
+                      <td className="titulo">Margen gingival</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg48-a"
@@ -3050,7 +3051,7 @@ const Periodontograma = () => {
                           tabindex="299"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg47-a"
@@ -3073,7 +3074,7 @@ const Periodontograma = () => {
                           tabindex="302"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg46-a"
@@ -3096,7 +3097,7 @@ const Periodontograma = () => {
                           tabindex="305"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg45-a"
@@ -3119,7 +3120,7 @@ const Periodontograma = () => {
                           tabindex="308"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg44-a"
@@ -3142,7 +3143,7 @@ const Periodontograma = () => {
                           tabindex="311"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg43-a"
@@ -3165,7 +3166,7 @@ const Periodontograma = () => {
                           tabindex="314"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg42-a"
@@ -3188,7 +3189,7 @@ const Periodontograma = () => {
                           tabindex="317"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg41-a"
@@ -3211,7 +3212,7 @@ const Periodontograma = () => {
                           tabindex="320"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg31-a"
@@ -3234,7 +3235,7 @@ const Periodontograma = () => {
                           tabindex="323"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg32-a"
@@ -3257,7 +3258,7 @@ const Periodontograma = () => {
                           tabindex="326"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg33-a"
@@ -3280,7 +3281,7 @@ const Periodontograma = () => {
                           tabindex="329"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg34-a"
@@ -3303,7 +3304,7 @@ const Periodontograma = () => {
                           tabindex="332"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg35-a"
@@ -3326,7 +3327,7 @@ const Periodontograma = () => {
                           tabindex="335"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg36-a"
@@ -3349,7 +3350,7 @@ const Periodontograma = () => {
                           tabindex="338"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg37-a"
@@ -3372,7 +3373,7 @@ const Periodontograma = () => {
                           tabindex="341"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg38-a"
@@ -3397,8 +3398,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Profundidad de sondaje</td>
-                      <td class="borde">
+                      <td className="titulo">Profundidad de sondaje</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps48-a"
@@ -3421,7 +3422,7 @@ const Periodontograma = () => {
                           tabindex="347"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps47-a"
@@ -3444,7 +3445,7 @@ const Periodontograma = () => {
                           tabindex="350"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps46-a"
@@ -3467,7 +3468,7 @@ const Periodontograma = () => {
                           tabindex="353"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps45-a"
@@ -3490,7 +3491,7 @@ const Periodontograma = () => {
                           tabindex="356"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps44-a"
@@ -3513,7 +3514,7 @@ const Periodontograma = () => {
                           tabindex="357"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps43-a"
@@ -3536,7 +3537,7 @@ const Periodontograma = () => {
                           tabindex="402"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps42-a"
@@ -3559,7 +3560,7 @@ const Periodontograma = () => {
                           tabindex="405"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps41-a"
@@ -3582,7 +3583,7 @@ const Periodontograma = () => {
                           tabindex="408"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps31-a"
@@ -3605,7 +3606,7 @@ const Periodontograma = () => {
                           tabindex="411"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps32-a"
@@ -3628,7 +3629,7 @@ const Periodontograma = () => {
                           tabindex="414"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps33-a"
@@ -3651,7 +3652,7 @@ const Periodontograma = () => {
                           tabindex="417"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps34-a"
@@ -3674,7 +3675,7 @@ const Periodontograma = () => {
                           tabindex="420"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps35-a"
@@ -3697,7 +3698,7 @@ const Periodontograma = () => {
                           tabindex="423"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps36-a"
@@ -3720,7 +3721,7 @@ const Periodontograma = () => {
                           tabindex="426"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps37-a"
@@ -3743,7 +3744,7 @@ const Periodontograma = () => {
                           tabindex="429"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps38-a"
@@ -3768,80 +3769,80 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Lingual</td>
-                      <td class="noborde">
+                      <td className="titulo">Lingual</td>
+                      <td className="noborde">
                         <div id="lineas-gr"></div>
                         <div id="visualization48a"></div>
                         <div id="diente48-a">
                           <div id="furca48"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization47a"></div>
                         <div id="diente47-a">
                           <div id="furca47"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization46a"></div>
                         <div id="diente46-a">
                           <div id="furca46"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization45a"></div>
                         <div id="diente45-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization44a"></div>
                         <div id="diente44-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization43a"></div>
                         <div id="diente43-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization42a"></div>
                         <div id="diente42-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization41a"></div>
                         <div id="diente41-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="lineas-gr"></div>
                         <div id="visualization31a"></div>
                         <div id="diente31-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization32a"></div>
                         <div id="diente32-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization33a"></div>
                         <div id="diente33-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization34a"></div>
                         <div id="diente34-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization35a"></div>
                         <div id="diente35-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization36a"></div>
                         <div id="diente36-a">
                           <div id="furca36"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization37a"></div>
                         <div id="diente37-a">
                           <div id="furca37"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization38a"></div>
                         <div id="diente38-a">
                           <div id="furca38"></div>
@@ -3849,80 +3850,80 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Vestibular</td>
-                      <td class="noborde">
+                      <td className="titulo">Vestibular</td>
+                      <td className="noborde">
                         <div id="lineas-gr-inf"></div>
                         <div id="visualization48b"></div>
                         <div id="diente48b-a">
                           <div id="furca48b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization47b"></div>
                         <div id="diente47b-a">
                           <div id="furca47b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization46b"></div>
                         <div id="diente46b-a">
                           <div id="furca46b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization45b"></div>
                         <div id="diente45b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization44b"></div>
                         <div id="diente44b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization43b"></div>
                         <div id="diente43b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization42b"></div>
                         <div id="diente42b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization41b"></div>
                         <div id="diente41b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="lineas-gr-inf"></div>
                         <div id="visualization31b"></div>
                         <div id="diente31b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization32b"></div>
                         <div id="diente32b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization33b"></div>
                         <div id="diente33b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization34b"></div>
                         <div id="diente34b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization35b"></div>
                         <div id="diente35b-a"></div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization36b"></div>
                         <div id="diente36b-a">
                           <div id="furca36b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization37b"></div>
                         <div id="diente37b-a">
                           <div id="furca37b"></div>
                         </div>
                       </td>
-                      <td class="noborde">
+                      <td className="noborde">
                         <div id="visualization38b"></div>
                         <div id="diente38b-a">
                           <div id="furca38b"></div>
@@ -3930,8 +3931,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Profundidad de sondaje</td>
-                      <td class="borde">
+                      <td className="titulo">Profundidad de sondaje</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps48b-a"
@@ -3954,7 +3955,7 @@ const Periodontograma = () => {
                           tabindex="435"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps47b-a"
@@ -3977,7 +3978,7 @@ const Periodontograma = () => {
                           tabindex="438"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps46b-a"
@@ -4000,7 +4001,7 @@ const Periodontograma = () => {
                           tabindex="441"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps45b-a"
@@ -4023,7 +4024,7 @@ const Periodontograma = () => {
                           tabindex="444"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps44b-a"
@@ -4046,7 +4047,7 @@ const Periodontograma = () => {
                           tabindex="447"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps43b-a"
@@ -4069,7 +4070,7 @@ const Periodontograma = () => {
                           tabindex="450"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps42b-a"
@@ -4092,7 +4093,7 @@ const Periodontograma = () => {
                           tabindex="453"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps41b-a"
@@ -4115,7 +4116,7 @@ const Periodontograma = () => {
                           tabindex="456"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps31b-a"
@@ -4138,7 +4139,7 @@ const Periodontograma = () => {
                           tabindex="459"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps32b-a"
@@ -4161,7 +4162,7 @@ const Periodontograma = () => {
                           tabindex="462"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps33b-a"
@@ -4184,7 +4185,7 @@ const Periodontograma = () => {
                           tabindex="465"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps34b-a"
@@ -4207,7 +4208,7 @@ const Periodontograma = () => {
                           tabindex="468"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps35b-a"
@@ -4230,7 +4231,7 @@ const Periodontograma = () => {
                           tabindex="471"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps36b-a"
@@ -4253,7 +4254,7 @@ const Periodontograma = () => {
                           tabindex="474"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps37b-a"
@@ -4276,7 +4277,7 @@ const Periodontograma = () => {
                           tabindex="477"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ps38b-a"
@@ -4301,8 +4302,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Margen gingival</td>
-                      <td class="borde">
+                      <td className="titulo">Margen gingival</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg48b-a"
@@ -4325,7 +4326,7 @@ const Periodontograma = () => {
                           tabindex="483"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg47b-a"
@@ -4348,7 +4349,7 @@ const Periodontograma = () => {
                           tabindex="486"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg46b-a"
@@ -4374,7 +4375,7 @@ const Periodontograma = () => {
                           tabindex="489"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg45b-a"
@@ -4400,7 +4401,7 @@ const Periodontograma = () => {
                           tabindex="492"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg44b-a"
@@ -4426,7 +4427,7 @@ const Periodontograma = () => {
                           tabindex="495"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg43b-a"
@@ -4452,7 +4453,7 @@ const Periodontograma = () => {
                           tabindex="498"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg42b-a"
@@ -4478,7 +4479,7 @@ const Periodontograma = () => {
                           tabindex="501"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg41b-a"
@@ -4504,7 +4505,7 @@ const Periodontograma = () => {
                           tabindex="504"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg31b-a"
@@ -4530,7 +4531,7 @@ const Periodontograma = () => {
                           tabindex="507"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg32b-a"
@@ -4553,7 +4554,7 @@ const Periodontograma = () => {
                           tabindex="510"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg33b-a"
@@ -4576,7 +4577,7 @@ const Periodontograma = () => {
                           tabindex="513"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg34b-a"
@@ -4599,7 +4600,7 @@ const Periodontograma = () => {
                           tabindex="516"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg35b-a"
@@ -4622,7 +4623,7 @@ const Periodontograma = () => {
                           tabindex="519"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg36b-a"
@@ -4645,7 +4646,7 @@ const Periodontograma = () => {
                           tabindex="522"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg37b-a"
@@ -4668,7 +4669,7 @@ const Periodontograma = () => {
                           tabindex="525"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="mg38b-a"
@@ -4693,8 +4694,8 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Anchura encía</td>
-                      <td class="borde">
+                      <td className="titulo">Anchura encía</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae48b"
@@ -4703,7 +4704,7 @@ const Periodontograma = () => {
                           tabindex="529"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae47b"
@@ -4712,7 +4713,7 @@ const Periodontograma = () => {
                           tabindex="530"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae46b"
@@ -4721,7 +4722,7 @@ const Periodontograma = () => {
                           tabindex="531"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae45b"
@@ -4730,7 +4731,7 @@ const Periodontograma = () => {
                           tabindex="532"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae44b"
@@ -4739,7 +4740,7 @@ const Periodontograma = () => {
                           tabindex="533"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae43b"
@@ -4748,7 +4749,7 @@ const Periodontograma = () => {
                           tabindex="534"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae42b"
@@ -4757,7 +4758,7 @@ const Periodontograma = () => {
                           tabindex="535"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae41b"
@@ -4766,7 +4767,7 @@ const Periodontograma = () => {
                           tabindex="536"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae31b"
@@ -4775,7 +4776,7 @@ const Periodontograma = () => {
                           tabindex="537"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae32b"
@@ -4784,7 +4785,7 @@ const Periodontograma = () => {
                           tabindex="538"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae33b"
@@ -4793,7 +4794,7 @@ const Periodontograma = () => {
                           tabindex="539"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae34b"
@@ -4802,7 +4803,7 @@ const Periodontograma = () => {
                           tabindex="540"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae35b"
@@ -4811,7 +4812,7 @@ const Periodontograma = () => {
                           tabindex="541"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae36b"
@@ -4820,7 +4821,7 @@ const Periodontograma = () => {
                           tabindex="542"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae37b"
@@ -4829,7 +4830,7 @@ const Periodontograma = () => {
                           tabindex="543"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="ae38b"
@@ -4840,205 +4841,205 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Placa</td>
-                      <td class="borde">
+                      <td className="titulo">Placa</td>
+                      <td className="borde">
                         <div id="p48b-a"></div>
                         <div id="p48b-b"></div>
                         <div id="p48b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p47b-a"></div>
                         <div id="p47b-b"></div>
                         <div id="p47b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p46b-a"></div>
                         <div id="p46b-b"></div>
                         <div id="p46b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p45b-a"></div>
                         <div id="p45b-b"></div>
                         <div id="p45b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p44b-a"></div>
                         <div id="p44b-b"></div>
                         <div id="p44b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p43b-a"></div>
                         <div id="p43b-b"></div>
                         <div id="p43b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p42b-a"></div>
                         <div id="p42b-b"></div>
                         <div id="p42b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p41b-a"></div>
                         <div id="p41b-b"></div>
                         <div id="p41b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p31b-a"></div>
                         <div id="p31b-b"></div>
                         <div id="p31b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p32b-a"></div>
                         <div id="p32b-b"></div>
                         <div id="p32b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p33b-a"></div>
                         <div id="p33b-b"></div>
                         <div id="p33b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p34b-a"></div>
                         <div id="p34b-b"></div>
                         <div id="p34b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p35b-a"></div>
                         <div id="p35b-b"></div>
                         <div id="p35b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p36b-a"></div>
                         <div id="p36b-b"></div>
                         <div id="p36b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p37b-a"></div>
                         <div id="p37b-b"></div>
                         <div id="p37b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="p38b-a"></div>
                         <div id="p38b-b"></div>
                         <div id="p38b-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Sangrado / Supuración</td>
-                      <td class="borde">
+                      <td className="titulo">Sangrado / Supuración</td>
+                      <td className="borde">
                         <div id="s48b-a"></div>
                         <div id="s48b-b"></div>
                         <div id="s48b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s47b-a"></div>
                         <div id="s47b-b"></div>
                         <div id="s47b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s46b-a"></div>
                         <div id="s46b-b"></div>
                         <div id="s46b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s45b-a"></div>
                         <div id="s45b-b"></div>
                         <div id="s45b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s44b-a"></div>
                         <div id="s44b-b"></div>
                         <div id="s44b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s43b-a"></div>
                         <div id="s43b-b"></div>
                         <div id="s43b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s42b-a"></div>
                         <div id="s42b-b"></div>
                         <div id="s42b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s41b-a"></div>
                         <div id="s41b-b"></div>
                         <div id="s41b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s31b-a"></div>
                         <div id="s31b-b"></div>
                         <div id="s31b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s32b-a"></div>
                         <div id="s32b-b"></div>
                         <div id="s32b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s33b-a"></div>
                         <div id="s33b-b"></div>
                         <div id="s33b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s34b-a"></div>
                         <div id="s34b-b"></div>
                         <div id="s34b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s35b-a"></div>
                         <div id="s35b-b"></div>
                         <div id="s35b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s36b-a"></div>
                         <div id="s36b-b"></div>
                         <div id="s36b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s37b-a"></div>
                         <div id="s37b-b"></div>
                         <div id="s37b-c"></div>
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <div id="s38b-a"></div>
                         <div id="s38b-b"></div>
                         <div id="s38b-c"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Furca</td>
-                      <td class="borde">
-                        <div class="f" id="f48b"></div>
+                      <td className="titulo">Furca</td>
+                      <td className="borde">
+                        <div className="f" id="f48b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f47b"></div>
+                      <td className="borde">
+                        <div className="f" id="f47b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f46b"></div>
+                      <td className="borde">
+                        <div className="f" id="f46b"></div>
                       </td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde"></td>
-                      <td class="borde">
-                        <div class="f" id="f36b"></div>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde"></td>
+                      <td className="borde">
+                        <div className="f" id="f36b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f37b"></div>
+                      <td className="borde">
+                        <div className="f" id="f37b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="f" id="f38b"></div>
+                      <td className="borde">
+                        <div className="f" id="f38b"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Pronóstico individual</td>
-                      <td class="borde">
+                      <td className="titulo">Pronóstico individual</td>
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi48b"
@@ -5046,7 +5047,7 @@ const Periodontograma = () => {
                           tabindex="545"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi47b"
@@ -5054,7 +5055,7 @@ const Periodontograma = () => {
                           tabindex="546"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi46b"
@@ -5062,7 +5063,7 @@ const Periodontograma = () => {
                           tabindex="547"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi45b"
@@ -5070,7 +5071,7 @@ const Periodontograma = () => {
                           tabindex="548"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi44b"
@@ -5078,7 +5079,7 @@ const Periodontograma = () => {
                           tabindex="549"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi43b"
@@ -5086,7 +5087,7 @@ const Periodontograma = () => {
                           tabindex="550"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi42b"
@@ -5094,7 +5095,7 @@ const Periodontograma = () => {
                           tabindex="551"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi41b"
@@ -5102,7 +5103,7 @@ const Periodontograma = () => {
                           tabindex="552"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi31b"
@@ -5110,7 +5111,7 @@ const Periodontograma = () => {
                           tabindex="553"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi32b"
@@ -5118,7 +5119,7 @@ const Periodontograma = () => {
                           tabindex="554"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi33b"
@@ -5126,7 +5127,7 @@ const Periodontograma = () => {
                           tabindex="555"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi34b"
@@ -5134,7 +5135,7 @@ const Periodontograma = () => {
                           tabindex="556"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi35b"
@@ -5142,7 +5143,7 @@ const Periodontograma = () => {
                           tabindex="557"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi36b"
@@ -5150,7 +5151,7 @@ const Periodontograma = () => {
                           tabindex="558"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi37b"
@@ -5158,7 +5159,7 @@ const Periodontograma = () => {
                           tabindex="559"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
                           type="text"
                           id="pi38b"
@@ -5168,145 +5169,145 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Movilidad</td>
-                      <td class="borde">
+                      <td className="titulo">Movilidad</td>
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m48b"
                           name="m48b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m47b"
                           name="m47b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m46b"
                           name="m46b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m45b"
                           name="m45b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m44b"
                           name="m44b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m43b"
                           name="m43b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m42b"
                           name="m42b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m41b"
                           name="m41b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m31b"
                           name="m31b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m32b"
                           name="m32b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m33b"
                           name="m33b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m34b"
                           name="m34b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m35b"
                           name="m35b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m36b"
                           name="m36b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m37b"
                           name="m37b"
                           value="0"
                         />
                       </td>
-                      <td class="borde">
+                      <td className="borde">
                         <input
-                          class="mov"
+                          className="mov"
                           type="text"
                           id="m38b"
                           name="m38b"
@@ -5315,135 +5316,135 @@ const Periodontograma = () => {
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo">Implante</td>
-                      <td class="borde">
-                        <div class="i" id="i48b"></div>
+                      <td className="titulo">Implante</td>
+                      <td className="borde">
+                        <div className="i" id="i48b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i47b"></div>
+                      <td className="borde">
+                        <div className="i" id="i47b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i46b"></div>
+                      <td className="borde">
+                        <div className="i" id="i46b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i45b"></div>
+                      <td className="borde">
+                        <div className="i" id="i45b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i44b"></div>
+                      <td className="borde">
+                        <div className="i" id="i44b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i43b"></div>
+                      <td className="borde">
+                        <div className="i" id="i43b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i42b"></div>
+                      <td className="borde">
+                        <div className="i" id="i42b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i41b"></div>
+                      <td className="borde">
+                        <div className="i" id="i41b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i31b"></div>
+                      <td className="borde">
+                        <div className="i" id="i31b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i32b"></div>
+                      <td className="borde">
+                        <div className="i" id="i32b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i33b"></div>
+                      <td className="borde">
+                        <div className="i" id="i33b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i34b"></div>
+                      <td className="borde">
+                        <div className="i" id="i34b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i35b"></div>
+                      <td className="borde">
+                        <div className="i" id="i35b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i36b"></div>
+                      <td className="borde">
+                        <div className="i" id="i36b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i37b"></div>
+                      <td className="borde">
+                        <div className="i" id="i37b"></div>
                       </td>
-                      <td class="borde">
-                        <div class="i" id="i38b"></div>
+                      <td className="borde">
+                        <div className="i" id="i38b"></div>
                       </td>
                     </tr>
                     <tr>
-                      <td class="titulo"></td>
-                      <td class="borde">
-                        <div class="d" id="d48b">
+                      <td className="titulo"></td>
+                      <td className="borde">
+                        <div className="d" id="d48b">
                           4.8
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d47b">
+                      <td className="borde">
+                        <div className="d" id="d47b">
                           4.7
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d46b">
+                      <td className="borde">
+                        <div className="d" id="d46b">
                           4.6
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d45b">
+                      <td className="borde">
+                        <div className="d" id="d45b">
                           4.5
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d44b">
+                      <td className="borde">
+                        <div className="d" id="d44b">
                           4.4
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d43b">
+                      <td className="borde">
+                        <div className="d" id="d43b">
                           4.3
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d42b">
+                      <td className="borde">
+                        <div className="d" id="d42b">
                           4.2
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d41b">
+                      <td className="borde">
+                        <div className="d" id="d41b">
                           4.1
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d31b">
+                      <td className="borde">
+                        <div className="d" id="d31b">
                           3.1
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d32b">
+                      <td className="borde">
+                        <div className="d" id="d32b">
                           3.2
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d33b">
+                      <td className="borde">
+                        <div className="d" id="d33b">
                           3.3
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d34b">
+                      <td className="borde">
+                        <div className="d" id="d34b">
                           3.4
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d35b">
+                      <td className="borde">
+                        <div className="d" id="d35b">
                           3.5
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d36b">
+                      <td className="borde">
+                        <div className="d" id="d36b">
                           3.6
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d37b">
+                      <td className="borde">
+                        <div className="d" id="d37b">
                           3.7
                         </div>
                       </td>
-                      <td class="borde">
-                        <div class="d" id="d38b">
+                      <td className="borde">
+                        <div className="d" id="d38b">
                           3.8
                         </div>
                       </td>
