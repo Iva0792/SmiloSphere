@@ -86,3 +86,18 @@ input[type=checkbox]:checked~.dropdown::before{
     user-select: none;
     margin: 0px -25px;
 }
+
+/*Responsive*/
+
+@media (max-width: 576px) {
+
+    .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+}

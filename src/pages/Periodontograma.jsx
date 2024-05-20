@@ -1,6 +1,5 @@
 import "./Periodonto.css";
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Periodontograma = () => {
   return (
@@ -701,7 +700,6 @@ const Periodontograma = () => {
                           id="ae18"
                           name="ae18"
                           value=""
-                          tabindex="33"
                         />
                       </td>
                       <td className="borde">
@@ -710,7 +708,6 @@ const Periodontograma = () => {
                           id="ae17"
                           name="ae17"
                           value=""
-                          tabindex="34"
                         />
                       </td>
                       <td className="borde">
@@ -719,7 +716,6 @@ const Periodontograma = () => {
                           id="ae16"
                           name="ae16"
                           value=""
-                          tabindex="35"
                         />
                       </td>
                       <td className="borde">
@@ -728,7 +724,6 @@ const Periodontograma = () => {
                           id="ae15"
                           name="ae15"
                           value=""
-                          tabindex="36"
                         />
                       </td>
                       <td className="borde">
@@ -737,7 +732,6 @@ const Periodontograma = () => {
                           id="ae14"
                           name="ae14"
                           value=""
-                          tabindex="37"
                         />
                       </td>
                       <td className="borde">
@@ -746,7 +740,6 @@ const Periodontograma = () => {
                           id="ae13"
                           name="ae13"
                           value=""
-                          tabindex="38"
                         />
                       </td>
                       <td className="borde">
@@ -755,7 +748,6 @@ const Periodontograma = () => {
                           id="ae12"
                           name="ae12"
                           value=""
-                          tabindex="39"
                         />
                       </td>
                       <td className="borde">
@@ -764,7 +756,6 @@ const Periodontograma = () => {
                           id="ae11"
                           name="ae11"
                           value=""
-                          tabindex="40"
                         />
                       </td>
                       <td className="borde">
@@ -773,7 +764,6 @@ const Periodontograma = () => {
                           id="ae21"
                           name="ae21"
                           value=""
-                          tabindex="41"
                         />
                       </td>
                       <td className="borde">
@@ -782,7 +772,6 @@ const Periodontograma = () => {
                           id="ae22"
                           name="ae22"
                           value=""
-                          tabindex="42"
                         />
                       </td>
                       <td className="borde">
@@ -791,7 +780,6 @@ const Periodontograma = () => {
                           id="ae23"
                           name="ae23"
                           value=""
-                          tabindex="43"
                         />
                       </td>
                       <td className="borde">
@@ -800,7 +788,6 @@ const Periodontograma = () => {
                           id="ae24"
                           name="ae24"
                           value=""
-                          tabindex="44"
                         />
                       </td>
                       <td className="borde">
@@ -809,7 +796,6 @@ const Periodontograma = () => {
                           id="ae25"
                           name="ae25"
                           value=""
-                          tabindex="45"
                         />
                       </td>
                       <td className="borde">
@@ -818,7 +804,6 @@ const Periodontograma = () => {
                           id="ae26"
                           name="ae26"
                           value=""
-                          tabindex="46"
                         />
                       </td>
                       <td className="borde">
@@ -826,8 +811,7 @@ const Periodontograma = () => {
                           type="text"
                           id="ae27"
                           name="ae27"
-                          value=""
-                          tabindex="47"
+                          value=""                         
                         />
                       </td>
                       <td className="borde">
@@ -835,8 +819,7 @@ const Periodontograma = () => {
                           type="text"
                           id="ae28"
                           name="ae28"
-                          value=""
-                          tabindex="48"
+                          value=""                     
                         />
                       </td>
                     </tr>
@@ -848,21 +831,21 @@ const Periodontograma = () => {
                           id="mg18-a"
                           name="mg18-a"
                           value="0"
-                          tabindex="49"
+                         
                         />
                         <input
                           type="text"
                           id="mg18-b"
                           name="mg18-b"
                           value="0"
-                          tabindex="50"
+                         
                         />
                         <input
                           type="text"
                           id="mg18-c"
                           name="mg18-c"
                           value="0"
-                          tabindex="51"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -871,21 +854,21 @@ const Periodontograma = () => {
                           id="mg17-a"
                           name="mg17-a"
                           value="0"
-                          tabindex="52"
+                         
                         />
                         <input
                           type="text"
                           id="mg17-b"
                           name="mg17-b"
                           value="0"
-                          tabindex="53"
+                         
                         />
                         <input
                           type="text"
                           id="mg17-c"
                           name="mg17-c"
                           value="0"
-                          tabindex="54"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -894,21 +877,21 @@ const Periodontograma = () => {
                           id="mg16-a"
                           name="mg16-a"
                           value="0"
-                          tabindex="55"
+                         
                         />
                         <input
                           type="text"
                           id="mg16-b"
                           name="mg16-b"
                           value="0"
-                          tabindex="56"
+                         
                         />
                         <input
                           type="text"
                           id="mg16-c"
                           name="mg16-c"
                           value="0"
-                          tabindex="57"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -917,21 +900,21 @@ const Periodontograma = () => {
                           id="mg15-a"
                           name="mg15-a"
                           value="0"
-                          tabindex="57"
+                         
                         />
                         <input
                           type="text"
                           id="mg15-b"
                           name="mg15-b"
                           value="0"
-                          tabindex="59"
+                         
                         />
                         <input
                           type="text"
                           id="mg15-c"
                           name="mg15-c"
                           value="0"
-                          tabindex="60"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -940,21 +923,21 @@ const Periodontograma = () => {
                           id="mg14-a"
                           name="mg14-a"
                           value="0"
-                          tabindex="61"
+                         
                         />
                         <input
                           type="text"
                           id="mg14-b"
                           name="mg14-b"
                           value="0"
-                          tabindex="62"
+                         
                         />
                         <input
                           type="text"
                           id="mg14-c"
                           name="mg14-c"
                           value="0"
-                          tabindex="63"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -963,21 +946,21 @@ const Periodontograma = () => {
                           id="mg13-a"
                           name="mg13-a"
                           value="0"
-                          tabindex="64"
+                         
                         />
                         <input
                           type="text"
                           id="mg13-b"
                           name="mg13-b"
                           value="0"
-                          tabindex="65"
+                         
                         />
                         <input
                           type="text"
                           id="mg13-c"
                           name="mg13-c"
                           value="0"
-                          tabindex="66"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -986,21 +969,21 @@ const Periodontograma = () => {
                           id="mg12-a"
                           name="mg12-a"
                           value="0"
-                          tabindex="67"
+                         
                         />
                         <input
                           type="text"
                           id="mg12-b"
                           name="mg12-b"
                           value="0"
-                          tabindex="68"
+                         
                         />
                         <input
                           type="text"
                           id="mg12-c"
                           name="mg12-c"
                           value="0"
-                          tabindex="69"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1009,21 +992,21 @@ const Periodontograma = () => {
                           id="mg11-a"
                           name="mg11-a"
                           value="0"
-                          tabindex="70"
+                         
                         />
                         <input
                           type="text"
                           id="mg11-b"
                           name="mg11-b"
                           value="0"
-                          tabindex="71"
+                         
                         />
                         <input
                           type="text"
                           id="mg11-c"
                           name="mg11-c"
                           value="0"
-                          tabindex="72"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1032,21 +1015,21 @@ const Periodontograma = () => {
                           id="mg21-a"
                           name="mg21-a"
                           value="0"
-                          tabindex="73"
+                         
                         />
                         <input
                           type="text"
                           id="mg21-b"
                           name="mg21-b"
                           value="0"
-                          tabindex="74"
+                         
                         />
                         <input
                           type="text"
                           id="mg21-c"
                           name="mg21-c"
                           value="0"
-                          tabindex="75"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1055,21 +1038,21 @@ const Periodontograma = () => {
                           id="mg22-a"
                           name="mg22-a"
                           value="0"
-                          tabindex="76"
+                         
                         />
                         <input
                           type="text"
                           id="mg22-b"
                           name="mg22-b"
                           value="0"
-                          tabindex="77"
+                         
                         />
                         <input
                           type="text"
                           id="mg22-c"
                           name="mg22-c"
                           value="0"
-                          tabindex="78"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1078,21 +1061,21 @@ const Periodontograma = () => {
                           id="mg23-a"
                           name="mg23-a"
                           value="0"
-                          tabindex="79"
+                         
                         />
                         <input
                           type="text"
                           id="mg23-b"
                           name="mg23-b"
                           value="0"
-                          tabindex="80"
+                         
                         />
                         <input
                           type="text"
                           id="mg23-c"
                           name="mg23-c"
                           value="0"
-                          tabindex="81"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1101,21 +1084,21 @@ const Periodontograma = () => {
                           id="mg24-a"
                           name="mg24-a"
                           value="0"
-                          tabindex="82"
+                         
                         />
                         <input
                           type="text"
                           id="mg24-b"
                           name="mg24-b"
                           value="0"
-                          tabindex="83"
+                         
                         />
                         <input
                           type="text"
                           id="mg24-c"
                           name="mg24-c"
                           value="0"
-                          tabindex="84"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1124,21 +1107,21 @@ const Periodontograma = () => {
                           id="mg25-a"
                           name="mg25-a"
                           value="0"
-                          tabindex="85"
+                         
                         />
                         <input
                           type="text"
                           id="mg25-b"
                           name="mg25-b"
                           value="0"
-                          tabindex="86"
+                         
                         />
                         <input
                           type="text"
                           id="mg25-c"
                           name="mg25-c"
                           value="0"
-                          tabindex="87"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1147,21 +1130,21 @@ const Periodontograma = () => {
                           id="mg26-a"
                           name="mg26-a"
                           value="0"
-                          tabindex="88"
+                         
                         />
                         <input
                           type="text"
                           id="mg26-b"
                           name="mg26-b"
                           value="0"
-                          tabindex="89"
+                         
                         />
                         <input
                           type="text"
                           id="mg26-c"
                           name="mg26-c"
                           value="0"
-                          tabindex="90"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1170,21 +1153,21 @@ const Periodontograma = () => {
                           id="mg27-a"
                           name="mg27-a"
                           value="0"
-                          tabindex="91"
+                         
                         />
                         <input
                           type="text"
                           id="mg27-b"
                           name="mg27-b"
                           value="0"
-                          tabindex="92"
+                         
                         />
                         <input
                           type="text"
                           id="mg27-c"
                           name="mg27-c"
                           value="0"
-                          tabindex="93"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1193,21 +1176,21 @@ const Periodontograma = () => {
                           id="mg28-a"
                           name="mg28-a"
                           value="0"
-                          tabindex="94"
+                         
                         />
                         <input
                           type="text"
                           id="mg28-b"
                           name="mg28-b"
                           value="0"
-                          tabindex="95"
+                         
                         />
                         <input
                           type="text"
                           id="mg28-c"
                           name="mg28-c"
                           value="0"
-                          tabindex="96"
+                         
                         />
                       </td>
                     </tr>
@@ -1219,21 +1202,21 @@ const Periodontograma = () => {
                           id="ps18-a"
                           name="ps18-a"
                           value="0"
-                          tabindex="97"
+                         
                         />
                         <input
                           type="text"
                           id="ps18-b"
                           name="ps18-b"
                           value="0"
-                          tabindex="98"
+                         
                         />
                         <input
                           type="text"
                           id="ps18-c"
                           name="ps18-c"
                           value="0"
-                          tabindex="99"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1242,21 +1225,21 @@ const Periodontograma = () => {
                           id="ps17-a"
                           name="ps17-a"
                           value="0"
-                          tabindex="100"
+                         
                         />
                         <input
                           type="text"
                           id="ps17-b"
                           name="ps17-b"
                           value="0"
-                          tabindex="101"
+                         
                         />
                         <input
                           type="text"
                           id="ps17-c"
                           name="ps17-c"
                           value="0"
-                          tabindex="102"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1265,21 +1248,21 @@ const Periodontograma = () => {
                           id="ps16-a"
                           name="ps16-a"
                           value="0"
-                          tabindex="103"
+                         
                         />
                         <input
                           type="text"
                           id="ps16-b"
                           name="ps16-b"
                           value="0"
-                          tabindex="104"
+                         
                         />
                         <input
                           type="text"
                           id="ps16-c"
                           name="ps16-c"
                           value="0"
-                          tabindex="105"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1288,21 +1271,21 @@ const Periodontograma = () => {
                           id="ps15-a"
                           name="ps15-a"
                           value="0"
-                          tabindex="106"
+                         
                         />
                         <input
                           type="text"
                           id="ps15-b"
                           name="ps15-b"
                           value="0"
-                          tabindex="107"
+                         
                         />
                         <input
                           type="text"
                           id="ps15-c"
                           name="ps15-c"
                           value="0"
-                          tabindex="108"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1311,21 +1294,21 @@ const Periodontograma = () => {
                           id="ps14-a"
                           name="ps14-a"
                           value="0"
-                          tabindex="109"
+                         
                         />
                         <input
                           type="text"
                           id="ps14-b"
                           name="ps14-b"
                           value="0"
-                          tabindex="110"
+                         
                         />
                         <input
                           type="text"
                           id="ps14-c"
                           name="ps14-c"
                           value="0"
-                          tabindex="111"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1334,21 +1317,21 @@ const Periodontograma = () => {
                           id="ps13-a"
                           name="ps13-a"
                           value="0"
-                          tabindex="112"
+                         
                         />
                         <input
                           type="text"
                           id="ps13-b"
                           name="ps13-b"
                           value="0"
-                          tabindex="113"
+                         
                         />
                         <input
                           type="text"
                           id="ps13-c"
                           name="ps13-c"
                           value="0"
-                          tabindex="114"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1357,21 +1340,21 @@ const Periodontograma = () => {
                           id="ps12-a"
                           name="ps12-a"
                           value="0"
-                          tabindex="115"
+                         
                         />
                         <input
                           type="text"
                           id="ps12-b"
                           name="ps12-b"
                           value="0"
-                          tabindex="116"
+                         
                         />
                         <input
                           type="text"
                           id="ps12-c"
                           name="ps12-c"
                           value="0"
-                          tabindex="117"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1380,21 +1363,21 @@ const Periodontograma = () => {
                           id="ps11-a"
                           name="ps11-a"
                           value="0"
-                          tabindex="118"
+                         
                         />
                         <input
                           type="text"
                           id="ps11-b"
                           name="ps11-b"
                           value="0"
-                          tabindex="119"
+                         
                         />
                         <input
                           type="text"
                           id="ps11-c"
                           name="ps11-c"
                           value="0"
-                          tabindex="120"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1403,21 +1386,21 @@ const Periodontograma = () => {
                           id="ps21-a"
                           name="ps21-a"
                           value="0"
-                          tabindex="121"
+                         
                         />
                         <input
                           type="text"
                           id="ps21-b"
                           name="ps21-b"
                           value="0"
-                          tabindex="122"
+                         
                         />
                         <input
                           type="text"
                           id="ps21-c"
                           name="ps21-c"
                           value="0"
-                          tabindex="123"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1426,21 +1409,21 @@ const Periodontograma = () => {
                           id="ps22-a"
                           name="ps22-a"
                           value="0"
-                          tabindex="124"
+                         
                         />
                         <input
                           type="text"
                           id="ps22-b"
                           name="ps22-b"
                           value="0"
-                          tabindex="125"
+                         
                         />
                         <input
                           type="text"
                           id="ps22-c"
                           name="ps22-c"
                           value="0"
-                          tabindex="126"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1449,21 +1432,21 @@ const Periodontograma = () => {
                           id="ps23-a"
                           name="ps23-a"
                           value="0"
-                          tabindex="127"
+                         
                         />
                         <input
                           type="text"
                           id="ps23-b"
                           name="ps23-b"
                           value="0"
-                          tabindex="128"
+                         
                         />
                         <input
                           type="text"
                           id="ps23-c"
                           name="ps23-c"
                           value="0"
-                          tabindex="129"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1472,21 +1455,21 @@ const Periodontograma = () => {
                           id="ps24-a"
                           name="ps24-a"
                           value="0"
-                          tabindex="130"
+                         
                         />
                         <input
                           type="text"
                           id="ps24-b"
                           name="ps24-b"
                           value="0"
-                          tabindex="131"
+                         
                         />
                         <input
                           type="text"
                           id="ps24-c"
                           name="ps24-c"
                           value="0"
-                          tabindex="132"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1495,21 +1478,21 @@ const Periodontograma = () => {
                           id="ps25-a"
                           name="ps25-a"
                           value="0"
-                          tabindex="133"
+                         
                         />
                         <input
                           type="text"
                           id="ps25-b"
                           name="ps25-b"
                           value="0"
-                          tabindex="134"
+                         
                         />
                         <input
                           type="text"
                           id="ps25-c"
                           name="ps25-c"
                           value="0"
-                          tabindex="135"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1518,21 +1501,21 @@ const Periodontograma = () => {
                           id="ps26-a"
                           name="ps26-a"
                           value="0"
-                          tabindex="136"
+                         
                         />
                         <input
                           type="text"
                           id="ps26-b"
                           name="ps26-b"
                           value="0"
-                          tabindex="137"
+                         
                         />
                         <input
                           type="text"
                           id="ps26-c"
                           name="ps26-c"
                           value="0"
-                          tabindex="138"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1541,21 +1524,21 @@ const Periodontograma = () => {
                           id="ps27-a"
                           name="ps27-a"
                           value="0"
-                          tabindex="139"
+                         
                         />
                         <input
                           type="text"
                           id="ps27-b"
                           name="ps27-b"
                           value="0"
-                          tabindex="140"
+                         
                         />
                         <input
                           type="text"
                           id="ps27-c"
                           name="ps27-c"
                           value="0"
-                          tabindex="141"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1564,21 +1547,21 @@ const Periodontograma = () => {
                           id="ps28-a"
                           name="ps28-a"
                           value="0"
-                          tabindex="142"
+                         
                         />
                         <input
                           type="text"
                           id="ps28-b"
                           name="ps28-b"
                           value="0"
-                          tabindex="143"
+                         
                         />
                         <input
                           type="text"
                           id="ps28-c"
                           name="ps28-c"
                           value="0"
-                          tabindex="144"
+                         
                         />
                       </td>
                     </tr>
@@ -1764,21 +1747,21 @@ const Periodontograma = () => {
                           id="ps18b-a"
                           name="ps18b-a"
                           value="0"
-                          tabindex="145"
+                         
                         />
                         <input
                           type="text"
                           id="ps18b-b"
                           name="ps18b-b"
                           value="0"
-                          tabindex="146"
+                         
                         />
                         <input
                           type="text"
                           id="ps18b-c"
                           name="ps18b-c"
                           value="0"
-                          tabindex="147"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1787,21 +1770,21 @@ const Periodontograma = () => {
                           id="ps17b-a"
                           name="ps17b-a"
                           value="0"
-                          tabindex="148"
+                         
                         />
                         <input
                           type="text"
                           id="ps17b-b"
                           name="ps17b-b"
                           value="0"
-                          tabindex="149"
+                         
                         />
                         <input
                           type="text"
                           id="ps17b-c"
                           name="ps17b-c"
                           value="0"
-                          tabindex="150"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1810,21 +1793,21 @@ const Periodontograma = () => {
                           id="ps16b-a"
                           name="ps16b-a"
                           value="0"
-                          tabindex="151"
+                         
                         />
                         <input
                           type="text"
                           id="ps16b-b"
                           name="ps16b-b"
                           value="0"
-                          tabindex="152"
+                         
                         />
                         <input
                           type="text"
                           id="ps16b-c"
                           name="ps16b-c"
                           value="0"
-                          tabindex="153"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1833,21 +1816,21 @@ const Periodontograma = () => {
                           id="ps15b-a"
                           name="ps15b-a"
                           value="0"
-                          tabindex="154"
+                         
                         />
                         <input
                           type="text"
                           id="ps15b-b"
                           name="ps15b-b"
                           value="0"
-                          tabindex="155"
+                         
                         />
                         <input
                           type="text"
                           id="ps15b-c"
                           name="ps15b-c"
                           value="0"
-                          tabindex="156"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1856,21 +1839,21 @@ const Periodontograma = () => {
                           id="ps14b-a"
                           name="ps14b-a"
                           value="0"
-                          tabindex="157"
+                         
                         />
                         <input
                           type="text"
                           id="ps14b-b"
                           name="ps14b-b"
                           value="0"
-                          tabindex="158"
+                         
                         />
                         <input
                           type="text"
                           id="ps14b-c"
                           name="ps14b-c"
                           value="0"
-                          tabindex="159"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1879,21 +1862,21 @@ const Periodontograma = () => {
                           id="ps13b-a"
                           name="ps13b-a"
                           value="0"
-                          tabindex="160"
+                         
                         />
                         <input
                           type="text"
                           id="ps13b-b"
                           name="ps13b-b"
                           value="0"
-                          tabindex="161"
+                         
                         />
                         <input
                           type="text"
                           id="ps13b-c"
                           name="ps13b-c"
                           value="0"
-                          tabindex="162"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1902,21 +1885,21 @@ const Periodontograma = () => {
                           id="ps12b-a"
                           name="ps12b-a"
                           value="0"
-                          tabindex="163"
+                         
                         />
                         <input
                           type="text"
                           id="ps12b-b"
                           name="ps12b-b"
                           value="0"
-                          tabindex="164"
+                         
                         />
                         <input
                           type="text"
                           id="ps12b-c"
                           name="ps12b-c"
                           value="0"
-                          tabindex="165"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1925,21 +1908,21 @@ const Periodontograma = () => {
                           id="ps11b-a"
                           name="ps11b-a"
                           value="0"
-                          tabindex="166"
+                         
                         />
                         <input
                           type="text"
                           id="ps11b-b"
                           name="ps11b-b"
                           value="0"
-                          tabindex="167"
+                         
                         />
                         <input
                           type="text"
                           id="ps11b-c"
                           name="ps11b-c"
                           value="0"
-                          tabindex="168"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1948,21 +1931,21 @@ const Periodontograma = () => {
                           id="ps21b-a"
                           name="ps21b-a"
                           value="0"
-                          tabindex="169"
+                         
                         />
                         <input
                           type="text"
                           id="ps21b-b"
                           name="ps21b-b"
                           value="0"
-                          tabindex="170"
+                         
                         />
                         <input
                           type="text"
                           id="ps21b-c"
                           name="ps21b-c"
                           value="0"
-                          tabindex="171"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1971,21 +1954,21 @@ const Periodontograma = () => {
                           id="ps22b-a"
                           name="ps22b-a"
                           value="0"
-                          tabindex="172"
+                         
                         />
                         <input
                           type="text"
                           id="ps22b-b"
                           name="ps22b-b"
                           value="0"
-                          tabindex="173"
+                         
                         />
                         <input
                           type="text"
                           id="ps22b-c"
                           name="ps22b-c"
                           value="0"
-                          tabindex="174"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -1994,21 +1977,21 @@ const Periodontograma = () => {
                           id="ps23b-a"
                           name="ps23b-a"
                           value="0"
-                          tabindex="175"
+                         
                         />
                         <input
                           type="text"
                           id="ps23b-b"
                           name="ps23b-b"
                           value="0"
-                          tabindex="176"
+                         
                         />
                         <input
                           type="text"
                           id="ps23b-c"
                           name="ps23b-c"
                           value="0"
-                          tabindex="177"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2017,21 +2000,21 @@ const Periodontograma = () => {
                           id="ps24b-a"
                           name="ps24b-a"
                           value="0"
-                          tabindex="178"
+                         
                         />
                         <input
                           type="text"
                           id="ps24b-b"
                           name="ps24b-b"
                           value="0"
-                          tabindex="179"
+                         
                         />
                         <input
                           type="text"
                           id="ps24b-c"
                           name="ps24b-c"
                           value="0"
-                          tabindex="180"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2040,21 +2023,21 @@ const Periodontograma = () => {
                           id="ps25b-a"
                           name="ps25b-a"
                           value="0"
-                          tabindex="181"
+                         
                         />
                         <input
                           type="text"
                           id="ps25b-b"
                           name="ps25b-b"
                           value="0"
-                          tabindex="182"
+                         
                         />
                         <input
                           type="text"
                           id="ps25b-c"
                           name="ps25b-c"
                           value="0"
-                          tabindex="183"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2063,21 +2046,21 @@ const Periodontograma = () => {
                           id="ps26b-a"
                           name="ps26b-a"
                           value="0"
-                          tabindex="184"
+                         
                         />
                         <input
                           type="text"
                           id="ps26b-b"
                           name="ps26b-b"
                           value="0"
-                          tabindex="185"
+                         
                         />
                         <input
                           type="text"
                           id="ps26b-c"
                           name="ps26b-c"
                           value="0"
-                          tabindex="186"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2086,21 +2069,21 @@ const Periodontograma = () => {
                           id="ps27b-a"
                           name="ps27b-a"
                           value="0"
-                          tabindex="187"
+                         
                         />
                         <input
                           type="text"
                           id="ps27b-b"
                           name="ps27b-b"
                           value="0"
-                          tabindex="188"
+                         
                         />
                         <input
                           type="text"
                           id="ps27b-c"
                           name="ps27b-c"
                           value="0"
-                          tabindex="189"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2109,21 +2092,21 @@ const Periodontograma = () => {
                           id="ps28b-a"
                           name="ps28b-a"
                           value="0"
-                          tabindex="190"
+                         
                         />
                         <input
                           type="text"
                           id="ps28b-b"
                           name="ps28b-b"
                           value="0"
-                          tabindex="191"
+                         
                         />
                         <input
                           type="text"
                           id="ps28b-c"
                           name="ps28b-c"
                           value="0"
-                          tabindex="192"
+                         
                         />
                       </td>
                     </tr>
@@ -2135,21 +2118,21 @@ const Periodontograma = () => {
                           id="mg18b-a"
                           name="mg18b-a"
                           value="0"
-                          tabindex="193"
+                         
                         />
                         <input
                           type="text"
                           id="mg18b-b"
                           name="mg18b-b"
                           value="0"
-                          tabindex="194"
+                         
                         />
                         <input
                           type="text"
                           id="mg18b-c"
                           name="mg18b-c"
                           value="0"
-                          tabindex="195"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2158,21 +2141,21 @@ const Periodontograma = () => {
                           id="mg17b-a"
                           name="mg17b-a"
                           value="0"
-                          tabindex="196"
+                         
                         />
                         <input
                           type="text"
                           id="mg17b-b"
                           name="mg17b-b"
                           value="0"
-                          tabindex="197"
+                         
                         />
                         <input
                           type="text"
                           id="mg17b-c"
                           name="mg17b-c"
                           value="0"
-                          tabindex="198"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2181,21 +2164,21 @@ const Periodontograma = () => {
                           id="mg16b-a"
                           name="mg16b-a"
                           value="0"
-                          tabindex="199"
+                         
                         />
                         <input
                           type="text"
                           id="mg16b-b"
                           name="mg16b-b"
                           value="0"
-                          tabindex="200"
+                         
                         />
                         <input
                           type="text"
                           id="mg16b-c"
                           name="mg16b-c"
                           value="0"
-                          tabindex="201"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2204,21 +2187,21 @@ const Periodontograma = () => {
                           id="mg15b-a"
                           name="mg15b-a"
                           value="0"
-                          tabindex="202"
+                         
                         />
                         <input
                           type="text"
                           id="mg15b-b"
                           name="mg15b-b"
                           value="0"
-                          tabindex="203"
+                         
                         />
                         <input
                           type="text"
                           id="mg15b-c"
                           name="mg15b-c"
                           value="0"
-                          tabindex="204"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2227,21 +2210,21 @@ const Periodontograma = () => {
                           id="mg14b-a"
                           name="mg14b-a"
                           value="0"
-                          tabindex="205"
+                         
                         />
                         <input
                           type="text"
                           id="mg14b-b"
                           name="mg14b-b"
                           value="0"
-                          tabindex="206"
+                         
                         />
                         <input
                           type="text"
                           id="mg14b-c"
                           name="mg14b-c"
                           value="0"
-                          tabindex="207"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2250,21 +2233,21 @@ const Periodontograma = () => {
                           id="mg13b-a"
                           name="mg13b-a"
                           value="0"
-                          tabindex="208"
+                         
                         />
                         <input
                           type="text"
                           id="mg13b-b"
                           name="mg13b-b"
                           value="0"
-                          tabindex="209"
+                         
                         />
                         <input
                           type="text"
                           id="mg13b-c"
                           name="mg13b-c"
                           value="0"
-                          tabindex="210"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2273,21 +2256,21 @@ const Periodontograma = () => {
                           id="mg12b-a"
                           name="mg12b-a"
                           value="0"
-                          tabindex="211"
+                         
                         />
                         <input
                           type="text"
                           id="mg12b-b"
                           name="mg12b-b"
                           value="0"
-                          tabindex="212"
+                         
                         />
                         <input
                           type="text"
                           id="mg12b-c"
                           name="mg12b-c"
                           value="0"
-                          tabindex="213"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2296,21 +2279,21 @@ const Periodontograma = () => {
                           id="mg11b-a"
                           name="mg11b-a"
                           value="0"
-                          tabindex="214"
+                         
                         />
                         <input
                           type="text"
                           id="mg11b-b"
                           name="mg11b-b"
                           value="0"
-                          tabindex="215"
+                         
                         />
                         <input
                           type="text"
                           id="mg11b-c"
                           name="mg11b-c"
                           value="0"
-                          tabindex="216"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2319,21 +2302,21 @@ const Periodontograma = () => {
                           id="mg21b-a"
                           name="mg21b-a"
                           value="0"
-                          tabindex="217"
+                         
                         />
                         <input
                           type="text"
                           id="mg21b-b"
                           name="mg21b-b"
                           value="0"
-                          tabindex="218"
+                         
                         />
                         <input
                           type="text"
                           id="mg21b-c"
                           name="mg21b-c"
                           value="0"
-                          tabindex="219"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2342,21 +2325,21 @@ const Periodontograma = () => {
                           id="mg22b-a"
                           name="mg22b-a"
                           value="0"
-                          tabindex="220"
+                         
                         />
                         <input
                           type="text"
                           id="mg22b-b"
                           name="mg22b-b"
                           value="0"
-                          tabindex="221"
+                         
                         />
                         <input
                           type="text"
                           id="mg22b-c"
                           name="mg22b-c"
                           value="0"
-                          tabindex="222"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2365,21 +2348,21 @@ const Periodontograma = () => {
                           id="mg23b-a"
                           name="mg23b-a"
                           value="0"
-                          tabindex="223"
+                         
                         />
                         <input
                           type="text"
                           id="mg23b-b"
                           name="mg23b-b"
                           value="0"
-                          tabindex="224"
+                         
                         />
                         <input
                           type="text"
                           id="mg23b-c"
                           name="mg23b-c"
                           value="0"
-                          tabindex="225"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2388,21 +2371,21 @@ const Periodontograma = () => {
                           id="mg24b-a"
                           name="mg24b-a"
                           value="0"
-                          tabindex="226"
+                         
                         />
                         <input
                           type="text"
                           id="mg24b-b"
                           name="mg24b-b"
                           value="0"
-                          tabindex="227"
+                         
                         />
                         <input
                           type="text"
                           id="mg24b-c"
                           name="mg24b-c"
                           value="0"
-                          tabindex="228"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2411,21 +2394,21 @@ const Periodontograma = () => {
                           id="mg25b-a"
                           name="mg25b-a"
                           value="0"
-                          tabindex="229"
+                         
                         />
                         <input
                           type="text"
                           id="mg25b-b"
                           name="mg25b-b"
                           value="0"
-                          tabindex="230"
+                         
                         />
                         <input
                           type="text"
                           id="mg25b-c"
                           name="mg25b-c"
                           value="0"
-                          tabindex="231"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2434,21 +2417,21 @@ const Periodontograma = () => {
                           id="mg26b-a"
                           name="mg26b-a"
                           value="0"
-                          tabindex="232"
+                         
                         />
                         <input
                           type="text"
                           id="mg26b-b"
                           name="mg26b-b"
                           value="0"
-                          tabindex="233"
+                         
                         />
                         <input
                           type="text"
                           id="mg26b-c"
                           name="mg26b-c"
                           value="0"
-                          tabindex="234"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2457,21 +2440,21 @@ const Periodontograma = () => {
                           id="mg27b-a"
                           name="mg27b-a"
                           value="0"
-                          tabindex="235"
+                         
                         />
                         <input
                           type="text"
                           id="mg27b-b"
                           name="mg27b-b"
                           value="0"
-                          tabindex="236"
+                         
                         />
                         <input
                           type="text"
                           id="mg27b-c"
                           name="mg27b-c"
                           value="0"
-                          tabindex="237"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -2480,21 +2463,21 @@ const Periodontograma = () => {
                           id="mg28b-a"
                           name="mg28b-a"
                           value="0"
-                          tabindex="238"
+                         
                         />
                         <input
                           type="text"
                           id="mg28b-b"
                           name="mg28b-b"
                           value="0"
-                          tabindex="239"
+                         
                         />
                         <input
                           type="text"
                           id="mg28b-c"
                           name="mg28b-c"
                           value="0"
-                          tabindex="240"
+                         
                         />
                       </td>
                     </tr>
@@ -2710,52 +2693,52 @@ const Periodontograma = () => {
                     <tr>
                       <td className="titulo">Nota</td>
                       <td className="borde">
-                        <input type="text" id="n18" name="n18" tabindex="241" />
+                        <input type="text" id="n18" name="n18"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n17" name="n17" tabindex="242" />
+                        <input type="text" id="n17" name="n17"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n16" name="n16" tabindex="243" />
+                        <input type="text" id="n16" name="n16"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n15" name="n15" tabindex="244" />
+                        <input type="text" id="n15" name="n15"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n14" name="n14" tabindex="245" />
+                        <input type="text" id="n14" name="n14"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n13" name="n13" tabindex="246" />
+                        <input type="text" id="n13" name="n13"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n12" name="n12" tabindex="247" />
+                        <input type="text" id="n12" name="n12"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n11" name="n11" tabindex="248" />
+                        <input type="text" id="n11" name="n11"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n21" name="n21" tabindex="249" />
+                        <input type="text" id="n21" name="n21"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n22" name="n22" tabindex="250" />
+                        <input type="text" id="n22" name="n22"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n23" name="n23" tabindex="251" />
+                        <input type="text" id="n23" name="n23"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n24" name="n24" tabindex="252" />
+                        <input type="text" id="n24" name="n24"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n25" name="n25" tabindex="253" />
+                        <input type="text" id="n25" name="n25"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n26" name="n26" tabindex="254" />
+                        <input type="text" id="n26" name="n26"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n27" name="n27" tabindex="255" />
+                        <input type="text" id="n27" name="n27"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n28" name="n28" tabindex="256" />
+                        <input type="text" id="n28" name="n28"
                       </td>
                     </tr>
                   </tbody>
@@ -2781,52 +2764,52 @@ const Periodontograma = () => {
                     <tr>
                       <td className="titulo">Nota</td>
                       <td className="borde">
-                        <input type="text" id="n18" name="n18" tabindex="257" />
+                        <input type="text" id="n18" name="n18"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n17" name="n17" tabindex="258" />
+                        <input type="text" id="n17" name="n17"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n16" name="n16" tabindex="259" />
+                        <input type="text" id="n16" name="n16"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n15" name="n15" tabindex="260" />
+                        <input type="text" id="n15" name="n15"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n14" name="n14" tabindex="261" />
+                        <input type="text" id="n14" name="n14"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n13" name="n13" tabindex="262" />
+                        <input type="text" id="n13" name="n13"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n12" name="n12" tabindex="263" />
+                        <input type="text" id="n12" name="n12"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n11" name="n11" tabindex="264" />
+                        <input type="text" id="n11" name="n11"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n21" name="n21" tabindex="265" />
+                        <input type="text" id="n21" name="n21"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n22" name="n22" tabindex="266" />
+                        <input type="text" id="n22" name="n22"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n23" name="n23" tabindex="267" />
+                        <input type="text" id="n23" name="n23"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n24" name="n24" tabindex="268" />
+                        <input type="text" id="n24" name="n24"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n25" name="n25" tabindex="269" />
+                        <input type="text" id="n25" name="n25"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n26" name="n26" tabindex="270" />
+                        <input type="text" id="n26" name="n26"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n27" name="n27" tabindex="271" />
+                        <input type="text" id="n27" name="n27"
                       </td>
                       <td className="borde">
-                        <input type="text" id="n28" name="n28" tabindex="272" />
+                        <input type="text" id="n28" name="n28"
                       </td>
                     </tr>
                     <tr>
@@ -3034,21 +3017,21 @@ const Periodontograma = () => {
                           id="mg48-a"
                           name="mg48-a"
                           value="0"
-                          tabindex="297"
+                         
                         />
                         <input
                           type="text"
                           id="mg48-b"
                           name="mg48-b"
                           value="0"
-                          tabindex="298"
+                         
                         />
                         <input
                           type="text"
                           id="mg48-c"
                           name="mg48-c"
                           value="0"
-                          tabindex="299"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3057,21 +3040,21 @@ const Periodontograma = () => {
                           id="mg47-a"
                           name="mg47-a"
                           value="0"
-                          tabindex="300"
+                         
                         />
                         <input
                           type="text"
                           id="mg47-b"
                           name="mg47-b"
                           value="0"
-                          tabindex="301"
+                         
                         />
                         <input
                           type="text"
                           id="mg47-c"
                           name="mg47-c"
                           value="0"
-                          tabindex="302"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3080,21 +3063,21 @@ const Periodontograma = () => {
                           id="mg46-a"
                           name="mg46-a"
                           value="0"
-                          tabindex="303"
+                         
                         />
                         <input
                           type="text"
                           id="mg46-b"
                           name="mg46-b"
                           value="0"
-                          tabindex="304"
+                         
                         />
                         <input
                           type="text"
                           id="mg46-c"
                           name="mg46-c"
                           value="0"
-                          tabindex="305"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3103,21 +3086,21 @@ const Periodontograma = () => {
                           id="mg45-a"
                           name="mg45-a"
                           value="0"
-                          tabindex="306"
+                         
                         />
                         <input
                           type="text"
                           id="mg45-b"
                           name="mg45-b"
                           value="0"
-                          tabindex="307"
+                         
                         />
                         <input
                           type="text"
                           id="mg45-c"
                           name="mg45-c"
                           value="0"
-                          tabindex="308"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3126,21 +3109,21 @@ const Periodontograma = () => {
                           id="mg44-a"
                           name="mg44-a"
                           value="0"
-                          tabindex="309"
+                         
                         />
                         <input
                           type="text"
                           id="mg44-b"
                           name="mg44-b"
                           value="0"
-                          tabindex="310"
+                         
                         />
                         <input
                           type="text"
                           id="mg44-c"
                           name="mg44-c"
                           value="0"
-                          tabindex="311"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3149,21 +3132,21 @@ const Periodontograma = () => {
                           id="mg43-a"
                           name="mg43-a"
                           value="0"
-                          tabindex="312"
+                         
                         />
                         <input
                           type="text"
                           id="mg43-b"
                           name="mg43-b"
                           value="0"
-                          tabindex="313"
+                         
                         />
                         <input
                           type="text"
                           id="mg43-c"
                           name="mg43-c"
                           value="0"
-                          tabindex="314"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3172,21 +3155,21 @@ const Periodontograma = () => {
                           id="mg42-a"
                           name="mg42-a"
                           value="0"
-                          tabindex="315"
+                         
                         />
                         <input
                           type="text"
                           id="mg42-b"
                           name="mg42-b"
                           value="0"
-                          tabindex="316"
+                         
                         />
                         <input
                           type="text"
                           id="mg42-c"
                           name="mg42-c"
                           value="0"
-                          tabindex="317"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3195,21 +3178,21 @@ const Periodontograma = () => {
                           id="mg41-a"
                           name="mg41-a"
                           value="0"
-                          tabindex="318"
+                         
                         />
                         <input
                           type="text"
                           id="mg41-b"
                           name="mg41-b"
                           value="0"
-                          tabindex="319"
+                         
                         />
                         <input
                           type="text"
                           id="mg41-c"
                           name="mg41-c"
                           value="0"
-                          tabindex="320"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3218,21 +3201,21 @@ const Periodontograma = () => {
                           id="mg31-a"
                           name="mg31-a"
                           value="0"
-                          tabindex="321"
+                         
                         />
                         <input
                           type="text"
                           id="mg31-b"
                           name="mg31-b"
                           value="0"
-                          tabindex="322"
+                         
                         />
                         <input
                           type="text"
                           id="mg31-c"
                           name="mg31-c"
                           value="0"
-                          tabindex="323"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3241,21 +3224,21 @@ const Periodontograma = () => {
                           id="mg32-a"
                           name="mg32-a"
                           value="0"
-                          tabindex="324"
+                         
                         />
                         <input
                           type="text"
                           id="mg32-b"
                           name="mg32-b"
                           value="0"
-                          tabindex="325"
+                         
                         />
                         <input
                           type="text"
                           id="mg32-c"
                           name="mg32-c"
                           value="0"
-                          tabindex="326"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3264,21 +3247,21 @@ const Periodontograma = () => {
                           id="mg33-a"
                           name="mg33-a"
                           value="0"
-                          tabindex="327"
+                         
                         />
                         <input
                           type="text"
                           id="mg33-b"
                           name="mg33-b"
                           value="0"
-                          tabindex="328"
+                         
                         />
                         <input
                           type="text"
                           id="mg33-c"
                           name="mg33-c"
                           value="0"
-                          tabindex="329"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3287,21 +3270,21 @@ const Periodontograma = () => {
                           id="mg34-a"
                           name="mg34-a"
                           value="0"
-                          tabindex="330"
+                         
                         />
                         <input
                           type="text"
                           id="mg34-b"
                           name="mg34-b"
                           value="0"
-                          tabindex="331"
+                         
                         />
                         <input
                           type="text"
                           id="mg34-c"
                           name="mg34-c"
                           value="0"
-                          tabindex="332"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3310,21 +3293,21 @@ const Periodontograma = () => {
                           id="mg35-a"
                           name="mg35-a"
                           value="0"
-                          tabindex="333"
+                         
                         />
                         <input
                           type="text"
                           id="mg35-b"
                           name="mg35-b"
                           value="0"
-                          tabindex="334"
+                         
                         />
                         <input
                           type="text"
                           id="mg35-c"
                           name="mg35-c"
                           value="0"
-                          tabindex="335"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3333,21 +3316,21 @@ const Periodontograma = () => {
                           id="mg36-a"
                           name="mg36-a"
                           value="0"
-                          tabindex="336"
+                         
                         />
                         <input
                           type="text"
                           id="mg36-b"
                           name="mg36-b"
                           value="0"
-                          tabindex="337"
+                         
                         />
                         <input
                           type="text"
                           id="mg36-c"
                           name="mg36-c"
                           value="0"
-                          tabindex="338"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3356,21 +3339,21 @@ const Periodontograma = () => {
                           id="mg37-a"
                           name="mg37-a"
                           value="0"
-                          tabindex="339"
+                         
                         />
                         <input
                           type="text"
                           id="mg37-b"
                           name="mg37-b"
                           value="0"
-                          tabindex="340"
+                         
                         />
                         <input
                           type="text"
                           id="mg37-c"
                           name="mg37-c"
                           value="0"
-                          tabindex="341"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3379,21 +3362,21 @@ const Periodontograma = () => {
                           id="mg38-a"
                           name="mg38-a"
                           value="0"
-                          tabindex="342"
+                         
                         />
                         <input
                           type="text"
                           id="mg38-b"
                           name="mg38-b"
                           value="0"
-                          tabindex="343"
+                         
                         />
                         <input
                           type="text"
                           id="mg38-c"
                           name="mg38-c"
                           value="0"
-                          tabindex="344"
+                         
                         />
                       </td>
                     </tr>
@@ -3405,21 +3388,21 @@ const Periodontograma = () => {
                           id="ps48-a"
                           name="ps48-a"
                           value="0"
-                          tabindex="345"
+                         
                         />
                         <input
                           type="text"
                           id="ps48-b"
                           name="ps48-b"
                           value="0"
-                          tabindex="346"
+                         
                         />
                         <input
                           type="text"
                           id="ps48-c"
                           name="ps48-c"
                           value="0"
-                          tabindex="347"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3428,21 +3411,21 @@ const Periodontograma = () => {
                           id="ps47-a"
                           name="ps47-a"
                           value="0"
-                          tabindex="348"
+                         
                         />
                         <input
                           type="text"
                           id="ps47-b"
                           name="ps47-b"
                           value="0"
-                          tabindex="349"
+                         
                         />
                         <input
                           type="text"
                           id="ps47-c"
                           name="ps47-c"
                           value="0"
-                          tabindex="350"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3451,21 +3434,21 @@ const Periodontograma = () => {
                           id="ps46-a"
                           name="ps46-a"
                           value="0"
-                          tabindex="351"
+                         
                         />
                         <input
                           type="text"
                           id="ps46-b"
                           name="ps46-b"
                           value="0"
-                          tabindex="352"
+                         
                         />
                         <input
                           type="text"
                           id="ps46-c"
                           name="ps46-c"
                           value="0"
-                          tabindex="353"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3474,21 +3457,21 @@ const Periodontograma = () => {
                           id="ps45-a"
                           name="ps45-a"
                           value="0"
-                          tabindex="354"
+                         
                         />
                         <input
                           type="text"
                           id="ps45-b"
                           name="ps45-b"
                           value="0"
-                          tabindex="355"
+                         
                         />
                         <input
                           type="text"
                           id="ps45-c"
                           name="ps45-c"
                           value="0"
-                          tabindex="356"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3497,21 +3480,21 @@ const Periodontograma = () => {
                           id="ps44-a"
                           name="ps44-a"
                           value="0"
-                          tabindex="357"
+                         
                         />
                         <input
                           type="text"
                           id="ps44-b"
                           name="ps44-b"
                           value="0"
-                          tabindex="358"
+                         
                         />
                         <input
                           type="text"
                           id="ps44-c"
                           name="ps44-c"
                           value="0"
-                          tabindex="357"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3520,21 +3503,21 @@ const Periodontograma = () => {
                           id="ps43-a"
                           name="ps43-a"
                           value="0"
-                          tabindex="400"
+                         
                         />
                         <input
                           type="text"
                           id="ps43-b"
                           name="ps43-b"
                           value="0"
-                          tabindex="401"
+                         
                         />
                         <input
                           type="text"
                           id="ps43-c"
                           name="ps43-c"
                           value="0"
-                          tabindex="402"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3543,21 +3526,21 @@ const Periodontograma = () => {
                           id="ps42-a"
                           name="ps42-a"
                           value="0"
-                          tabindex="403"
+                         
                         />
                         <input
                           type="text"
                           id="ps42-b"
                           name="ps42-b"
                           value="0"
-                          tabindex="404"
+                         
                         />
                         <input
                           type="text"
                           id="ps42-c"
                           name="ps42-c"
                           value="0"
-                          tabindex="405"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3566,21 +3549,21 @@ const Periodontograma = () => {
                           id="ps41-a"
                           name="ps41-a"
                           value="0"
-                          tabindex="406"
+                         
                         />
                         <input
                           type="text"
                           id="ps41-b"
                           name="ps41-b"
                           value="0"
-                          tabindex="407"
+                         
                         />
                         <input
                           type="text"
                           id="ps41-c"
                           name="ps41-c"
                           value="0"
-                          tabindex="408"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3589,21 +3572,21 @@ const Periodontograma = () => {
                           id="ps31-a"
                           name="ps31-a"
                           value="0"
-                          tabindex="409"
+                         
                         />
                         <input
                           type="text"
                           id="ps31-b"
                           name="ps31-b"
                           value="0"
-                          tabindex="410"
+                         
                         />
                         <input
                           type="text"
                           id="ps31-c"
                           name="ps31-c"
                           value="0"
-                          tabindex="411"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3612,21 +3595,21 @@ const Periodontograma = () => {
                           id="ps32-a"
                           name="ps32-a"
                           value="0"
-                          tabindex="412"
+                         
                         />
                         <input
                           type="text"
                           id="ps32-b"
                           name="ps32-b"
                           value="0"
-                          tabindex="413"
+                         
                         />
                         <input
                           type="text"
                           id="ps32-c"
                           name="ps32-c"
                           value="0"
-                          tabindex="414"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3635,21 +3618,21 @@ const Periodontograma = () => {
                           id="ps33-a"
                           name="ps33-a"
                           value="0"
-                          tabindex="415"
+                         
                         />
                         <input
                           type="text"
                           id="ps33-b"
                           name="ps33-b"
                           value="0"
-                          tabindex="416"
+                         
                         />
                         <input
                           type="text"
                           id="ps33-c"
                           name="ps33-c"
                           value="0"
-                          tabindex="417"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3658,21 +3641,21 @@ const Periodontograma = () => {
                           id="ps34-a"
                           name="ps34-a"
                           value="0"
-                          tabindex="418"
+                         
                         />
                         <input
                           type="text"
                           id="ps34-b"
                           name="ps34-b"
                           value="0"
-                          tabindex="419"
+                         
                         />
                         <input
                           type="text"
                           id="ps34-c"
                           name="ps34-c"
                           value="0"
-                          tabindex="420"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3681,21 +3664,21 @@ const Periodontograma = () => {
                           id="ps35-a"
                           name="ps35-a"
                           value="0"
-                          tabindex="421"
+                         
                         />
                         <input
                           type="text"
                           id="ps35-b"
                           name="ps35-b"
                           value="0"
-                          tabindex="422"
+                         
                         />
                         <input
                           type="text"
                           id="ps35-c"
                           name="ps35-c"
                           value="0"
-                          tabindex="423"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3704,21 +3687,21 @@ const Periodontograma = () => {
                           id="ps36-a"
                           name="ps36-a"
                           value="0"
-                          tabindex="424"
+                         
                         />
                         <input
                           type="text"
                           id="ps36-b"
                           name="ps36-b"
                           value="0"
-                          tabindex="425"
+                         
                         />
                         <input
                           type="text"
                           id="ps36-c"
                           name="ps36-c"
                           value="0"
-                          tabindex="426"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3727,21 +3710,21 @@ const Periodontograma = () => {
                           id="ps37-a"
                           name="ps37-a"
                           value="0"
-                          tabindex="427"
+                         
                         />
                         <input
                           type="text"
                           id="ps37-b"
                           name="ps37-b"
                           value="0"
-                          tabindex="428"
+                         
                         />
                         <input
                           type="text"
                           id="ps37-c"
                           name="ps37-c"
                           value="0"
-                          tabindex="429"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3750,21 +3733,21 @@ const Periodontograma = () => {
                           id="ps38-a"
                           name="ps38-a"
                           value="0"
-                          tabindex="430"
+                         
                         />
                         <input
                           type="text"
                           id="ps38-b"
                           name="ps38-b"
                           value="0"
-                          tabindex="431"
+                         
                         />
                         <input
                           type="text"
                           id="ps38-c"
                           name="ps38-c"
                           value="0"
-                          tabindex="432"
+                         
                         />
                       </td>
                     </tr>
@@ -3938,21 +3921,21 @@ const Periodontograma = () => {
                           id="ps48b-a"
                           name="ps48b-a"
                           value="0"
-                          tabindex="433"
+                         
                         />
                         <input
                           type="text"
                           id="ps48b-b"
                           name="ps48b-b"
                           value="0"
-                          tabindex="434"
+                         
                         />
                         <input
                           type="text"
                           id="ps48b-c"
                           name="ps48b-c"
                           value="0"
-                          tabindex="435"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3961,21 +3944,21 @@ const Periodontograma = () => {
                           id="ps47b-a"
                           name="ps47b-a"
                           value="0"
-                          tabindex="436"
+                         
                         />
                         <input
                           type="text"
                           id="ps47b-b"
                           name="ps47b-b"
                           value="0"
-                          tabindex="437"
+                         
                         />
                         <input
                           type="text"
                           id="ps47b-c"
                           name="ps47b-c"
                           value="0"
-                          tabindex="438"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -3984,21 +3967,21 @@ const Periodontograma = () => {
                           id="ps46b-a"
                           name="ps46b-a"
                           value="0"
-                          tabindex="439"
+                         
                         />
                         <input
                           type="text"
                           id="ps46b-b"
                           name="ps46b-b"
                           value="0"
-                          tabindex="440"
+                         
                         />
                         <input
                           type="text"
                           id="ps46b-c"
                           name="ps46b-c"
                           value="0"
-                          tabindex="441"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4007,21 +3990,21 @@ const Periodontograma = () => {
                           id="ps45b-a"
                           name="ps45b-a"
                           value="0"
-                          tabindex="442"
+                         
                         />
                         <input
                           type="text"
                           id="ps45b-b"
                           name="ps45b-b"
                           value="0"
-                          tabindex="443"
+                         
                         />
                         <input
                           type="text"
                           id="ps45b-c"
                           name="ps45b-c"
                           value="0"
-                          tabindex="444"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4030,21 +4013,21 @@ const Periodontograma = () => {
                           id="ps44b-a"
                           name="ps44b-a"
                           value="0"
-                          tabindex="445"
+                         
                         />
                         <input
                           type="text"
                           id="ps44b-b"
                           name="ps44b-b"
                           value="0"
-                          tabindex="446"
+                         
                         />
                         <input
                           type="text"
                           id="ps44b-c"
                           name="ps44b-c"
                           value="0"
-                          tabindex="447"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4053,21 +4036,21 @@ const Periodontograma = () => {
                           id="ps43b-a"
                           name="ps43b-a"
                           value="0"
-                          tabindex="448"
+                         
                         />
                         <input
                           type="text"
                           id="ps43b-b"
                           name="ps43b-b"
                           value="0"
-                          tabindex="449"
+                         
                         />
                         <input
                           type="text"
                           id="ps43b-c"
                           name="ps43b-c"
                           value="0"
-                          tabindex="450"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4076,21 +4059,21 @@ const Periodontograma = () => {
                           id="ps42b-a"
                           name="ps42b-a"
                           value="0"
-                          tabindex="451"
+                         
                         />
                         <input
                           type="text"
                           id="ps42b-b"
                           name="ps42b-b"
                           value="0"
-                          tabindex="452"
+                         
                         />
                         <input
                           type="text"
                           id="ps42b-c"
                           name="ps42b-c"
                           value="0"
-                          tabindex="453"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4099,21 +4082,21 @@ const Periodontograma = () => {
                           id="ps41b-a"
                           name="ps41b-a"
                           value="0"
-                          tabindex="454"
+                         
                         />
                         <input
                           type="text"
                           id="ps41b-b"
                           name="ps41b-b"
                           value="0"
-                          tabindex="455"
+                         
                         />
                         <input
                           type="text"
                           id="ps41b-c"
                           name="ps41b-c"
                           value="0"
-                          tabindex="456"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4122,21 +4105,21 @@ const Periodontograma = () => {
                           id="ps31b-a"
                           name="ps31b-a"
                           value="0"
-                          tabindex="457"
+                         
                         />
                         <input
                           type="text"
                           id="ps31b-b"
                           name="ps31b-b"
                           value="0"
-                          tabindex="458"
+                         
                         />
                         <input
                           type="text"
                           id="ps31b-c"
                           name="ps31b-c"
                           value="0"
-                          tabindex="459"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4145,21 +4128,21 @@ const Periodontograma = () => {
                           id="ps32b-a"
                           name="ps32b-a"
                           value="0"
-                          tabindex="460"
+                         
                         />
                         <input
                           type="text"
                           id="ps32b-b"
                           name="ps32b-b"
                           value="0"
-                          tabindex="461"
+                         
                         />
                         <input
                           type="text"
                           id="ps32b-c"
                           name="ps32b-c"
                           value="0"
-                          tabindex="462"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4168,21 +4151,21 @@ const Periodontograma = () => {
                           id="ps33b-a"
                           name="ps33b-a"
                           value="0"
-                          tabindex="463"
+                         
                         />
                         <input
                           type="text"
                           id="ps33b-b"
                           name="ps33b-b"
                           value="0"
-                          tabindex="464"
+                         
                         />
                         <input
                           type="text"
                           id="ps33b-c"
                           name="ps33b-c"
                           value="0"
-                          tabindex="465"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4191,21 +4174,21 @@ const Periodontograma = () => {
                           id="ps34b-a"
                           name="ps34b-a"
                           value="0"
-                          tabindex="466"
+                         
                         />
                         <input
                           type="text"
                           id="ps34b-b"
                           name="ps34b-b"
                           value="0"
-                          tabindex="467"
+                         
                         />
                         <input
                           type="text"
                           id="ps34b-c"
                           name="ps34b-c"
                           value="0"
-                          tabindex="468"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4214,21 +4197,21 @@ const Periodontograma = () => {
                           id="ps35b-a"
                           name="ps35b-a"
                           value="0"
-                          tabindex="469"
+                         
                         />
                         <input
                           type="text"
                           id="ps35b-b"
                           name="ps35b-b"
                           value="0"
-                          tabindex="470"
+                         
                         />
                         <input
                           type="text"
                           id="ps35b-c"
                           name="ps35b-c"
                           value="0"
-                          tabindex="471"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4237,21 +4220,21 @@ const Periodontograma = () => {
                           id="ps36b-a"
                           name="ps36b-a"
                           value="0"
-                          tabindex="472"
+                         
                         />
                         <input
                           type="text"
                           id="ps36b-b"
                           name="ps36b-b"
                           value="0"
-                          tabindex="473"
+                         
                         />
                         <input
                           type="text"
                           id="ps36b-c"
                           name="ps36b-c"
                           value="0"
-                          tabindex="474"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4260,21 +4243,21 @@ const Periodontograma = () => {
                           id="ps37b-a"
                           name="ps37b-a"
                           value="0"
-                          tabindex="475"
+                         
                         />
                         <input
                           type="text"
                           id="ps37b-b"
                           name="ps37b-b"
                           value="0"
-                          tabindex="476"
+                         
                         />
                         <input
                           type="text"
                           id="ps37b-c"
                           name="ps37b-c"
                           value="0"
-                          tabindex="477"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4283,21 +4266,21 @@ const Periodontograma = () => {
                           id="ps38b-a"
                           name="ps38b-a"
                           value="0"
-                          tabindex="478"
+                         
                         />
                         <input
                           type="text"
                           id="ps38b-b"
                           name="ps38b-b"
                           value="0"
-                          tabindex="479"
+                         
                         />
                         <input
                           type="text"
                           id="ps38b-c"
                           name="ps38b-c"
                           value="0"
-                          tabindex="480"
+                         
                         />
                       </td>
                     </tr>
@@ -4309,21 +4292,21 @@ const Periodontograma = () => {
                           id="mg48b-a"
                           name="mg48b-a"
                           value="0"
-                          tabindex="481"
+                         
                         />
                         <input
                           type="text"
                           id="mg48b-b"
                           name="mg48b-b"
                           value="0"
-                          tabindex="482"
+                         
                         />
                         <input
                           type="text"
                           id="mg48b-c"
                           name="mg48b-c"
                           value="0"
-                          tabindex="483"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4332,21 +4315,21 @@ const Periodontograma = () => {
                           id="mg47b-a"
                           name="mg47b-a"
                           value="0"
-                          tabindex="484"
+                         
                         />
                         <input
                           type="text"
                           id="mg47b-b"
                           name="mg47b-b"
                           value="0"
-                          tabindex="485"
+                         
                         />
                         <input
                           type="text"
                           id="mg47b-c"
                           name="mg47b-c"
                           value="0"
-                          tabindex="486"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4356,7 +4339,7 @@ const Periodontograma = () => {
                           name="mg46b-a"
                           value="0"
                           onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-a');cargar46b();"
-                          tabindex="487"
+                         
                         />
                         <input
                           type="text"
@@ -4364,7 +4347,7 @@ const Periodontograma = () => {
                           name="mg46b-b"
                           value="0"
                           onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-b');cargar46b();"
-                          tabindex="488"
+                         
                         />
                         <input
                           type="text"
@@ -4372,7 +4355,7 @@ const Periodontograma = () => {
                           name="mg46b-c"
                           value="0"
                           onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-c');cargar46b();"
-                          tabindex="489"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4382,7 +4365,7 @@ const Periodontograma = () => {
                           name="mg45b-a"
                           value="0"
                           onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-a');cargar45b();"
-                          tabindex="490"
+                         
                         />
                         <input
                           type="text"
@@ -4390,7 +4373,7 @@ const Periodontograma = () => {
                           name="mg45b-b"
                           value="0"
                           onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-b');cargar45b();"
-                          tabindex="491"
+                         
                         />
                         <input
                           type="text"
@@ -4398,7 +4381,7 @@ const Periodontograma = () => {
                           name="mg45b-c"
                           value="0"
                           onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-c');cargar45b();"
-                          tabindex="492"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4408,7 +4391,7 @@ const Periodontograma = () => {
                           name="mg44b-a"
                           value="0"
                           onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-a');cargar44b();"
-                          tabindex="493"
+                         
                         />
                         <input
                           type="text"
@@ -4416,7 +4399,7 @@ const Periodontograma = () => {
                           name="mg44b-b"
                           value="0"
                           onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-b');cargar44b();"
-                          tabindex="494"
+                         
                         />
                         <input
                           type="text"
@@ -4424,7 +4407,7 @@ const Periodontograma = () => {
                           name="mg44b-c"
                           value="0"
                           onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-c');cargar44b();"
-                          tabindex="495"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4434,7 +4417,7 @@ const Periodontograma = () => {
                           name="mg43b-a"
                           value="0"
                           onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-a');cargar43b();"
-                          tabindex="496"
+                         
                         />
                         <input
                           type="text"
@@ -4442,7 +4425,7 @@ const Periodontograma = () => {
                           name="mg43b-b"
                           value="0"
                           onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-b');cargar43b();"
-                          tabindex="497"
+                         
                         />
                         <input
                           type="text"
@@ -4450,7 +4433,7 @@ const Periodontograma = () => {
                           name="mg43b-c"
                           value="0"
                           onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-c');cargar43b();"
-                          tabindex="498"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4460,7 +4443,7 @@ const Periodontograma = () => {
                           name="mg42b-a"
                           value="0"
                           onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-a');cargar42b();"
-                          tabindex="499"
+                         
                         />
                         <input
                           type="text"
@@ -4468,7 +4451,7 @@ const Periodontograma = () => {
                           name="mg42b-b"
                           value="0"
                           onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-b');cargar42b();"
-                          tabindex="500"
+                         
                         />
                         <input
                           type="text"
@@ -4476,7 +4459,7 @@ const Periodontograma = () => {
                           name="mg42b-c"
                           value="0"
                           onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-c');cargar42b();"
-                          tabindex="501"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4486,7 +4469,7 @@ const Periodontograma = () => {
                           name="mg41b-a"
                           value="0"
                           onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-a');cargar41b();"
-                          tabindex="502"
+                         
                         />
                         <input
                           type="text"
@@ -4494,7 +4477,7 @@ const Periodontograma = () => {
                           name="mg41b-b"
                           value="0"
                           onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-b');cargar41b();"
-                          tabindex="503"
+                         
                         />
                         <input
                           type="text"
@@ -4502,7 +4485,7 @@ const Periodontograma = () => {
                           name="mg41b-c"
                           value="0"
                           onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-c');cargar41b();"
-                          tabindex="504"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4512,7 +4495,7 @@ const Periodontograma = () => {
                           name="mg31b-a"
                           value="0"
                           onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-a');cargar31b();"
-                          tabindex="505"
+                         
                         />
                         <input
                           type="text"
@@ -4520,7 +4503,7 @@ const Periodontograma = () => {
                           name="mg31b-b"
                           value="0"
                           onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-b');cargar31b();"
-                          tabindex="506"
+                         
                         />
                         <input
                           type="text"
@@ -4528,7 +4511,7 @@ const Periodontograma = () => {
                           name="mg31b-c"
                           value="0"
                           onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-c');cargar31b();"
-                          tabindex="507"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4537,21 +4520,21 @@ const Periodontograma = () => {
                           id="mg32b-a"
                           name="mg32b-a"
                           value="0"
-                          tabindex="508"
+                         
                         />
                         <input
                           type="text"
                           id="mg32b-b"
                           name="mg32b-b"
                           value="0"
-                          tabindex="509"
+                         
                         />
                         <input
                           type="text"
                           id="mg32b-c"
                           name="mg32b-c"
                           value="0"
-                          tabindex="510"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4560,21 +4543,21 @@ const Periodontograma = () => {
                           id="mg33b-a"
                           name="mg33b-a"
                           value="0"
-                          tabindex="511"
+                         
                         />
                         <input
                           type="text"
                           id="mg33b-b"
                           name="mg33b-b"
                           value="0"
-                          tabindex="512"
+                         
                         />
                         <input
                           type="text"
                           id="mg33b-c"
                           name="mg33b-c"
                           value="0"
-                          tabindex="513"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4583,21 +4566,21 @@ const Periodontograma = () => {
                           id="mg34b-a"
                           name="mg34b-a"
                           value="0"
-                          tabindex="514"
+                         
                         />
                         <input
                           type="text"
                           id="mg34b-b"
                           name="mg34b-b"
                           value="0"
-                          tabindex="515"
+                         
                         />
                         <input
                           type="text"
                           id="mg34b-c"
                           name="mg34b-c"
                           value="0"
-                          tabindex="516"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4606,21 +4589,21 @@ const Periodontograma = () => {
                           id="mg35b-a"
                           name="mg35b-a"
                           value="0"
-                          tabindex="517"
+                         
                         />
                         <input
                           type="text"
                           id="mg35b-b"
                           name="mg35b-b"
                           value="0"
-                          tabindex="518"
+                         
                         />
                         <input
                           type="text"
                           id="mg35b-c"
                           name="mg35b-c"
                           value="0"
-                          tabindex="519"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4629,21 +4612,21 @@ const Periodontograma = () => {
                           id="mg36b-a"
                           name="mg36b-a"
                           value="0"
-                          tabindex="520"
+                         
                         />
                         <input
                           type="text"
                           id="mg36b-b"
                           name="mg36b-b"
                           value="0"
-                          tabindex="521"
+                         
                         />
                         <input
                           type="text"
                           id="mg36b-c"
                           name="mg36b-c"
                           value="0"
-                          tabindex="522"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4652,21 +4635,21 @@ const Periodontograma = () => {
                           id="mg37b-a"
                           name="mg37b-a"
                           value="0"
-                          tabindex="523"
+                         
                         />
                         <input
                           type="text"
                           id="mg37b-b"
                           name="mg37b-b"
                           value="0"
-                          tabindex="524"
+                         
                         />
                         <input
                           type="text"
                           id="mg37b-c"
                           name="mg37b-c"
                           value="0"
-                          tabindex="525"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -4675,21 +4658,21 @@ const Periodontograma = () => {
                           id="mg38b-a"
                           name="mg38b-a"
                           value="0"
-                          tabindex="526"
+                         
                         />
                         <input
                           type="text"
                           id="mg38b-b"
                           name="mg38b-b"
                           value="0"
-                          tabindex="527"
+                         
                         />
                         <input
                           type="text"
                           id="mg38b-c"
                           name="mg38b-c"
                           value="0"
-                          tabindex="528"
+                         
                         />
                       </td>
                     </tr>
@@ -4701,7 +4684,6 @@ const Periodontograma = () => {
                           id="ae48b"
                           name="ae48b"
                           value=""
-                          tabindex="529"
                         />
                       </td>
                       <td className="borde">
@@ -4710,7 +4692,6 @@ const Periodontograma = () => {
                           id="ae47b"
                           name="ae47b"
                           value=""
-                          tabindex="530"
                         />
                       </td>
                       <td className="borde">
@@ -4719,7 +4700,6 @@ const Periodontograma = () => {
                           id="ae46b"
                           name="ae46b"
                           value=""
-                          tabindex="531"
                         />
                       </td>
                       <td className="borde">
@@ -4728,7 +4708,6 @@ const Periodontograma = () => {
                           id="ae45b"
                           name="ae45b"
                           value=""
-                          tabindex="532"
                         />
                       </td>
                       <td className="borde">
@@ -4737,7 +4716,6 @@ const Periodontograma = () => {
                           id="ae44b"
                           name="ae44b"
                           value=""
-                          tabindex="533"
                         />
                       </td>
                       <td className="borde">
@@ -4746,7 +4724,6 @@ const Periodontograma = () => {
                           id="ae43b"
                           name="ae43b"
                           value=""
-                          tabindex="534"
                         />
                       </td>
                       <td className="borde">
@@ -4755,7 +4732,6 @@ const Periodontograma = () => {
                           id="ae42b"
                           name="ae42b"
                           value=""
-                          tabindex="535"
                         />
                       </td>
                       <td className="borde">
@@ -4764,7 +4740,6 @@ const Periodontograma = () => {
                           id="ae41b"
                           name="ae41b"
                           value=""
-                          tabindex="536"
                         />
                       </td>
                       <td className="borde">
@@ -4773,7 +4748,6 @@ const Periodontograma = () => {
                           id="ae31b"
                           name="ae31b"
                           value=""
-                          tabindex="537"
                         />
                       </td>
                       <td className="borde">
@@ -4782,7 +4756,6 @@ const Periodontograma = () => {
                           id="ae32b"
                           name="ae32b"
                           value=""
-                          tabindex="538"
                         />
                       </td>
                       <td className="borde">
@@ -4791,7 +4764,6 @@ const Periodontograma = () => {
                           id="ae33b"
                           name="ae33b"
                           value=""
-                          tabindex="539"
                         />
                       </td>
                       <td className="borde">
@@ -4800,7 +4772,6 @@ const Periodontograma = () => {
                           id="ae34b"
                           name="ae34b"
                           value=""
-                          tabindex="540"
                         />
                       </td>
                       <td className="borde">
@@ -4809,7 +4780,6 @@ const Periodontograma = () => {
                           id="ae35b"
                           name="ae35b"
                           value=""
-                          tabindex="541"
                         />
                       </td>
                       <td className="borde">
@@ -4818,7 +4788,6 @@ const Periodontograma = () => {
                           id="ae36b"
                           name="ae36b"
                           value=""
-                          tabindex="542"
                         />
                       </td>
                       <td className="borde">
@@ -4827,7 +4796,6 @@ const Periodontograma = () => {
                           id="ae37b"
                           name="ae37b"
                           value=""
-                          tabindex="543"
                         />
                       </td>
                       <td className="borde">
@@ -4836,7 +4804,6 @@ const Periodontograma = () => {
                           id="ae38b"
                           name="ae38b"
                           value=""
-                          tabindex="544"
                         />
                       </td>
                     </tr>
@@ -5044,7 +5011,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi48b"
                           name="pi48b"
-                          tabindex="545"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5052,7 +5019,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi47b"
                           name="pi47b"
-                          tabindex="546"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5060,7 +5027,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi46b"
                           name="pi46b"
-                          tabindex="547"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5068,7 +5035,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi45b"
                           name="pi45b"
-                          tabindex="548"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5076,7 +5043,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi44b"
                           name="pi44b"
-                          tabindex="549"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5084,7 +5051,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi43b"
                           name="pi43b"
-                          tabindex="550"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5092,7 +5059,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi42b"
                           name="pi42b"
-                          tabindex="551"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5100,7 +5067,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi41b"
                           name="pi41b"
-                          tabindex="552"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5108,7 +5075,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi31b"
                           name="pi31b"
-                          tabindex="553"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5116,7 +5083,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi32b"
                           name="pi32b"
-                          tabindex="554"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5124,7 +5091,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi33b"
                           name="pi33b"
-                          tabindex="555"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5132,7 +5099,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi34b"
                           name="pi34b"
-                          tabindex="556"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5140,7 +5107,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi35b"
                           name="pi35b"
-                          tabindex="557"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5148,7 +5115,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi36b"
                           name="pi36b"
-                          tabindex="558"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5156,7 +5123,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi37b"
                           name="pi37b"
-                          tabindex="559"
+                         
                         />
                       </td>
                       <td className="borde">
@@ -5164,7 +5131,7 @@ const Periodontograma = () => {
                           type="text"
                           id="pi38b"
                           name="pi38b"
-                          tabindex="560"
+                         
                         />
                       </td>
                     </tr>
