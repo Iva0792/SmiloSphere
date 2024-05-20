@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Login from "./Login";
-import Dashboard from "./Dashboard";
-import Expedientes from "./Expedientes";
-import Agenda from "./Agenda";
-import Busqueda from "./Busqueda";
-import Facturacion from "./Facturacion";
-import Mensajeria from "./Mensajeria";
-import Pendientes from "./Pendientes";
+import Dashboard from "./pages/Dashboard";
+import Expedientes from "./pages/Expedientes";
+import Agenda from "./pages/Agenda";
+import Busqueda from "./pages/Busqueda";
+import Facturacion from "./pages/Facturacion";
+import Mensajeria from "./pages/Mensajeria";
+import Pendientes from "./pages/Pendientes";
 
 
 function App() {

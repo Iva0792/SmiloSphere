@@ -1,5 +1,5 @@
 import "./Main.css";
-import Navbar from './Navbar';
+import Navbar from '../Navbar';
 import Expedientes from "./Expedientes";
 
 function Dashboard() {
