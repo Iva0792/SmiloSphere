@@ -1,6 +1,7 @@
 import "./Main.css";
 import Navbar from '../Navbar';
 import Expedientes from "./Expedientes";
+import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
@@ -9,61 +10,61 @@ function Dashboard() {
           <div className="content">
             <div className="cards">
                 <div className="card">
-                    <a href={<Expedientes />}>
+                    <Link to="/Expedientes">
                         <div className="cardAct">
                             <div className="cardText">
                                 Expedientes
                             </div>
                             <div className="card-1"></div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card">
-                    <a href="/Agenda">
+                    <Link to="/Agenda">
                         <div className="cardAct">
                             <div className="cardText">
                                 Agenda
                             </div>
                             <div className="card-2"></div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="card">
-                  <a href="/Mensajeria">
+                  <Link to="/Mensajeria">
                         <div className="cardAct">
                             <div className="cardText">
                                 Mensajería
                             </div>
                             <div className="card-3"></div>
                         </div>
-                    </a></div>
+                    </Link></div>
                 <div className="card">
-                  <a href="/Facturacion">
+                  <Link to="/Facturacion">
                         <div className="cardAct">
                             <div className="cardText">
                                 Facturación
                             </div>
                             <div className="card-4"></div>
                         </div>
-                    </a></div>
+                    </Link></div>
                 <div className="card">
-                  <a href="/Pendientes">
+                  <Link to="/Pendientes">
                         <div className="cardAct">
                             <div className="cardText">
                                 Pendientes
                             </div>
                             <div className="card-5"></div>
                         </div>
-                    </a></div>
+                    </Link></div>
                 <div className="card">
-                  <a href="/Busqueda">
+                  <Link to="/Busqueda">
                         <div className="cardAct">
                             <div className="cardText">
                                 Búsqueda
                             </div>
                             <div className="card-6"></div>
                         </div>
-                    </a></div>
+                    </Link></div>
             </div>
         </div> 
     </div>

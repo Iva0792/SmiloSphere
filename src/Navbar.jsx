@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -9,18 +10,32 @@ const Navbar = () => {
                 <input type="checkbox" id="checkbox_toggle" />
                 <label htmlFor="checkbox_toggle" className="dropdown"></label>
                 <div className="menu">
-                    <li><a href="/Expendientes">Expedientes</a></li>
-                    <li><a href="/Agenda">Agenda</a></li>
-                    <li><a href="/Mensajeria">Mensajería</a></li>
-                    <li><a href="/Facturacion">Facturación</a></li>
-                    <li><a href="/Pendientes">Pendientes</a></li>
-                    <li><a href="/Busqueda">Búsqueda</a></li>
+                    <li>
+                        <Link to="/Expendientes">Expedientes</Link>
+                    </li>
+                    <li>
+                        <Link to="/Agenda">Agenda</Link>
+                    </li>
+                    <li>
+                        <Link to="/Mensajeria">Mensajería</Link>
+                    </li>
+                    <li>
+                        <Link to="/Facturacion">Facturación</Link>
+                    </li>
+                    <li>
+                        <Link to="/Pendientes">Pendientes</Link>
+                    </li>
+                    <li>
+                        <Link to="/Busqueda">Búsqueda</Link>
+                    </li>
                 </div>
             </ul>
             </div>
             <div>
                 <ul>
-                    <li className="logo"><a href="/Dashboard">SmiloSphere</a></li>
+                    <li className="logo">
+                        <Link to="/Dashboard">SmiloSphere</Link>
+                    </li>
                 </ul>
             </div>
         </nav>

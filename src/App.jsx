@@ -11,7 +11,6 @@ import Pendientes from "./pages/Pendientes";
 
 function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/Dashboard" element={<Dashboard />} />
@@ -22,7 +21,6 @@ function App() {
         <Route path="/Mensajeria" element={<Mensajeria />} />
         <Route path="/Pendientes" element={<Pendientes />} />
       </Routes>
-    </BrowserRouter>
   );
 }
 
