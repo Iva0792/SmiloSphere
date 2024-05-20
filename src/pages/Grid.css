@@ -1,0 +1,130 @@
+.content {
+    overflow: hidden;
+  }
+  .card {
+    background-color: #4E3089;
+    color: white;
+    padding: 1rem;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    border-radius: 3%;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5), 0 4px 20px 0 rgba(0, 0, 0, 0.5);
+  }
+  
+  .cards {
+    max-width: 1200px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    gap: 25px;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .card-1 {
+    background: transparent url("../assets/icons/1.svg") no-repeat center 0;
+    background-size: contain;
+    height: 70%;
+  }
+  
+  .card-2 {
+    background: transparent url("../assets/icons/2.svg") no-repeat center 0;
+    background-size: contain;
+    height: 70%;
+  }
+  
+  .card-3 {
+    background: transparent url("../assets/icons/3.svg") no-repeat center 0;
+    background-size: contain;
+    height: 70%;
+  }
+  
+  .card-4 {
+    background: transparent url("../assets/icons/4.svg") no-repeat center 0;
+    background-size: contain;
+    height: 70%;
+  }
+  
+  .card-5 {
+    background: transparent url("../assets/icons/5.svg") no-repeat center 0;
+    background-size: contain;
+    height: 70%;
+  }
+  
+  .card-6 {
+    background: transparent url("../assets/icons/6.svg") no-repeat center 0;
+    background-size: contain;
+    height: 70%;
+  }
+  
+  .cardAct {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+    z-index: 0;
+    background-color: #4E3089;
+  }
+  
+  .cardAct:hover {
+    width: 98%;
+    height: 98%;
+  }
+  
+  .cardText {
+    padding-top: 5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #ffffff;
+    height: 25%;
+  }
+  
+  .exit {
+    right: 0;
+    top: 0;
+    height: 25px;
+    width: 25px;
+    background: url(/images/icons/9.svg) no-repeat;
+    text-indent: -999em;
+    text-decoration: none;
+  }
+  
+  /* @media (min-width: 600px) {
+    } */
+  
+  @media (max-width: 900px) {
+    .cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .card {
+      height: 10rem;
+      width: 10rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .cards {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .cardText {
+      padding-top: 4%;
+    }
+    .card {
+      height: 4rem;
+      width: 25rem;
+    }
+  
+    [class^="card-"] {
+      background: none;
+    }
+  }
