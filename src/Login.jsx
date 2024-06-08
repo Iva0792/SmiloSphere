@@ -69,6 +69,7 @@ function Login() {
       <div className="form">
         <h1>Ingreso al Sistema</h1>
         <input
+          className="user"
           type="text"
           placeholder="Usuario"
           value={user}
@@ -76,6 +77,7 @@ function Login() {
           required
         ></input>
         <input
+          className="pass"
           type="password"
           placeholder="Contraseña"
           value={pass}

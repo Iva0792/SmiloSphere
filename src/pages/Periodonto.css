@@ -1,99 +1,3 @@
-/*html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}*/
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -138,6 +42,10 @@ table {
 	border-spacing: 0;
 }
 
+#images {
+	display: none;
+}
+
 #wrapper {
 	margin: 0 auto;
 	background: #ffffff;
@@ -148,6 +56,7 @@ table {
 #tabla-superior {
 	margin: 0 auto;
 	background: #ffffff;
+	width: 100%;
 }
 
 #tabla-superior table {
@@ -155,15 +64,8 @@ table {
 }
 
 #tabla-1 td,
-#tabla-2 td,
-#tabla-3 td,
-#tabla-4 td,
-#tabla-5 td,
-#tabla-6 td,
-#tabla-7 td,
-#tabla-8 td {
+#tabla-2 td {
 	height: 0px;
-	min-width: 39px;
 	vertical-align: middle;
 }
 
@@ -248,7 +150,7 @@ h2 {
 	border: none;
 }
 
-input {
+.periInp {
 	width: 11px;
 	height: 18px;
 	padding: 0;
@@ -270,6 +172,7 @@ input {
 	/* padding: 1px; */
 	text-align: center;
 	font-size: 9px;
+	width: 70px;
 }
 
 .noborde {
@@ -291,7 +194,6 @@ input {
 	text-align: center;
 	font-size: 10pt;
 	background: #E6E6E6;
-	width: 100%;
 }
 
 .d:hover {
@@ -299,7 +201,7 @@ input {
 }
 
 .i {
-	background: url('img/misc/oblicuas.png') no-repeat center;
+	background: url('../assets/img/misc/oblicuas.png') no-repeat center;
 	width: 100%;
 	height: 18px;
 }
@@ -333,156 +235,7 @@ input {
 	background: #E6E6E6;
 }
 
-#ps18-a,
-#ps18-b,
-#ps18-c,
-#ps17-a,
-#ps17-b,
-#ps17-c,
-#ps16-a,
-#ps16-b,
-#ps16-c,
-#ps15-a,
-#ps15-b,
-#ps15-c,
-#ps14-a,
-#ps14-b,
-#ps14-c,
-#ps13-a,
-#ps13-b,
-#ps13-c,
-#ps12-a,
-#ps12-b,
-#ps12-c,
-#ps11-a,
-#ps11-b,
-#ps11-c,
-#ps18-a,
-#ps18-b,
-#ps18-c,
-#ps21-a,
-#ps21-b,
-#ps21-c,
-#ps22-a,
-#ps22-b,
-#ps22-c,
-#ps23-a,
-#ps23-b,
-#ps23-c,
-#ps24-a,
-#ps24-b,
-#ps24-c,
-#ps25-a,
-#ps25-b,
-#ps25-c,
-#ps26-a,
-#ps26-b,
-#ps26-c,
-#ps27-a,
-#ps27-b,
-#ps27-c,
-#ps28-a,
-#ps28-b,
-#ps28-c,
-#ps48-a,
-#ps48-b,
-#ps48-c,
-#ps47-a,
-#ps47-b,
-#ps47-c,
-#ps46-a,
-#ps46-b,
-#ps46-c,
-#ps45-a,
-#ps45-b,
-#ps45-c,
-#ps44-a,
-#ps44-b,
-#ps44-c,
-#ps43-a,
-#ps43-b,
-#ps43-c,
-#ps42-a,
-#ps42-b,
-#ps42-c,
-#ps41-a,
-#ps41-b,
-#ps41-c {
-	color: #333;
-}
-
-#s18-a,
-#s18-b,
-#s18-c,
-#s17-a,
-#s17-b,
-#s17-c,
-#s16-a,
-#s16-b,
-#s16-c,
-#s15-a,
-#s15-b,
-#s15-c,
-#s14-a,
-#s14-b,
-#s14-c,
-#s13-a,
-#s13-b,
-#s13-c,
-#s12-a,
-#s12-b,
-#s12-c,
-#s11-a,
-#s11-b,
-#s11-c,
-#p18-a,
-#p18-b,
-#p18-c,
-#p17-a,
-#p17-b,
-#p17-c,
-#p16-a,
-#p16-b,
-#p16-c,
-#p15-a,
-#p15-b,
-#p15-c,
-#p14-a,
-#p14-b,
-#p14-c,
-#p13-a,
-#p13-b,
-#p13-c,
-#p12-a,
-#p12-b,
-#p12-c,
-#p11-a,
-#p11-b,
-#p11-c,
-#ae18-a,
-#ae18-b,
-#ae18-c,
-#ae17-a,
-#ae17-b,
-#ae17-c,
-#ae16-a,
-#ae16-b,
-#ae16-c,
-#ae15-a,
-#ae15-b,
-#ae15-c,
-#ae14-a,
-#ae14-b,
-#ae14-c,
-#ae13-a,
-#ae13-b,
-#ae13-c,
-#ae12-a,
-#ae12-b,
-#ae12-c,
-#ae11-a,
-#ae11-b,
-#ae11-c {
+.cuadricula {
 	background: none repeat scroll 0 0 #FFFFFF;
 	border: 1px solid #C3C9C8;
 	display: inline;
@@ -492,144 +245,68 @@ input {
 	width: 23%;
 }
 
-#s18-a:hover,
-#s18-b:hover,
-#s18-c:hover,
-#s17-a:hover,
-#s17-b:hover,
-#s17-c:hover,
-#s16-a:hover,
-#s16-b:hover,
-#s16-c:hover,
-#s15-a:hover,
-#s15-b:hover,
-#s15-c:hover,
-#s14-a:hover,
-#s14-b:hover,
-#s14-c:hover,
-#s13-a:hover,
-#s13-b:hover,
-#s13-c:hover,
-#s12-a:hover,
-#s12-b:hover,
-#s12-c:hover,
-#s11-a:hover,
-#s11-b:hover,
-#s11-c:hover,
-#p18-a:hover,
-#p18-b:hover,
-#p18-c:hover,
-#p17-a:hover,
-#p17-b:hover,
-#p17-c:hover,
-#p16-a:hover,
-#p16-b:hover,
-#p16-c:hover,
-#p15-a:hover,
-#p15-b:hover,
-#p15-c:hover,
-#p14-a:hover,
-#p14-b:hover,
-#p14-c:hover,
-#p13-a:hover,
-#p13-b:hover,
-#p13-c:hover,
-#p12-a:hover,
-#p12-b:hover,
-#p12-c:hover,
-#p11-a:hover,
-#p11-b:hover,
-#p11-c:hover,
-#ae18-a:hover,
-#ae18-b:hover,
-#ae18-c:hover,
-#ae17-a:hover,
-#ae17-b:hover,
-#ae17-c:hover,
-#ae16-a:hover,
-#ae16-b:hover,
-#ae16-c:hover,
-#ae15-a:hover,
-#ae15-b:hover,
-#ae15-c:hover,
-#ae14-a:hover,
-#ae14-b:hover,
-#ae14-c:hover,
-#ae13-a:hover,
-#ae13-b:hover,
-#ae13-c:hover,
-#ae12-a:hover,
-#ae12-b:hover,
-#ae12-c:hover,
-#ae11-a:hover,
-#ae11-b:hover,
-#ae11-c:hover {
+.cuadricula:hover {
 	background: #E6E6E6;
 }
 
-#diente18-a,
-#diente17-a,
-#diente16-a,
-#diente15-a,
-#diente14-a,
-#diente13-a,
-#diente12-a,
-#diente11-a {
+.diente {
 	height: 155px;
 	background-repeat: no-repeat;
 }
 
 #diente18-a {
-	background: url('img/dientes-arriba/dientes-arriba-18.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-18.png');
 	width: 54px;
+	background-size: 54px 141px;
 	background-position: 0 -2px;
 	background-repeat: no-repeat;
 }
 
 #diente17-a {
-	background: url('img/dientes-arriba/dientes-arriba-17.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-17.png');
 	width: 57px;
+	background-size: 57px 141px;
 	/*background-position: */
 	background-repeat: no-repeat;
 }
 
 #diente16-a {
-	background: url('img/dientes-arriba/dientes-arriba-16.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-16.png');
 	width: 62px;
 	background-position: 0 4px;
 	background-repeat: no-repeat;
 }
 
 #diente15-a {
-	background: url('img/dientes-arriba/dientes-arriba-15.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-15.png');
 	width: 42px;
 	background-position: 0 5px;
 	background-repeat: no-repeat;
 }
 
 #diente14-a {
-	background: url('img/dientes-arriba/dientes-arriba-14.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-14.png');
 	width: 46px;
 	/*background-position: */
 	background-repeat: no-repeat;
 }
 
 #diente13-a {
-	background: url('img/dientes-arriba/dientes-arriba-13.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-13.png');
 	width: 42px;
 	background-position: top;
 	background-repeat: no-repeat;
 }
 
 #diente12-a {
-	background: url('img/dientes-arriba/dientes-arriba-12.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-12.png');
 	width: 38px;
 	background-position: 0px 6px;
 	background-repeat: no-repeat;
 }
 
 #diente11-a {
-	background: url('img/dientes-arriba/dientes-arriba-11.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-11.png');
 	width: 54px;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -713,162 +390,6 @@ input {
 	width: 35px;
 }
 
-#s21-a,
-#s21-b,
-#s21-c,
-#s22-a,
-#s22-b,
-#s22-c,
-#s23-a,
-#s23-b,
-#s23-c,
-#s24-a,
-#s24-b,
-#s24-c,
-#s25-a,
-#s25-b,
-#s25-c,
-#s26-a,
-#s26-b,
-#s26-c,
-#s27-a,
-#s27-b,
-#s27-c,
-#s28-a,
-#s28-b,
-#s28-c,
-#p21-a,
-#p21-b,
-#p21-c,
-#p22-a,
-#p22-b,
-#p22-c,
-#p23-a,
-#p23-b,
-#p23-c,
-#p24-a,
-#p24-b,
-#p24-c,
-#p25-a,
-#p25-b,
-#p25-c,
-#p26-a,
-#p26-b,
-#p26-c,
-#p27-a,
-#p27-b,
-#p27-c,
-#p28-a,
-#p28-b,
-#p28-c,
-#ae21-a,
-#ae21-b,
-#ae21-c,
-#ae22-a,
-#ae22-b,
-#ae22-c,
-#ae23-a,
-#ae23-b,
-#ae23-c,
-#ae24-a,
-#ae24-b,
-#ae24-c,
-#ae25-a,
-#ae25-b,
-#ae25-c,
-#ae26-a,
-#ae26-b,
-#ae26-c,
-#ae27-a,
-#ae27-b,
-#ae27-c,
-#ae28-a,
-#ae28-b,
-#ae28-c {
-	background: none repeat scroll 0 0 #FFFFFF;
-	border: 1px solid #C3C9C8;
-	display: inline;
-	float: left;
-	height: 18px;
-	margin: 1px;
-	width: 23%;
-}
-
-#s21-a:hover,
-#s21-b:hover,
-#s21-c:hover,
-#s22-a:hover,
-#s22-b:hover,
-#s22-c:hover,
-#s23-a:hover,
-#s23-b:hover,
-#s23-c:hover,
-#s24-a:hover,
-#s24-b:hover,
-#s24-c:hover,
-#s25-a:hover,
-#s25-b:hover,
-#s25-c:hover,
-#s26-a:hover,
-#s26-b:hover,
-#s26-c:hover,
-#s27-a:hover,
-#s27-b:hover,
-#s27-c:hover,
-#s28-a:hover,
-#s28-b:hover,
-#s28-c:hover,
-#p21-a:hover,
-#p21-b:hover,
-#p21-c:hover,
-#p22-a:hover,
-#p22-b:hover,
-#p22-c:hover,
-#p23-a:hover,
-#p23-b:hover,
-#p23-c:hover,
-#p24-a:hover,
-#p24-b:hover,
-#p24-c:hover,
-#p25-a:hover,
-#p25-b:hover,
-#p25-c:hover,
-#p26-a:hover,
-#p26-b:hover,
-#p26-c:hover,
-#p27-a:hover,
-#p27-b:hover,
-#p27-c:hover,
-#p28-a:hover,
-#p28-b:hover,
-#p28-c:hover,
-#ae21-a:hover,
-#ae21-b:hover,
-#ae21-c:hover,
-#ae22-a:hover,
-#ae22-b:hover,
-#ae22-c:hover,
-#ae23-a:hover,
-#ae23-b:hover,
-#ae23-c:hover,
-#ae24-a:hover,
-#ae24-b:hover,
-#ae24-c:hover,
-#ae25-a:hover,
-#ae25-b:hover,
-#ae25-c:hover,
-#ae26-a:hover,
-#ae26-b:hover,
-#ae26-c:hover,
-#ae27-a:hover,
-#ae27-b:hover,
-#ae27-c:hover,
-#ae28-a:hover,
-#ae28-b:hover,
-#ae28-c:hover {
-	background: #E6E6E6;
-}
-
 #diente21-a,
 #diente22-a,
 #diente23-a,
@@ -882,57 +403,59 @@ input {
 }
 
 #diente21-a {
-	background: url('img/dientes-arriba/dientes-arriba-21.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-21.png');
 	width: 53px;
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
 
 #diente22-a {
-	background: url('img/dientes-arriba/dientes-arriba-22.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-22.png');
 	width: 38px;
 	background-position: 0px 6px;
 	background-repeat: no-repeat;
 }
 
 #diente23-a {
-	background: url('img/dientes-arriba/dientes-arriba-23.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-23.png');
 	width: 43px;
 	background-position: top;
 	background-repeat: no-repeat;
 }
 
 #diente24-a {
-	background: url('img/dientes-arriba/dientes-arriba-24.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-24.png');
 	width: 43px;
 	/*background-position: */
 	background-repeat: no-repeat;
 }
 
 #diente25-a {
-	background: url('img/dientes-arriba/dientes-arriba-25.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-25.png');
 	width: 42px;
 	background-position: 0 5px;
 	background-repeat: no-repeat;
 }
 
 #diente26-a {
-	background: url('img/dientes-arriba/dientes-arriba-26.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-26.png');
 	width: 64px;
 	background-position: 0 4px;
 	background-repeat: no-repeat;
 }
 
 #diente27-a {
-	background: url('img/dientes-arriba/dientes-arriba-27.png');
-	width: 56px;
+	background: url('../assets/img/dientes-arriba/dientes-arriba-27.png');
+	width: 57px;
+	background-size: 57px 141px;
 	background-position: 0px 0px;
 	background-repeat: no-repeat;
 }
 
 #diente28-a {
-	background: url('img/dientes-arriba/dientes-arriba-28.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-28.png');
 	width: 54px;
+	background-size: 54px 141px;
 	background-position: 0 -2px;
 	background-repeat: no-repeat;
 }
@@ -1105,32 +628,6 @@ input {
 	background: #E6E6E6;
 }
 
-/*#pg18b-a,#pg18b-b,#pg18b-c,
-#pg17b-a,#pg17b-b,#pg17b-c,
-#pg16b-a,#pg16b-b,#pg16b-c,
-#pg15b-a,#pg15b-b,#pg15b-c,
-#pg14b-a,#pg14b-b,#pg14b-c,
-#pg13b-a,#pg13b-b,#pg13b-c,
-#pg12b-a,#pg12b-b,#pg12b-c,
-#pg11b-a,#pg11b-b,#pg11b-c,
-#ps18b-a,#ps18b-b,#ps18b-c,
-#ps17b-a,#ps17b-b,#ps17b-c,
-#ps16b-a,#ps16b-b,#ps16b-c,
-#ps15b-a,#ps15b-b,#ps15b-c,
-#ps14b-a,#ps14b-b,#ps14b-c,
-#ps13b-a,#ps13b-b,#ps13b-c,
-#ps12b-a,#ps12b-b,#ps12b-c,
-#ps11b-a,#ps11b-b,#ps11b-c{
-	width: 13px;
-	height: 18px;
-	background: none;
-	float:left;
-	display:inline;
-	margin: 2px;
-	text-align:center;
-	border:none;
-}*/
-
 #ps18b-a,
 #ps18b-b,
 #ps18b-c,
@@ -1172,56 +669,58 @@ input {
 }
 
 #diente18b-a {
-	background: url('img/dientes-arriba/dientes-arriba-18b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-18b.png');
 	width: 54px;
+	background-size: 54px 141px;
 	background-position: 0 23px;
 	background-repeat: no-repeat;
 }
 
 #diente17b-a {
-	background: url('img/dientes-arriba/dientes-arriba-17b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-17b.png');
 	width: 57px;
+	background-size: 57px 141px;
 	background-position: 0 24px;
 	background-repeat: no-repeat;
 }
 
 #diente16b-a {
-	background: url('img/dientes-arriba/dientes-arriba-16b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-16b.png');
 	width: 62px;
 	background-position: 0 22px;
 	background-repeat: no-repeat;
 }
 
 #diente15b-a {
-	background: url('img/dientes-arriba/dientes-arriba-15b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-15b.png');
 	width: 42px;
 	background-position: 0 17px;
 	background-repeat: no-repeat;
 }
 
 #diente14b-a {
-	background: url('img/dientes-arriba/dientes-arriba-14b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-14b.png');
 	width: 46px;
 	background-position: 0 17px;
 	background-repeat: no-repeat;
 }
 
 #diente13b-a {
-	background: url('img/dientes-arriba/dientes-arriba-13b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-13b.png');
 	width: 42px;
 	background-position: 0 16px;
 	background-repeat: no-repeat;
 }
 
 #diente12b-a {
-	background: url('img/dientes-arriba/dientes-arriba-12b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-12b.png');
 	width: 45px;
 	background-position: 0 18px;
 	background-repeat: no-repeat;
 }
 
 #diente11b-a {
-	background: url('img/dientes-arriba/dientes-arriba-11b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-11b.png');
 	width: 54px;
 	background-position: 0 12px;
 	background-repeat: no-repeat;
@@ -1287,8 +786,8 @@ input {
 
 .f-a,
 .f-b {
-	width: 50%;
-	height: 18px;
+	width: 45%;
+	height: 100%;
 	background: #ffffff;
 	border: 1px solid #C3C9C8;
 	background-repeat: no-repeat;
@@ -1479,57 +978,59 @@ input {
 }
 
 #diente21b-a {
-	background: url('img/dientes-arriba/dientes-arriba-21b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-21b.png');
 	width: 53px;
 	background-position: 0 11px;
 	background-repeat: no-repeat;
 }
 
 #diente22b-a {
-	background: url('img/dientes-arriba/dientes-arriba-22b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-22b.png');
 	width: 44px;
 	background-position: 0px 17px;
 	background-repeat: no-repeat;
 }
 
 #diente23b-a {
-	background: url('img/dientes-arriba/dientes-arriba-23b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-23b.png');
 	width: 43px;
 	background-position: 0 15px;
 	background-repeat: no-repeat;
 }
 
 #diente24b-a {
-	background: url('img/dientes-arriba/dientes-arriba-24b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-24b.png');
 	width: 43px;
 	background-position: 0 16px;
 	background-repeat: no-repeat;
 }
 
 #diente25b-a {
-	background: url('img/dientes-arriba/dientes-arriba-25b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-25b.png');
 	width: 42px;
 	background-position: 0 16px;
 	background-repeat: no-repeat;
 }
 
 #diente26b-a {
-	background: url('img/dientes-arriba/dientes-arriba-26b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-26b.png');
 	width: 64px;
 	background-position: 0 21px;
 	background-repeat: no-repeat;
 }
 
 #diente27b-a {
-	background: url('img/dientes-arriba/dientes-arriba-27b.png');
-	width: 56px;
+	background: url('../assets/img/dientes-arriba/dientes-arriba-27b.png');
+	width: 57px;
+	background-size: 57px 141px;
 	background-position: 0px 24px;
 	background-repeat: no-repeat;
 }
 
 #diente28b-a {
-	background: url('img/dientes-arriba/dientes-arriba-28b.png');
+	background: url('../assets/img/dientes-arriba/dientes-arriba-28b.png');
 	width: 54px;
+	background-size: 54px 141px;
 	background-position: 0 23px;
 	background-repeat: no-repeat;
 }
@@ -1826,56 +1327,56 @@ input {
 }
 
 #diente48-a {
-	background: url('img/dientes-abajo/dientes-abajo-48.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-48.png');
 	width: 66px;
 	background-position: 0 -4px;
 	background-repeat: no-repeat;
 }
 
 #diente47-a {
-	background: url('img/dientes-abajo/dientes-abajo-47.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-47.png');
 	width: 61px;
 	background-position: 0 4px;
 	background-repeat: no-repeat;
 }
 
 #diente46-a {
-	background: url('img/dientes-abajo/dientes-abajo-46.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-46.png');
 	width: 66px;
 	background-position: 0 -1px;
 	background-repeat: no-repeat;
 }
 
 #diente45-a {
-	background: url('img/dientes-abajo/dientes-abajo-45.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-45.png');
 	width: 44px;
 	background-position: 0 1px;
 	background-repeat: no-repeat;
 }
 
 #diente44-a {
-	background: url('img/dientes-abajo/dientes-abajo-44.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-44.png');
 	width: 42px;
 	background-position: 0px 3px;
 	background-repeat: no-repeat;
 }
 
 #diente43-a {
-	background: url('img/dientes-abajo/dientes-abajo-43.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-43.png');
 	width: 42px;
 	background-position: 0 7px;
 	background-repeat: no-repeat;
 }
 
 #diente42-a {
-	background: url('img/dientes-abajo/dientes-abajo-42.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-42.png');
 	width: 35px;
 	background-position: 0px 3px;
 	background-repeat: no-repeat;
 }
 
 #diente41-a {
-	background: url('img/dientes-abajo/dientes-abajo-41.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-41.png');
 	width: 36px;
 	background-position: 0 1px;
 	background-repeat: no-repeat;
@@ -2107,69 +1608,57 @@ input {
 	background: #E6E6E6;
 }
 
-#diente31-a,
-#diente32-a,
-#diente33-a,
-#diente34-a,
-#diente35-a,
-#diente36-a,
-#diente37-a,
-#diente38-a {
-	height: 155px;
-	background-repeat: no-repeat;
-}
-
 #diente31-a {
-	background: url('img/dientes-abajo/dientes-abajo-31.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-31.png');
 	width: 37px;
 	background-position: 0 1px;
 	background-repeat: no-repeat;
 }
 
 #diente32-a {
-	background: url('img/dientes-abajo/dientes-abajo-32.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-32.png');
 	width: 37px;
 	background-position: 0 3px;
 	background-repeat: no-repeat;
 }
 
 #diente33-a {
-	background: url('img/dientes-abajo/dientes-abajo-33.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-33.png');
 	width: 41px;
 	background-position: 0 7px;
 	background-repeat: no-repeat;
 }
 
 #diente34-a {
-	background: url('img/dientes-abajo/dientes-abajo-34.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-34.png');
 	width: 42px;
 	background-position: 0 5px;
 	background-repeat: no-repeat;
 }
 
 #diente35-a {
-	background: url('img/dientes-abajo/dientes-abajo-35.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-35.png');
 	width: 44px;
 	background-position: 0 1px;
 	background-repeat: no-repeat;
 }
 
 #diente36-a {
-	background: url('img/dientes-abajo/dientes-abajo-36.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-36.png');
 	width: 66px;
 	background-position: top;
 	background-repeat: no-repeat;
 }
 
 #diente37-a {
-	background: url('img/dientes-abajo/dientes-abajo-37.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-37.png');
 	width: 62px;
 	background-position: 0px -4px;
 	background-repeat: no-repeat;
 }
 
 #diente38-a {
-	background: url('img/dientes-abajo/dientes-abajo-38.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-38.png');
 	width: 66px;
 	background-position: 0 -3px;
 	background-repeat: no-repeat;
@@ -2425,69 +1914,57 @@ input {
 	background: #E6E6E6;
 }
 
-#diente48b-a,
-#diente47b-a,
-#diente46b-a,
-#diente45b-a,
-#diente44b-a,
-#diente43b-a,
-#diente42b-a,
-#diente41b-a {
-	height: 155px;
-	background-repeat: no-repeat;
-}
-
 #diente48b-a {
-	background: url('img/dientes-abajo/dientes-abajo-48b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-48b.png');
 	width: 61px;
 	background-position: 0 24px;
 	background-repeat: no-repeat;
 }
 
 #diente47b-a {
-	background: url('img/dientes-abajo/dientes-abajo-47b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-47b.png');
 	width: 62px;
 	background-position: 0 22px;
 	background-repeat: no-repeat;
 }
 
 #diente46b-a {
-	background: url('img/dientes-abajo/dientes-abajo-46b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-46b.png');
 	width: 68px;
 	background-position: 0 23px;
 	background-repeat: no-repeat;
 }
 
 #diente45b-a {
-	background: url('img/dientes-abajo/dientes-abajo-45b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-45b.png');
 	width: 45px;
 	background-position: 0 20px;
 	background-repeat: no-repeat;
 }
 
 #diente44b-a {
-	background: url('img/dientes-abajo/dientes-abajo-44b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-44b.png');
 	width: 42px;
 	background-position: 0 13px;
 	background-repeat: no-repeat;
 }
 
 #diente43b-a {
-	background: url('img/dientes-abajo/dientes-abajo-43b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-43b.png');
 	width: 40px;
 	background-position: 0 12px;
 	background-repeat: no-repeat;
 }
 
 #diente42b-a {
-	background: url('img/dientes-abajo/dientes-abajo-42b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-42b.png');
 	width: 39px;
 	background-position: 0 15px;
 	background-repeat: no-repeat;
 }
 
 #diente41b-a {
-	background: url('img/dientes-abajo/dientes-abajo-41b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-41b.png');
 	width: 37px;
 	background-position: 0 19px;
 	background-repeat: no-repeat;
@@ -2708,69 +2185,57 @@ input {
 	background: #E6E6E6;
 }
 
-#diente31b-a,
-#diente32b-a,
-#diente33b-a,
-#diente34b-a,
-#diente35b-a,
-#diente36b-a,
-#diente37b-a,
-#diente38b-a {
-	height: 155px;
-	background-repeat: no-repeat;
-}
-
 #diente31b-a {
-	background: url('img/dientes-abajo/dientes-abajo-31b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-31b.png');
 	width: 38px;
 	background-position: 0 19px;
 	background-repeat: no-repeat;
 }
 
 #diente32b-a {
-	background: url('img/dientes-abajo/dientes-abajo-32b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-32b.png');
 	width: 38px;
 	background-position: 0 15px;
 	background-repeat: no-repeat;
 }
 
 #diente33b-a {
-	background: url('img/dientes-abajo/dientes-abajo-33b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-33b.png');
 	width: 40px;
 	background-position: 0 12px;
 	background-repeat: no-repeat;
 }
 
 #diente34b-a {
-	background: url('img/dientes-abajo/dientes-abajo-34b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-34b.png');
 	width: 43px;
 	background-position: 0 13px;
 	background-repeat: no-repeat;
 }
 
 #diente35b-a {
-	background: url('img/dientes-abajo/dientes-abajo-35b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-35b.png');
 	width: 45px;
 	background-position: 0 20px;
 	background-repeat: no-repeat;
 }
 
 #diente36b-a {
-	background: url('img/dientes-abajo/dientes-abajo-36b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-36b.png');
 	width: 68px;
 	background-position: 0 23px;
 	background-repeat: no-repeat;
 }
 
 #diente37b-a {
-	background: url('img/dientes-abajo/dientes-abajo-37b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-37b.png');
 	width: 63px;
 	background-position: 0 21px;
 	background-repeat: no-repeat;
 }
 
 #diente38b-a {
-	background: url('img/dientes-abajo/dientes-abajo-38b.png');
+	background: url('../assets/img/dientes-abajo/dientes-abajo-38b.png');
 	width: 63px;
 	background-position: 0 24px;
 	background-repeat: no-repeat;
@@ -2799,18 +2264,17 @@ input {
 
 #lineas-gr,
 #lineas-gr-inf {
-	width: 400px;
+	width: 418px;
 	height: 160px;
 	position: absolute;
-	background: url('img/misc/fondo-grafico.png') repeat-x;
 }
 
 #lineas-gr {
-	background: url('img/misc/fondo-grafico.png') repeat-x;
+	background: url('../assets/img/misc/fondo-grafico.png') repeat-x;
 }
 
 #lineas-gr-inf {
-	background: url('img/misc/fondo-grafico-inf.png') repeat-x;
+	background: url('../assets/img/misc/fondo-grafico-inf.png') repeat-x;
 	margin: 0px 0 0;
 }
 
