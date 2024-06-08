@@ -776,7 +776,6 @@ const Periodontograma = () => {
                       <td className="titulo">Anchura encía</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae18"
                           name="ae18"
@@ -785,7 +784,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae17"
                           name="ae17"
@@ -794,7 +792,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae16"
                           name="ae16"
@@ -803,7 +800,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae15"
                           name="ae15"
@@ -812,7 +808,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae14"
                           name="ae14"
@@ -821,7 +816,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae13"
                           name="ae13"
@@ -830,7 +824,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae12"
                           name="ae12"
@@ -839,7 +832,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae11"
                           name="ae11"
@@ -848,7 +840,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae21"
                           name="ae21"
@@ -857,7 +848,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae22"
                           name="ae22"
@@ -866,7 +856,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae23"
                           name="ae23"
@@ -875,7 +864,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae24"
                           name="ae24"
@@ -884,7 +872,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae25"
                           name="ae25"
@@ -893,7 +880,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae26"
                           name="ae26"
@@ -902,7 +888,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae27"
                           name="ae27"
@@ -911,7 +896,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae28"
                           name="ae28"
@@ -923,21 +907,18 @@ const Periodontograma = () => {
                       <td className="titulo">Margen gingival</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg18-a"
                           name="mg18-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg18-b"
                           name="mg18-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg18-c"
                           name="mg18-c"
@@ -946,21 +927,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg17-a"
                           name="mg17-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg17-b"
                           name="mg17-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg17-c"
                           name="mg17-c"
@@ -969,21 +947,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg16-a"
                           name="mg16-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg16-b"
                           name="mg16-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg16-c"
                           name="mg16-c"
@@ -992,21 +967,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg15-a"
                           name="mg15-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg15-b"
                           name="mg15-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg15-c"
                           name="mg15-c"
@@ -1015,21 +987,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg14-a"
                           name="mg14-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg14-b"
                           name="mg14-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg14-c"
                           name="mg14-c"
@@ -1038,21 +1007,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg13-a"
                           name="mg13-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg13-b"
                           name="mg13-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg13-c"
                           name="mg13-c"
@@ -1061,21 +1027,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg12-a"
                           name="mg12-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg12-b"
                           name="mg12-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg12-c"
                           name="mg12-c"
@@ -1084,21 +1047,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg11-a"
                           name="mg11-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg11-b"
                           name="mg11-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg11-c"
                           name="mg11-c"
@@ -1107,21 +1067,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg21-a"
                           name="mg21-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg21-b"
                           name="mg21-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg21-c"
                           name="mg21-c"
@@ -1130,21 +1087,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg22-a"
                           name="mg22-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg22-b"
                           name="mg22-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg22-c"
                           name="mg22-c"
@@ -1153,21 +1107,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg23-a"
                           name="mg23-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg23-b"
                           name="mg23-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg23-c"
                           name="mg23-c"
@@ -1176,21 +1127,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg24-a"
                           name="mg24-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg24-b"
                           name="mg24-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg24-c"
                           name="mg24-c"
@@ -1199,21 +1147,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg25-a"
                           name="mg25-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg25-b"
                           name="mg25-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg25-c"
                           name="mg25-c"
@@ -1222,21 +1167,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg26-a"
                           name="mg26-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg26-b"
                           name="mg26-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg26-c"
                           name="mg26-c"
@@ -1245,21 +1187,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg27-a"
                           name="mg27-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg27-b"
                           name="mg27-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg27-c"
                           name="mg27-c"
@@ -1268,21 +1207,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg28-a"
                           name="mg28-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg28-b"
                           name="mg28-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg28-c"
                           name="mg28-c"
@@ -1294,21 +1230,18 @@ const Periodontograma = () => {
                       <td className="titulo">Profundidad de sondaje</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps18-a"
                           name="ps18-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps18-b"
                           name="ps18-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps18-c"
                           name="ps18-c"
@@ -1317,21 +1250,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps17-a"
                           name="ps17-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps17-b"
                           name="ps17-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps17-c"
                           name="ps17-c"
@@ -1340,21 +1270,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps16-a"
                           name="ps16-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps16-b"
                           name="ps16-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps16-c"
                           name="ps16-c"
@@ -1363,21 +1290,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps15-a"
                           name="ps15-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps15-b"
                           name="ps15-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps15-c"
                           name="ps15-c"
@@ -1386,21 +1310,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps14-a"
                           name="ps14-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps14-b"
                           name="ps14-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps14-c"
                           name="ps14-c"
@@ -1409,21 +1330,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps13-a"
                           name="ps13-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps13-b"
                           name="ps13-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps13-c"
                           name="ps13-c"
@@ -1432,21 +1350,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps12-a"
                           name="ps12-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps12-b"
                           name="ps12-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps12-c"
                           name="ps12-c"
@@ -1455,21 +1370,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps11-a"
                           name="ps11-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps11-b"
                           name="ps11-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps11-c"
                           name="ps11-c"
@@ -1478,21 +1390,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps21-a"
                           name="ps21-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps21-b"
                           name="ps21-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps21-c"
                           name="ps21-c"
@@ -1501,21 +1410,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps22-a"
                           name="ps22-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps22-b"
                           name="ps22-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps22-c"
                           name="ps22-c"
@@ -1524,21 +1430,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps23-a"
                           name="ps23-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps23-b"
                           name="ps23-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps23-c"
                           name="ps23-c"
@@ -1547,21 +1450,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps24-a"
                           name="ps24-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps24-b"
                           name="ps24-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps24-c"
                           name="ps24-c"
@@ -1570,21 +1470,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps25-a"
                           name="ps25-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps25-b"
                           name="ps25-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps25-c"
                           name="ps25-c"
@@ -1593,21 +1490,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps26-a"
                           name="ps26-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps26-b"
                           name="ps26-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps26-c"
                           name="ps26-c"
@@ -1616,21 +1510,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps27-a"
                           name="ps27-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps27-b"
                           name="ps27-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps27-c"
                           name="ps27-c"
@@ -1639,21 +1530,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps28-a"
                           name="ps28-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps28-b"
                           name="ps28-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps28-c"
                           name="ps28-c"
@@ -1839,21 +1727,18 @@ const Periodontograma = () => {
                       <td className="titulo">Profundidad de sondaje</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps18b-a"
                           name="ps18b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps18b-b"
                           name="ps18b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps18b-c"
                           name="ps18b-c"
@@ -1862,21 +1747,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps17b-a"
                           name="ps17b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps17b-b"
                           name="ps17b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps17b-c"
                           name="ps17b-c"
@@ -1885,21 +1767,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps16b-a"
                           name="ps16b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps16b-b"
                           name="ps16b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps16b-c"
                           name="ps16b-c"
@@ -1908,21 +1787,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps15b-a"
                           name="ps15b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps15b-b"
                           name="ps15b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps15b-c"
                           name="ps15b-c"
@@ -1931,21 +1807,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps14b-a"
                           name="ps14b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps14b-b"
                           name="ps14b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps14b-c"
                           name="ps14b-c"
@@ -1954,21 +1827,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps13b-a"
                           name="ps13b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps13b-b"
                           name="ps13b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps13b-c"
                           name="ps13b-c"
@@ -1977,21 +1847,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps12b-a"
                           name="ps12b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps12b-b"
                           name="ps12b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps12b-c"
                           name="ps12b-c"
@@ -2000,21 +1867,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps11b-a"
                           name="ps11b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps11b-b"
                           name="ps11b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps11b-c"
                           name="ps11b-c"
@@ -2023,21 +1887,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps21b-a"
                           name="ps21b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps21b-b"
                           name="ps21b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps21b-c"
                           name="ps21b-c"
@@ -2046,21 +1907,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps22b-a"
                           name="ps22b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps22b-b"
                           name="ps22b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps22b-c"
                           name="ps22b-c"
@@ -2069,21 +1927,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps23b-a"
                           name="ps23b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps23b-b"
                           name="ps23b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps23b-c"
                           name="ps23b-c"
@@ -2092,21 +1947,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps24b-a"
                           name="ps24b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps24b-b"
                           name="ps24b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps24b-c"
                           name="ps24b-c"
@@ -2115,21 +1967,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps25b-a"
                           name="ps25b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps25b-b"
                           name="ps25b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps25b-c"
                           name="ps25b-c"
@@ -2138,21 +1987,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps26b-a"
                           name="ps26b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps26b-b"
                           name="ps26b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps26b-c"
                           name="ps26b-c"
@@ -2161,21 +2007,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps27b-a"
                           name="ps27b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps27b-b"
                           name="ps27b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps27b-c"
                           name="ps27b-c"
@@ -2184,21 +2027,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps28b-a"
                           name="ps28b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps28b-b"
                           name="ps28b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps28b-c"
                           name="ps28b-c"
@@ -2210,21 +2050,18 @@ const Periodontograma = () => {
                       <td className="titulo">Margen gingival</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg18b-a"
                           name="mg18b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg18b-b"
                           name="mg18b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg18b-c"
                           name="mg18b-c"
@@ -2233,21 +2070,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg17b-a"
                           name="mg17b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg17b-b"
                           name="mg17b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg17b-c"
                           name="mg17b-c"
@@ -2256,21 +2090,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg16b-a"
                           name="mg16b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg16b-b"
                           name="mg16b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg16b-c"
                           name="mg16b-c"
@@ -2279,21 +2110,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg15b-a"
                           name="mg15b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg15b-b"
                           name="mg15b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg15b-c"
                           name="mg15b-c"
@@ -2302,21 +2130,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg14b-a"
                           name="mg14b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg14b-b"
                           name="mg14b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg14b-c"
                           name="mg14b-c"
@@ -2325,21 +2150,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg13b-a"
                           name="mg13b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg13b-b"
                           name="mg13b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg13b-c"
                           name="mg13b-c"
@@ -2348,21 +2170,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg12b-a"
                           name="mg12b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg12b-b"
                           name="mg12b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg12b-c"
                           name="mg12b-c"
@@ -2371,21 +2190,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg11b-a"
                           name="mg11b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg11b-b"
                           name="mg11b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg11b-c"
                           name="mg11b-c"
@@ -2394,21 +2210,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg21b-a"
                           name="mg21b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg21b-b"
                           name="mg21b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg21b-c"
                           name="mg21b-c"
@@ -2417,21 +2230,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg22b-a"
                           name="mg22b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg22b-b"
                           name="mg22b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg22b-c"
                           name="mg22b-c"
@@ -2440,21 +2250,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg23b-a"
                           name="mg23b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg23b-b"
                           name="mg23b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg23b-c"
                           name="mg23b-c"
@@ -2463,21 +2270,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg24b-a"
                           name="mg24b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg24b-b"
                           name="mg24b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg24b-c"
                           name="mg24b-c"
@@ -2486,21 +2290,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg25b-a"
                           name="mg25b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg25b-b"
                           name="mg25b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg25b-c"
                           name="mg25b-c"
@@ -2509,21 +2310,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg26b-a"
                           name="mg26b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg26b-b"
                           name="mg26b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg26b-c"
                           name="mg26b-c"
@@ -2532,21 +2330,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg27b-a"
                           name="mg27b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg27b-b"
                           name="mg27b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg27b-c"
                           name="mg27b-c"
@@ -2555,21 +2350,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg28b-a"
                           name="mg28b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg28b-b"
                           name="mg28b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg28b-c"
                           name="mg28b-c"
@@ -3109,21 +2901,18 @@ const Periodontograma = () => {
                       <td className="titulo">Margen gingival</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg48-a"
                           name="mg48-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg48-b"
                           name="mg48-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg48-c"
                           name="mg48-c"
@@ -3132,21 +2921,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg47-a"
                           name="mg47-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg47-b"
                           name="mg47-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg47-c"
                           name="mg47-c"
@@ -3155,21 +2941,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg46-a"
                           name="mg46-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg46-b"
                           name="mg46-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg46-c"
                           name="mg46-c"
@@ -3178,21 +2961,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg45-a"
                           name="mg45-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg45-b"
                           name="mg45-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg45-c"
                           name="mg45-c"
@@ -3201,21 +2981,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg44-a"
                           name="mg44-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg44-b"
                           name="mg44-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg44-c"
                           name="mg44-c"
@@ -3224,21 +3001,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg43-a"
                           name="mg43-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg43-b"
                           name="mg43-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg43-c"
                           name="mg43-c"
@@ -3247,21 +3021,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg42-a"
                           name="mg42-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg42-b"
                           name="mg42-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg42-c"
                           name="mg42-c"
@@ -3270,21 +3041,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg41-a"
                           name="mg41-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg41-b"
                           name="mg41-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg41-c"
                           name="mg41-c"
@@ -3293,21 +3061,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg31-a"
                           name="mg31-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg31-b"
                           name="mg31-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg31-c"
                           name="mg31-c"
@@ -3316,21 +3081,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg32-a"
                           name="mg32-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg32-b"
                           name="mg32-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg32-c"
                           name="mg32-c"
@@ -3339,21 +3101,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg33-a"
                           name="mg33-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg33-b"
                           name="mg33-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg33-c"
                           name="mg33-c"
@@ -3362,21 +3121,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg34-a"
                           name="mg34-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg34-b"
                           name="mg34-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg34-c"
                           name="mg34-c"
@@ -3385,21 +3141,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg35-a"
                           name="mg35-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg35-b"
                           name="mg35-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg35-c"
                           name="mg35-c"
@@ -3408,21 +3161,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg36-a"
                           name="mg36-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg36-b"
                           name="mg36-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg36-c"
                           name="mg36-c"
@@ -3431,21 +3181,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg37-a"
                           name="mg37-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg37-b"
                           name="mg37-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg37-c"
                           name="mg37-c"
@@ -3454,21 +3201,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg38-a"
                           name="mg38-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg38-b"
                           name="mg38-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg38-c"
                           name="mg38-c"
@@ -3480,21 +3224,18 @@ const Periodontograma = () => {
                       <td className="titulo">Profundidad de sondaje</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps48-a"
                           name="ps48-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps48-b"
                           name="ps48-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps48-c"
                           name="ps48-c"
@@ -3503,21 +3244,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps47-a"
                           name="ps47-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps47-b"
                           name="ps47-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps47-c"
                           name="ps47-c"
@@ -3526,21 +3264,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps46-a"
                           name="ps46-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps46-b"
                           name="ps46-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps46-c"
                           name="ps46-c"
@@ -3549,21 +3284,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps45-a"
                           name="ps45-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps45-b"
                           name="ps45-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps45-c"
                           name="ps45-c"
@@ -3572,21 +3304,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps44-a"
                           name="ps44-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps44-b"
                           name="ps44-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps44-c"
                           name="ps44-c"
@@ -3595,21 +3324,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps43-a"
                           name="ps43-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps43-b"
                           name="ps43-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps43-c"
                           name="ps43-c"
@@ -3618,21 +3344,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps42-a"
                           name="ps42-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps42-b"
                           name="ps42-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps42-c"
                           name="ps42-c"
@@ -3641,21 +3364,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps41-a"
                           name="ps41-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps41-b"
                           name="ps41-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps41-c"
                           name="ps41-c"
@@ -3664,21 +3384,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps31-a"
                           name="ps31-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps31-b"
                           name="ps31-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps31-c"
                           name="ps31-c"
@@ -3687,21 +3404,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps32-a"
                           name="ps32-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps32-b"
                           name="ps32-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps32-c"
                           name="ps32-c"
@@ -3710,21 +3424,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps33-a"
                           name="ps33-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps33-b"
                           name="ps33-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps33-c"
                           name="ps33-c"
@@ -3733,21 +3444,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps34-a"
                           name="ps34-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps34-b"
                           name="ps34-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps34-c"
                           name="ps34-c"
@@ -3756,21 +3464,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps35-a"
                           name="ps35-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps35-b"
                           name="ps35-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps35-c"
                           name="ps35-c"
@@ -3779,21 +3484,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps36-a"
                           name="ps36-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps36-b"
                           name="ps36-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps36-c"
                           name="ps36-c"
@@ -3802,21 +3504,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps37-a"
                           name="ps37-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps37-b"
                           name="ps37-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps37-c"
                           name="ps37-c"
@@ -3825,21 +3524,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps38-a"
                           name="ps38-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps38-b"
                           name="ps38-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps38-c"
                           name="ps38-c"
@@ -4013,21 +3709,18 @@ const Periodontograma = () => {
                       <td className="titulo">Profundidad de sondaje</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps48b-a"
                           name="ps48b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps48b-b"
                           name="ps48b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps48b-c"
                           name="ps48b-c"
@@ -4036,21 +3729,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps47b-a"
                           name="ps47b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps47b-b"
                           name="ps47b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps47b-c"
                           name="ps47b-c"
@@ -4059,21 +3749,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps46b-a"
                           name="ps46b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps46b-b"
                           name="ps46b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps46b-c"
                           name="ps46b-c"
@@ -4082,21 +3769,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps45b-a"
                           name="ps45b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps45b-b"
                           name="ps45b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps45b-c"
                           name="ps45b-c"
@@ -4105,21 +3789,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps44b-a"
                           name="ps44b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps44b-b"
                           name="ps44b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps44b-c"
                           name="ps44b-c"
@@ -4128,21 +3809,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps43b-a"
                           name="ps43b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps43b-b"
                           name="ps43b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps43b-c"
                           name="ps43b-c"
@@ -4151,21 +3829,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps42b-a"
                           name="ps42b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps42b-b"
                           name="ps42b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps42b-c"
                           name="ps42b-c"
@@ -4174,21 +3849,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps41b-a"
                           name="ps41b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps41b-b"
                           name="ps41b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps41b-c"
                           name="ps41b-c"
@@ -4197,21 +3869,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps31b-a"
                           name="ps31b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps31b-b"
                           name="ps31b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps31b-c"
                           name="ps31b-c"
@@ -4220,21 +3889,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps32b-a"
                           name="ps32b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps32b-b"
                           name="ps32b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps32b-c"
                           name="ps32b-c"
@@ -4243,21 +3909,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps33b-a"
                           name="ps33b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps33b-b"
                           name="ps33b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps33b-c"
                           name="ps33b-c"
@@ -4266,21 +3929,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps34b-a"
                           name="ps34b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps34b-b"
                           name="ps34b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps34b-c"
                           name="ps34b-c"
@@ -4289,21 +3949,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps35b-a"
                           name="ps35b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps35b-b"
                           name="ps35b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps35b-c"
                           name="ps35b-c"
@@ -4312,21 +3969,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps36b-a"
                           name="ps36b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps36b-b"
                           name="ps36b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps36b-c"
                           name="ps36b-c"
@@ -4335,21 +3989,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps37b-a"
                           name="ps37b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps37b-b"
                           name="ps37b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps37b-c"
                           name="ps37b-c"
@@ -4358,21 +4009,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ps38b-a"
                           name="ps38b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps38b-b"
                           name="ps38b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="ps38b-c"
                           name="ps38b-c"
@@ -4384,21 +4032,18 @@ const Periodontograma = () => {
                       <td className="titulo">Margen gingival</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg48b-a"
                           name="mg48b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg48b-b"
                           name="mg48b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg48b-c"
                           name="mg48b-c"
@@ -4407,21 +4052,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg47b-a"
                           name="mg47b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg47b-b"
                           name="mg47b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg47b-c"
                           name="mg47b-c"
@@ -4430,7 +4072,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg46b-a"
                           name="mg46b-a"
@@ -4438,7 +4079,6 @@ const Periodontograma = () => {
                           //onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-a');cargar46b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg46b-b"
                           name="mg46b-b"
@@ -4446,7 +4086,6 @@ const Periodontograma = () => {
                           //onchange="cargar46b();getDefectos();rangoNumeroMargen('mg46b-b');cargar46b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg46b-c"
                           name="mg46b-c"
@@ -4456,7 +4095,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg45b-a"
                           name="mg45b-a"
@@ -4464,7 +4102,6 @@ const Periodontograma = () => {
                           //onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-a');cargar45b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg45b-b"
                           name="mg45b-b"
@@ -4472,7 +4109,6 @@ const Periodontograma = () => {
                           //onchange="cargar45b();getDefectos();rangoNumeroMargen('mg45b-b');cargar45b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg45b-c"
                           name="mg45b-c"
@@ -4482,7 +4118,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg44b-a"
                           name="mg44b-a"
@@ -4490,7 +4125,6 @@ const Periodontograma = () => {
                           //onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-a');cargar44b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg44b-b"
                           name="mg44b-b"
@@ -4498,7 +4132,6 @@ const Periodontograma = () => {
                           //onchange="cargar44b();getDefectos();rangoNumeroMargen('mg44b-b');cargar44b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg44b-c"
                           name="mg44b-c"
@@ -4508,7 +4141,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg43b-a"
                           name="mg43b-a"
@@ -4516,7 +4148,6 @@ const Periodontograma = () => {
                           //onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-a');cargar43b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg43b-b"
                           name="mg43b-b"
@@ -4524,7 +4155,6 @@ const Periodontograma = () => {
                           //onchange="cargar43b();getDefectos();rangoNumeroMargen('mg43b-b');cargar43b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg43b-c"
                           name="mg43b-c"
@@ -4534,7 +4164,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg42b-a"
                           name="mg42b-a"
@@ -4542,7 +4171,6 @@ const Periodontograma = () => {
                           //onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-a');cargar42b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg42b-b"
                           name="mg42b-b"
@@ -4550,7 +4178,6 @@ const Periodontograma = () => {
                           //onchange="cargar42b();getDefectos();rangoNumeroMargen('mg42b-b');cargar42b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg42b-c"
                           name="mg42b-c"
@@ -4560,7 +4187,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg41b-a"
                           name="mg41b-a"
@@ -4568,7 +4194,6 @@ const Periodontograma = () => {
                           //onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-a');cargar41b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg41b-b"
                           name="mg41b-b"
@@ -4576,7 +4201,6 @@ const Periodontograma = () => {
                           //onchange="cargar41b();getDefectos();rangoNumeroMargen('mg41b-b');cargar41b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg41b-c"
                           name="mg41b-c"
@@ -4586,7 +4210,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg31b-a"
                           name="mg31b-a"
@@ -4594,7 +4217,6 @@ const Periodontograma = () => {
                           //onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-a');cargar31b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg31b-b"
                           name="mg31b-b"
@@ -4602,7 +4224,6 @@ const Periodontograma = () => {
                           //onchange="cargar31b();getDefectos();rangoNumeroMargen('mg31b-b');cargar31b();"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg31b-c"
                           name="mg31b-c"
@@ -4612,21 +4233,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg32b-a"
                           name="mg32b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg32b-b"
                           name="mg32b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg32b-c"
                           name="mg32b-c"
@@ -4635,21 +4253,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg33b-a"
                           name="mg33b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg33b-b"
                           name="mg33b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg33b-c"
                           name="mg33b-c"
@@ -4658,21 +4273,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg34b-a"
                           name="mg34b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg34b-b"
                           name="mg34b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg34b-c"
                           name="mg34b-c"
@@ -4681,21 +4293,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg35b-a"
                           name="mg35b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg35b-b"
                           name="mg35b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg35b-c"
                           name="mg35b-c"
@@ -4704,21 +4313,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg36b-a"
                           name="mg36b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg36b-b"
                           name="mg36b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg36b-c"
                           name="mg36b-c"
@@ -4727,21 +4333,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg37b-a"
                           name="mg37b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg37b-b"
                           name="mg37b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg37b-c"
                           name="mg37b-c"
@@ -4750,21 +4353,18 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="mg38b-a"
                           name="mg38b-a"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg38b-b"
                           name="mg38b-b"
                           defaultValue="0"
                         />
                         <input
-                          className="periInp"
                           type="text"
                           id="mg38b-c"
                           name="mg38b-c"
@@ -4776,7 +4376,6 @@ const Periodontograma = () => {
                       <td className="titulo">Anchura encía</td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae48b"
                           name="ae48b"
@@ -4785,7 +4384,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae47b"
                           name="ae47b"
@@ -4794,7 +4392,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae46b"
                           name="ae46b"
@@ -4803,7 +4400,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae45b"
                           name="ae45b"
@@ -4812,7 +4408,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae44b"
                           name="ae44b"
@@ -4821,7 +4416,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae43b"
                           name="ae43b"
@@ -4830,7 +4424,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae42b"
                           name="ae42b"
@@ -4839,7 +4432,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae41b"
                           name="ae41b"
@@ -4848,7 +4440,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae31b"
                           name="ae31b"
@@ -4857,7 +4448,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae32b"
                           name="ae32b"
@@ -4866,7 +4456,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae33b"
                           name="ae33b"
@@ -4875,7 +4464,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae34b"
                           name="ae34b"
@@ -4884,7 +4472,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae35b"
                           name="ae35b"
@@ -4893,7 +4480,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae36b"
                           name="ae36b"
@@ -4902,7 +4488,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae37b"
                           name="ae37b"
@@ -4911,7 +4496,6 @@ const Periodontograma = () => {
                       </td>
                       <td className="borde">
                         <input
-                          className="periInp"
                           type="text"
                           id="ae38b"
                           name="ae38b"

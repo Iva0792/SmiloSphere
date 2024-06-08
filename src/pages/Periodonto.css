@@ -42,6 +42,11 @@ table {
 	border-spacing: 0;
 }
 
+.contenido {
+	margin-left: -50px;
+	display: block;
+}
+
 #images {
 	display: none;
 }
@@ -150,7 +155,7 @@ h2 {
 	border: none;
 }
 
-.periInp {
+input {
 	width: 11px;
 	height: 18px;
 	padding: 0;
