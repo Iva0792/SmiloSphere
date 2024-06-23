@@ -73,7 +73,24 @@ const Expedientes = () => {
               <Datos />
             </TabPanel>
             <TabPanel className="panel" value={mainTab} index={1}>
-              <Anamnesis />
+            <Box>
+                <Tabs
+                  className="subTabsForm"
+                  value={nestedTab}
+                  onChange={handleNestedTabChange}
+                  scrollButtons="auto"
+                  aria-label="nested tabs"
+                >
+                  <Tab label="APP" value={0} />
+                  <Tab label="ANP" value={1} />
+                </Tabs>
+                <TabPanel className="panel" value={nestedTab} index={0}>
+                  <hi>Tab 1</hi>
+                </TabPanel>
+                <TabPanel className="panel" value={nestedTab} index={1}>
+                <hi>Tab 2</hi>
+                </TabPanel>
+              </Box>
             </TabPanel>
             <TabPanel className="panel" value={mainTab} index={2}>
               <Consulta />
