@@ -6,6 +6,9 @@ import Periodontograma from "./Periodontograma";
 import Odontograma from "./Odontograma";
 import Datos from "./Datos";
 import SearchPatients from "./SearchPatients";
+import Anamnesis from "./Anamnesis";
+import Consulta from "./Consulta";
+import Finanzas from "./Finanzas";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -70,13 +73,12 @@ const Expedientes = () => {
               <Datos />
             </TabPanel>
             <TabPanel className="panel" value={mainTab} index={1}>
-              Item Two
+              <Anamnesis />
             </TabPanel>
             <TabPanel className="panel" value={mainTab} index={2}>
-              Item Three
+              <Consulta />
             </TabPanel>
             <TabPanel className="panel" value={mainTab} index={3}>
-              Item Four
               <Box>
                 <Tabs
                   className="subTabsForm"
@@ -97,7 +99,7 @@ const Expedientes = () => {
               </Box>
             </TabPanel>
             <TabPanel className="panel" value={mainTab} index={4}>
-              Item Five
+              <Finanzas />
             </TabPanel>
           </Box>
         </div>
