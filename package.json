@@ -14,8 +14,13 @@
     "@emotion/styled": "^11.11.5",
     "@mui/lab": "^5.0.0-alpha.170",
     "@mui/material": "^5.15.19",
+    "axios": "^1.7.2",
+    "mobiscroll": "^3.0.0-beta6",
+    "moment": "^2.30.1",
     "react": "^18.2.0",
+    "react-big-calendar": "^1.12.2",
     "react-dom": "^18.2.0",
+    "react-native-calendars": "^1.1305.0",
     "react-router-dom": "^6.23.1"
   },
   "devDependencies": {

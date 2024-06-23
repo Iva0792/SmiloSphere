@@ -5,13 +5,20 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <div className="">
+            <div>
+                <ul>
+                    <li className="logo">
+                        <Link to="/Dashboard">SmiloSphere</Link>
+                    </li>
+                </ul>
+            </div>
+            <div>
             <ul className="nav-links">
                 <input type="checkbox" id="checkbox_toggle" />
                 <label htmlFor="checkbox_toggle" className="dropdown"></label>
                 <div className="menu">
                     <li>
-                        <Link to="/Expendientes">Expedientes</Link>
+                        <Link to="/Expedientes">Expedientes</Link>
                     </li>
                     <li>
                         <Link to="/Agenda">Agenda</Link>
@@ -30,13 +37,6 @@ const Navbar = () => {
                     </li>
                 </div>
             </ul>
-            </div>
-            <div>
-                <ul>
-                    <li className="logo">
-                        <Link to="/Dashboard">SmiloSphere</Link>
-                    </li>
-                </ul>
             </div>
         </nav>
     );

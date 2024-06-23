@@ -1,9 +1,33 @@
-.tabsForm {
-    width: 180px;
+.datos {
+    margin-left: 20px;
 }
 
+.datos input {
+    width: 200px;
+    font-size: 15px;
+    border: 1px solid #e6e6e6;
 
+}
 
+.containerExp {
+    display: flex;
+    width: 100vw;
+}
+
+.tabsForm {
+    width: 60vw;
+    margin-left: 5vw;
+}
+
+.panel {
+    height: 3000px;
+}
+
+.boxPanel {
+    width: calc(80vw - 12.5%);
+    margin-right: 0px;
+    transform: translate(20%);
+}
 
 
 
