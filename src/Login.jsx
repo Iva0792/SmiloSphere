@@ -47,7 +47,7 @@ function Login() {
       })
         .then((response) => response.json())
         .then((response) => {
-            if (response[0].result == "User successfully logged in") {
+            if (response[0].result == "Login successful") {
                 setMsg("Ingreso satisfactorio. Redirigiendo...");
                 setTimeout(function () {
                     naviget("/Dashboard");

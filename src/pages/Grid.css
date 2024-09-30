@@ -27,37 +27,37 @@
   }
   
   .card-1 {
-    background: transparent url("../assets/icons/1.svg") no-repeat center 0;
+    background: transparent url("../assets/icons/expediente.svg") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
   
   .card-2 {
-    background: transparent url("../assets/icons/2.svg") no-repeat center 0;
+    background: transparent url("../assets/icons/agenda.svg") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
   
   .card-3 {
-    background: transparent url("../assets/icons/3.svg") no-repeat center 0;
+    background: transparent url("../assets/icons/mensaje.svg") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
   
   .card-4 {
-    background: transparent url("../assets/icons/4.svg") no-repeat center 0;
+    background: transparent url("../assets/icons/factura.svg") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
   
   .card-5 {
-    background: transparent url("../assets/icons/5.svg") no-repeat center 0;
+    background: transparent url("../assets/icons/pendiente.svg") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
   
   .card-6 {
-    background: transparent url("../assets/icons/6.svg") no-repeat center 0;
+    background: transparent url("../assets/icons/busqueda.svg") no-repeat center 0;
     background-size: contain;
     height: 70%;
   }
@@ -92,7 +92,7 @@
     top: 0;
     height: 25px;
     width: 25px;
-    background: url(/images/icons/9.svg) no-repeat;
+    background: url(../assets/icons/salir.svg) no-repeat;
     text-indent: -999em;
     text-decoration: none;
   }

@@ -1,10 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function SearchPatients() {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
+  const [debouncedQuery, setDebouncedQuery] = useState(query);
 
-  const handleSearch = async () => {
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setDebouncedQuery(query);
+    }, 500);
+
+    return () => {
+      clearTimeout(timerId);
+    };
+  }, [query]);
+
+  useEffect(() => {
+    if (debouncedQuery) {
+      searchDatabase(debouncedQuery);
+    }
+  }, [debouncedQuery]);
+
+  const searchDatabase = async (query) => {
     try {
       const response = await fetch('https://smilosphere.cloud/search.php?q=${query}');
       if (!response.ok) {
@@ -25,11 +42,10 @@ function SearchPatients() {
         onChange={(e) => setQuery(e.target.value)} 
         placeholder="Search patients" 
       />
-      <button onClick={handleSearch}>Search</button>
       <ul>
-        {results.map((patient) => (
-          <li key={patient.id}>
-            {patient.name} - {patient.id}
+        {results.map((result, index) => (
+          <li key={index}>
+            {result.name}
           </li>
         ))}
       </ul>

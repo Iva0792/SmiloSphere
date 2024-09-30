@@ -1,7 +1,7 @@
 import "../pages/Tabs.css";
 import React from "react";
 import { Box, Tabs, Tab } from "@mui/material";
-import Navbar from "../Navbar";
+import Navbar from "./Navbar";
 import Periodontograma from "./Periodontograma";
 import Odontograma from "./Odontograma";
 import Datos from "./Datos";

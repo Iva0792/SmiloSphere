@@ -1,6 +1,6 @@
 import "./Main.css";
 import "./Grid.css"
-import Navbar from '../Navbar';
+import Navbar from './Navbar';
 import Expedientes from "./Expedientes";
 import { Link } from "react-router-dom";
 

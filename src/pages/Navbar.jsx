@@ -1,0 +1,80 @@
+import React from "react";
+import "./Navbar.css";
+import { Link } from "react-router-dom";
+
+const Navbar = () => {
+    return (
+        <nav className="navbar">
+            <div>
+                <ul>
+                    <li className="logo">
+                        <Link to="/Dashboard">SmiloSphere</Link>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul className="nav-links">
+                    <div className="menu">
+                        <div className="iconos">
+                            <li>
+                                <Link to="/Expedientes">
+                                    <div className="icon">
+                                        <img src="../assets/icons/expediente.svg" alt="" />
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/Agenda">
+                                    <div className="icon">
+                                        <img src="../assets/icons/agenda.svg" alt="" />
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/Mensajeria">
+                                    <div className="icon">
+                                        <img src="../assets/icons/mensaje.svg" alt="" />
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/Facturacion">
+                                    <div className="icon">
+                                        <img src="../assets/icons/factura.svg" alt="" />
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/Pendientes">
+                                    <div className="icon">
+                                        <img src="../assets/icons/pendiente.svg" alt="" />
+                                    </div>
+                                </Link>
+                            </li>
+                            <li>
+                                <Link to="/Busqueda">
+                                    <div className="icon">
+                                        <img src="../assets/icons/busqueda.svg" alt="" />
+                                    </div>
+                                </Link>
+                            </li>
+                        </div>
+                        <Link to="/">
+                            <div className="icon salir">
+                                <img src="../assets/icons/salir.svg" alt="" />
+                            </div>
+                        </Link>
+                    </div>
+
+                </ul>
+                <Link to="/">
+                    <div className="icon user-icon">
+                        <img src="../assets/icons/user.svg" alt="" />
+                    </div>
+                </Link>
+            </div>
+        </nav>
+    );
+};
+
+export default Navbar;
