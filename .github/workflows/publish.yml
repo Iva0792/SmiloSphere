@@ -25,9 +25,8 @@ jobs:
         run: npm run build # The build command of your project
 
       - name: Push
-        uses: s0/git-publish-subdir-action@develop
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          REPO: self
-          BRANCH: build # The branch name where you want to push the assets
-          FOLDER: dist # The directory where your assets are generated
+          branch: build # all lowercase
+          folder: dist  # all lowercase
