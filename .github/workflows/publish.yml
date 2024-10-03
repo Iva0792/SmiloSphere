@@ -27,7 +27,7 @@ jobs:
       - name: Push
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.PAT }} # Use the personal access token
+          token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }} # Use the personal access token
           branch: build
           folder: dist
           clean: true
