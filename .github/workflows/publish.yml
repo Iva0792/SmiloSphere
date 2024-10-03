@@ -28,5 +28,6 @@ jobs:
         uses: s0/git-publish-subdir-action@develop
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          FOLDER: dist # The directory where your assets are generated
+          REPO: self
           BRANCH: build # The branch name where you want to push the assets
+          FOLDER: dist # The directory where your assets are generated
