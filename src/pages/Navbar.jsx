@@ -14,8 +14,8 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="nav-links">
-                    <div className="menu">
-                        <div className="iconos">
+                    <div className="menu iconos">
+                        <div className="center-icons">
                             <li>
                                 <Link to="/Expedientes">
                                     <div className="icon">
@@ -59,13 +59,14 @@ const Navbar = () => {
                                 </Link>
                             </li>
                         </div>
-                        <Link to="/">
-                            <div className="icon salir">
-                                <img src="../assets/icons/salir.svg" alt="" />
-                            </div>
-                        </Link>
+                        <li className="bottom-icon">
+                                <Link to="/">
+                                    <div className="icon salir">
+                                        <img src="../assets/icons/salir.svg" alt="" />
+                                    </div>
+                                </Link>
+                        </li>
                     </div>
-
                 </ul>
                 <Link to="/">
                     <div className="icon user-icon">

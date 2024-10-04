@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Montserrat';
-    src: url('/src/assets/fonts/Montserrat-VariableFont_wght.ttf');
+    src: url('/assets/fonts/Montserrat-VariableFont_wght.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Playfair';
-    src: url('/src/assets/fonts/PlayfairDisplay-Regular.ttf');
+    src: url('/assets/fonts/PlayfairDisplay-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .login {
-    background-image: url("../src/assets/bg-01.svg");
+    background-image: url("/assets/bg-01.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

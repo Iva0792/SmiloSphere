@@ -2,63 +2,24 @@
     margin-left: 20px;
 }
 
-.datos input {
-    width: 200px;
-    font-size: 15px;
-    border: 1px solid #e6e6e6;
-
-}
-
 .containerExp {
     display: flex;
-    width: 100vw;
+    width: 90vw;
 }
 
 .tabsForm {
-    width: 60vw;
-    margin-left: 5vw;
+    width: 90vw;
 }
 
 .panel {
-    height: 3000px;
+    height: calc(100vh - 49px);
 }
 
 .boxPanel {
-    width: calc(80vw - 12.5%);
+    width: 90vw;
     margin-right: 0px;
-    transform: translate(20%);
+    transform: translate(10%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .tabs:not(:last-child){
     border-right: 1px solid rgba(0, 0, 0, 0.274);
@@ -76,7 +37,6 @@
     top: -5px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% + 2px);
     height: 5px;
     background: rgb(88, 147, 241);
 }
@@ -92,8 +52,8 @@ button {
 .contents {
     background: white;
     padding: 20px;
-    width: 100%;
-    height: 100%;
+    width: 90vw;
+    height: calc(100vh - 49px);
     display: none;
 }
 
@@ -110,7 +70,6 @@ button {
 
 .contents p {
     width: 100%;
-    height: 100%;
 }
 
 .active-content{

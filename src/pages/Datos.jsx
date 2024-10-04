@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Datos.css";
+import "./Panel.css";
 
 const getDaysMonth = (year, month) => {
   return new Array(new Date(year, month + 1, 0).getDate())
@@ -43,15 +44,15 @@ const Datos = () => {
   }, [currentDay, currentMonth, currentYear]);
 
   return (
-    <div>
-      <table id="separador">
+    <div className="datos">
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Datos Personales</td>
+            <td className="separador-text">Datos Personales</td>
           </tr>
         </tbody>
       </table>
-      <table id="datos-personales" valign="middle">
+      <table className="contenido" id="datos-personales" valign="middle">
         <tbody>
           <tr>
             <td styles={{ fontWeight: "bold" }}>Primer apellido</td>
@@ -230,14 +231,14 @@ const Datos = () => {
           </tr>
         </tbody>
       </table>
-      <table id="separador">
+      <table className="separador">
         <tbody>
           <tr>
             <td>Datos Nacimiento</td>
           </tr>
         </tbody>
       </table>
-      <table id="datos-nacimiento" valign="middle">
+      <table className="contenido" id="datos-nacimiento" valign="middle">
         <tbody>
           <tr>
             <td styles={{ fontWeight: "bold" }}>Nombre del padre</td>
@@ -260,16 +261,16 @@ const Datos = () => {
               />
             </td>
           </tr>
-          </tbody>
-          </table>
-          <table id="separador">
+        </tbody>
+      </table>
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Contacto</td>
+            <td className="separador-text">Contacto</td>
           </tr>
         </tbody>
       </table>
-      <table id="contacto" valign="middle">
+      <table className="contenido" id="contacto" valign="middle">
         <tbody>
           <tr>
             <td styles={{ fontWeight: "bold" }}>Teléfono celular</td>
@@ -331,26 +332,26 @@ const Datos = () => {
               <label>Enviar mensajes WhatsApp</label>
             </td>
           </tr>
-          </tbody>
-          </table>
-          <table id="separador">
+        </tbody>
+      </table>
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Emergencias</td>
+            <td className="separador-text">Emergencias</td>
           </tr>
         </tbody>
       </table>
-      <table id="emergencias" valign="middle">
+      <table className="contenido" id="emergencias" valign="middle">
         <tbody>
           <tr>
             <h2>Emergencias</h2>
           </tr>
-          </tbody>
-          </table>
-          <table id="separador">
+        </tbody>
+      </table>
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Residencia</td>
+            <td className="separador-text">Residencia</td>
           </tr>
         </tbody>
       </table>
@@ -359,44 +360,44 @@ const Datos = () => {
           <tr>
             <h2>Residencia</h2>
           </tr>
-          </tbody>
-          </table>
-          <table id="separador">
+        </tbody>
+      </table>
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Finanzas</td>
+            <td className="separador-text">Finanzas</td>
           </tr>
         </tbody>
       </table>
-      <table id="finanzas" valign="middle">
+      <table className="contenido" id="finanzas" valign="middle">
         <tbody>
           <tr>
             <h2>Finanzas</h2>
           </tr>
-          </tbody>
-          </table>
-          <table id="separador">
+        </tbody>
+      </table>
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Detalles para la Atención</td>
+            <td className="separador-text">Detalles para la Atención</td>
           </tr>
         </tbody>
       </table>
-      <table id="detalles" valign="middle">
+      <table className="contenido" id="detalles" valign="middle">
         <tbody>
           <tr>
             <h2>Detalles para la Atención</h2>
           </tr>
-          </tbody>
-          </table>
-          <table id="separador">
+        </tbody>
+      </table>
+      <table className="separador">
         <tbody>
           <tr>
-            <td>Otros</td>
+            <td className="separador-text">Otros</td>
           </tr>
         </tbody>
       </table>
-      <table id="Otros" valign="middle">
+      <table className="contenido" id="Otros" valign="middle">
         <tbody>
           <tr>
             <h2>Otros</h2>

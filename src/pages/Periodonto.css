@@ -1,40 +1,7 @@
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
-
 body {
 	line-height: 1;
 	font-family: arial, trebuchet;
 	font-size: 10pt;
-}
-
-ol,
-ul {
-	list-style: none;
-}
-
-blockquote,
-q {
-	quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
 }
 
 table {
@@ -43,29 +10,22 @@ table {
 }
 
 .contenido {
-	margin-left: -50px;
-	display: block;
+	height: calc(100vh - 49px);
 }
 
 #images {
 	display: none;
 }
 
-#wrapper {
-	margin: 0 auto;
-	background: #ffffff;
-	padding: 0 20px;
-	width: 980px;
-}
 
 #tabla-superior {
 	margin: 0 auto;
 	background: #ffffff;
-	width: 100%;
+	width: 70vw;
 }
 
 #tabla-superior table {
-	width: 100%;
+	width: 70vw;
 }
 
 #tabla-1 td,
@@ -75,7 +35,7 @@ table {
 }
 
 #tabla-resultados {
-	width: 100%;
+	width: 70vw;
 	background: #ffffff;
 	padding: 15px 5px;
 	font-weight: bold;
@@ -89,7 +49,7 @@ table {
 #notas,
 #diagnostico,
 #tratamiento {
-	width: 100%;
+	width: 200px;
 	font-size: 12px;
 	border: 1px solid #b4b4b4;
 	text-align: left;
@@ -105,24 +65,13 @@ table {
 }
 
 #datos-personales {
-	width: 100%;
+	width: 200px;
 	margin: 20px 0;
 }
 
 #datos-personales td {
 	padding: 5px 1px;
 	vertical-align: middle;
-}
-
-#separador {
-	width: 100%;
-	background: #090b52;
-	color: #ffffff;
-	font-weight: bold;
-}
-
-#separador td {
-	padding: 2px 90px;
 }
 
 #datos-personales span,
@@ -170,6 +119,7 @@ input {
 	text-align: right;
 	padding-right: 5px;
 	font-weight: bold;
+	width: 150px;
 }
 
 .borde {
@@ -177,7 +127,7 @@ input {
 	/* padding: 1px; */
 	text-align: center;
 	font-size: 9px;
-	width: 70px;
+	width: 54px;
 }
 
 .noborde {
@@ -206,9 +156,10 @@ input {
 }
 
 .i {
-	background: url('../assets/img/misc/oblicuas.png') no-repeat center;
-	width: 100%;
+	background: url('../assets/img/misc/oblicuas.png') no-repeat;
+	background-size: cover;
 	height: 18px;
+	width: 100%;
 }
 
 
@@ -227,7 +178,7 @@ input {
 }
 
 .f {
-	width: 100%;
+	width: 97%;
 	height: 18px;
 	background: #ffffff;
 	border: 1px solid #C3C9C8;
@@ -261,7 +212,7 @@ input {
 
 #diente18-a {
 	background: url('../assets/img/dientes-arriba/dientes-arriba-18.png');
-	width: 54px;
+	width: 66px;
 	background-size: 54px 141px;
 	background-position: 0 -2px;
 	background-repeat: no-repeat;
@@ -579,7 +530,7 @@ input {
 	float: left;
 	height: 18px;
 	margin: 1px;
-	width: 23%;
+	width: 25%;
 }
 
 #s18b-a:hover,
@@ -675,7 +626,7 @@ input {
 
 #diente18b-a {
 	background: url('../assets/img/dientes-arriba/dientes-arriba-18b.png');
-	width: 54px;
+	width: 66px;
 	background-size: 54px 141px;
 	background-position: 0 23px;
 	background-repeat: no-repeat;
@@ -734,7 +685,7 @@ input {
 /* ----------------------------------------------------------------------- */
 /* visualization svg of google  visualization */
 #visualization18b {
-	width: 40px;
+	width: 66px;
 	height: 160px;
 	position: absolute;
 	margin: 0 0 0 4px;
@@ -1056,7 +1007,7 @@ input {
 #furca27-b,
 #furca28-a,
 #furca28-b {
-	width: 18px;
+	width: 27px;
 	height: 18px;
 	position: absolute;
 }
@@ -2269,17 +2220,17 @@ input {
 
 #lineas-gr,
 #lineas-gr-inf {
-	width: 418px;
+	width: 477px;
 	height: 160px;
 	position: absolute;
 }
 
 #lineas-gr {
-	background: url('../assets/img/misc/fondo-grafico.png') repeat-x;
+	background: url('../assets/img/misc/fondo-grafico.png');
 }
 
 #lineas-gr-inf {
-	background: url('../assets/img/misc/fondo-grafico-inf.png') repeat-x;
+	background: url('../assets/img/misc/fondo-grafico-inf.png');
 	margin: 0px 0 0;
 }
 
@@ -2301,4 +2252,8 @@ iframe {
 
 .abnormal-gums {
 	color: #ff0000;
+}
+
+.diente8 {
+	width: 66px;
 }

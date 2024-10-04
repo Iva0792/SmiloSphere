@@ -1,4 +1,6 @@
 import "../pages/Tabs.css";
+import "../pages/Expedientes.css";
+import "../pages/Panel.css";
 import React from "react";
 import { Box, Tabs, Tab } from "@mui/material";
 import Navbar from "./Navbar";
@@ -45,12 +47,10 @@ const Expedientes = () => {
   return (
     <div>
       <Navbar />
-      <h1>Expedientes</h1>
       <div className="containerExp">
         <div className="boxPanel">
           <Box
             sx={{
-              maxWidth: { xs: 320, sm: 480 },
               bgcolor: "background.paper",
             }}
           >
