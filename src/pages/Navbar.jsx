@@ -24,7 +24,7 @@ const Navbar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="/Agenda">
+                                <Link to="/Agendas">
                                     <div className="icon">
                                         <img src="../assets/icons/agenda.svg" alt="" />
                                     </div>

@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Login from "./Login";
+import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Expedientes from "./pages/Expedientes";
-import Agenda from "./pages/Agenda";
+import Agendas from "./pages/Agenda";
 import Busqueda from "./pages/Busqueda";
 import Facturacion from "./pages/Facturacion";
 import Mensajeria from "./pages/Mensajeria";
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/Dashboard" element={<Dashboard />} />
         <Route path="/Expedientes" element={<Expedientes />} />
-        <Route path="/Agenda" element={<Agenda />} />
+        <Route path="/Agendas" element={<Agendas />} />
         <Route path="/Busqueda" element={<Busqueda />} />
         <Route path="/Facturacion" element={<Facturacion />} />
         <Route path="/Mensajeria" element={<Mensajeria />} />
