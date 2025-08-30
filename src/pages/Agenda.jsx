@@ -11,12 +11,13 @@ import Navbar from './Navbar';
 import Modal from 'react-modal';
 import DatePicker from 'react-datepicker';
 
-moment.locale('es');
-const localizer = momentLocalizer(moment);
+moment.locale('moment/locale/es.js');
+
+  const localizer = momentLocalizer(moment);
 
 let formats = {
   timeGutterFormat: 'HH:mm',
-  dayFormat: 'dddd DD/MM',
+  dayFormat: 'ddd DD/MM',
   monthHeaderFormat: 'MMMM YYYY',
   weekdayFormat: 'dddd',
 }

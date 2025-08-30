@@ -1,8 +1,18 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import SearchBar from 'react-native-elements';
 
 const Navbar = () => {
+
+    state = {
+        search: '',
+    };
+
+    updateSearch = (search) => {
+        this.setState({ search });
+    };
+
     return (
         <nav className="navbar">
             <div>
@@ -12,6 +22,11 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            <SearchBar
+                placeholder="Buscar..."
+                onChangeText={this.updateSearch}
+                value={search}
+            />
             <div>
                 <ul className="nav-links">
                     <div className="menu iconos">
@@ -60,11 +75,11 @@ const Navbar = () => {
                             </li>
                         </div>
                         <li className="bottom-icon">
-                                <Link to="/">
-                                    <div className="icon salir">
-                                        <img src="../assets/icons/salir.svg" alt="" />
-                                    </div>
-                                </Link>
+                            <Link to="/">
+                                <div className="icon salir">
+                                    <img src="../assets/icons/salir.svg" alt="" />
+                                </div>
+                            </Link>
                         </li>
                     </div>
                 </ul>
