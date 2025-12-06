@@ -7,7 +7,7 @@ export default defineConfig({
     {
       name: 'treat-js-files-as-jsx',
       async transform(code, id) {
-        if (!id.match(/src\/.*\.js$/))  return null
+        if (!id.match(/src\/.*\.js$/)) return null
 
         // Use the exposed transform from vite, instead of directly
         // transforming with esbuild
@@ -28,9 +28,16 @@ export default defineConfig({
       },
     },
   },
-  
+
   base: '/',
   build: {
     outDir: 'dist',
   },
+
+  resolve: {
+    alias: {
+      'react-native': 'react-native-web'
+    }
+  },
+
 })
