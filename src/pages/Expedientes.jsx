@@ -48,6 +48,7 @@ const Expedientes = () => {
     <div>
       <Navbar />
       <div className="containerExp">
+      <div className="data"></div>
         <div className="boxPanel">
           <Box
             sx={{
@@ -81,13 +82,17 @@ const Expedientes = () => {
                   scrollButtons="auto"
                   aria-label="nested tabs"
                 >
-                  <Tab label="APP" value={0} />
-                  <Tab label="ANP" value={1} />
+                  <Tab label="Anamnesis" value={0} />
+                  <Tab label="APP" value={1} />
+                  <Tab label="ANP" value={2} />
                 </Tabs>
                 <TabPanel className="panel" value={nestedTab} index={0}>
-                  <hi>Tab 1</hi>
+                  <Anamnesis />
                 </TabPanel>
                 <TabPanel className="panel" value={nestedTab} index={1}>
+                  <hi>Tab 1</hi>
+                </TabPanel>
+                <TabPanel className="panel" value={nestedTab} index={2}>
                 <hi>Tab 2</hi>
                 </TabPanel>
               </Box>
