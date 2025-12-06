@@ -1,7 +1,23 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import SearchBar from 'react-native-elements';
+
+const SearchBar = ({ value, onChange }) => (
+  <input
+    type="text"
+    placeholder="Search..."
+    value={value}
+    onChange={(e) => onChange(e.target.value)}
+    style={{
+      width: '100%',
+      padding: '10px',
+      fontSize: '16px',
+      borderRadius: '8px',
+      border: '1px solid #ccc'
+    }}
+  />
+);
+
 
 const Navbar = () => {
 
@@ -22,11 +38,7 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
-            <SearchBar
-                placeholder="Buscar..."
-                onChangeText={this.updateSearch}
-                value={search}
-            />
+            <SearchBar value={search} onChange={setSearch} />
             <div>
                 <ul className="nav-links">
                     <div className="menu iconos">
