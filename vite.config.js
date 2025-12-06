@@ -34,10 +34,4 @@ export default defineConfig({
     outDir: 'dist',
   },
 
-  resolve: {
-    alias: {
-      'react-native': 'react-native-web'
-    }
-  },
-
 })
