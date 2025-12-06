@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: Build and Push
+    permissions:
+      contents: write
+
     steps:
       - name: git-checkout
         uses: actions/checkout@v3
@@ -22,12 +25,12 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build # The build command of your project
+        run: npm run build
 
-      - name: Push
+      - name: Deploy to build branch
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.ACTIONS_DEPLOY_TOKEN }} # Use the personal access token
+          token: ${{ secrets.GITHUB_TOKEN }}
           branch: build
           folder: dist
           clean: true
