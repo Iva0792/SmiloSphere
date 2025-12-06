@@ -11,10 +11,8 @@ export default defineConfig({
 
         // Use the exposed transform from vite, instead of directly
         // transforming with esbuild
-        return transformWithEsbuild(code, id, {
-          loader: 'jsx',
-          jsx: 'automatic',
-        })
+
+        return esbuild.transform(code, { loader: 'js' });
       },
     },
     react(),
