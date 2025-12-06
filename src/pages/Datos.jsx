@@ -8,6 +8,28 @@ const getDaysMonth = (year, month) => {
     .map((_, i) => i + 1);
 };
 
+
+const [countries, setCountries] = useState([]);
+
+useEffect(() => {
+  async function fetchCountries() {
+    try {
+      const res = await fetch("https://restcountries.com/v3.1/all");
+      const data = await res.json();
+
+      const sorted = data
+        .map((c) => c.name.common)
+        .sort((a, b) => a.localeCompare(b));
+
+      setCountries(sorted);
+    } catch (err) {
+      console.error("Error cargando los países:", err);
+    }
+  }
+
+  fetchCountries();
+}, []);
+
 const Datos = () => {
   const today = new Date();
   const [selectedDate, setSelectedDate] = useState(today);
@@ -110,8 +132,8 @@ const Datos = () => {
             <td>
               <select id="genero" name="genero" defaultValue="-Seleccione-">
                 <option>- Seleccione -</option>
-                <option value="femenino">Cédula de Identidad</option>
-                <option value="masculino">Extranjero</option>
+                <option value="femenino">Femenino</option>
+                <option value="masculino">Masculino</option>
                 <option value="noespecifíca">No especifica</option>
               </select>
             </td>
@@ -194,14 +216,15 @@ const Datos = () => {
                 defaultValue=""
               />
             </td>
-            <td styles={{ fontWeight: "bold" }}>País de nacimiento</td>
+            <td style={{ fontWeight: "bold" }}>País de nacimiento</td>
             <td>
-              <input
-                type="text"
-                id="pNacimiento"
-                name="pNacimiento"
-                defaultValue=""
-              />
+              <select id="pNacimiento" name="pNacimiento" defaultValue="Costa Rica">
+                {countries.map((country) => (
+                  <option key={country} value={country}>
+                    {country}
+                  </option>
+                ))}
+              </select>
             </td>
           </tr>
           <tr>
@@ -219,14 +242,15 @@ const Datos = () => {
                 <option value="doctorado">Doctorado</option>
               </select>
             </td>
-            <td styles={{ fontWeight: "bold" }}>País de residencia</td>
+            <td style={{ fontWeight: "bold" }}>País de residencia</td>
             <td>
-              <input
-                type="text"
-                id="pResidencia"
-                name="pResidencia"
-                defaultValue=""
-              />
+              <select id="pResidencia" name="pResidencia" defaultValue="Costa Rica">
+                {countries.map((country) => (
+                  <option key={country} value={country}>
+                    {country}
+                  </option>
+                ))}
+              </select>
             </td>
           </tr>
         </tbody>
